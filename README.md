@@ -131,7 +131,7 @@ A maioria dos artigos sobre o tema utilizam Revisões sistemáticas de literatur
 
 A metodologia que será utilizada no projeto é a CRISP-DM. Após uma rápida pesquisa, encontramos algumas bases de dados informando taxa de mortalidade de pacientes com câncer agrupados por local e ano. A partir de um determinado local (em diferentes granularidades como país, estado, cidade) e ano, podemos buscar outras bases contendo índices socioeconômicos como renda per capita, IDH e analfabetismo. Finalmente, mediremos a correlação entre taxas de mortalidade e o índice sócio-econômico através de: 1) coeficiente de correlação de Pearson e 2) regressão linear simples.
 
-!(https://github.com/edgartanaka/estudo-cancer-socio/blob/main/references/E1%20-%20Projeto%20-%20Primeira%20Entrega.jpg)
+![Figura](https://github.com/edgartanaka/estudo-cancer-socio/blob/main/references/E1%20-%20Projeto%20-%20Primeira%20Entrega.jpg)
 
 # Ferramentas
 1. Orange
