@@ -1,7 +1,38 @@
-estudo-cancer-socio
-==============================
+# Projeto Condições socioeconômicas e câncer de mama: estudo de correlação. 
+# Project Socioeconomic conditions and breast cancer: correlation study
 
-A short description of the project.
+# Apresentação
+
+O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação [*Ciência e Visualização de Dados em Saúde*](https://github.com/datasci4health/home), oferecida no primeiro semestre de 2021, na Unicamp.
+
+| Nome           | RA        | Especialização |
+|----------------|-----------|----------------|
+| Aline Borges   | 210598    | Saúde          |
+| Edgar Tanaka   | 023577    | Computação     |
+| Fernando Akune | 970709    | Computação     |
+| Lana Soares    | 209580    | Saúde          |
+| Tiago Andrade  | (ouvinte) | Saúde          |
+
+
+# Descrição Resumida do Projeto
+O câncer de mama é o tipo de câncer mais frequente nas mulheres, sem considerar o câncer de pele não melanoma. Apesar de todas as campanhas de conscientização, como o Outubro Rosa, o número de casos continua grande, estimativa de 66.280 em 2020 (segundo o INCA), e principalmente com uma alta taxa de letalidade, cerca de 30%. O diagnóstico da doença muitas vezes pode ser recebido como uma sentença de morte, além de todo sofrimento que pode ser causado pelo tratamento desse e de outros tipos de tumores malignos. Esse projeto visa estabelecer uma relação entre o nível socioeconômico e a probabilidade de sucesso do tratamento para o câncer de mama. 
+
+<span style="background-color: red">Link para vídeo de apresentação da proposta do projeto (máximo 3 minutos).</span>
+
+# Perguntas de Pesquisa
+> Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.
+
+# Bases de Dados
+> Elencar bases de dados candidatas a serem utilizadas no projeto.
+
+# Metodologia
+> Proposta de metodologia incluindo especificação de quais técnicas pretende-se explorar, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas. Para a primeira entrega, descreva de maneira mais genérica que tipo de abordagem seu grupo pretende realizar.
+
+# Ferramentas
+> Ferramentas a serem utilizadas (com base na visão atual do grupo sobre o projeto).
+
+# Cronograma
+> Proposta de cronograma. Procure estimar quantas semanas serão gastas para cada etapa do projeto.
 
 Project Organization
 ------------
