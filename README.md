@@ -279,6 +279,33 @@ Ao integrar esta base com a do SIM no final da análise, para calcular a taxa de
 
 Devido a um problema para integração com a base SIM, a análise exploratória específica para essa base não pode ser realizada.
 
+Base de Dados | Endereço na Web | Resumo descritivo
+----- | ----- | -----
+Classificação Brasileira de Ocupações - CBO 2002  (MTE) | http://www.mtecbo.gov.br/cbosite/pages/downloads.jsf | Documento que retrata a realidade das profissões do mercado de trabalho brasileiro. Seus dados alimentam as bases estatísticas de trabalho e servem de subsídio para a formulação de políticas públicas de emprego.
+
+> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
+> * Qual o esquema/dicionário desse banco (o formato é livre)?
+
+
+| Coluna                           | Tipo        | Descrição                                                                                          |
+|----------------------------------|-------------|----------------------------------------------------------------------------------------------------|
+| CODIGO                           | numérico    | Código da ocupação                                                                                 |
+| TITULO                           | numérico    | Descrição da ocupação                                                                              |
+
+Tabela 2 - informações sobre o esquema das tabelas do CBO 2002
+
+> * O que descobriu sobre esse banco?
+
+Através deste banco de dados foi possível identificar o código e descrição de todas as ocupações existentes no país reconhecidas pelo MTE.
+
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+
+Não foram necessárias transformações por tratar-se de uma tabela simples, apenas com código e descrição.
+
+> * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
+
+Trata-se de uma tabela referência com o código e a descrição das ocupações, assim não houve necessidade de uma análise exploratória.
+
 ### Integração entre Bases e Análise Exploratória
 
 > Descreva etapas de integração de fontes de dados e apresente a seguir uma análise exploratória que envolva ambas.
