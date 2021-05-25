@@ -245,16 +245,39 @@ Com a disponibilidade da tabela “1.1.36 - Pessoas de 10 anos ou mais de idade,
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
-Título da Base | http://base1.org/ | Breve resumo (duas ou três linhas) sobre a base.
+Censo 2010 (IBGE) | https://censo2010.ibge.gov.br/ | Conjunto das operações que consistem em recolher, agrupar e publicar dados demográficos, econômicos e sociais relativos a um momento determinado ou em certos períodos, a todos os habitantes de um país ou território para o levantamento de informações sobre a população do país e sua condição de vida.
 
 > Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
 > * Qual o esquema/dicionário desse banco (o formato é livre)?
 
+A tabela 1.1.36 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal - Brasil - 2010, apresenta o seguinte esquema/dicionário.
+
+| Coluna                           | Tipo        | Descrição                                                                                          |
+|----------------------------------|-------------|----------------------------------------------------------------------------------------------------|
+| Descrição do grupo ou subgrupo   | texto       | Grandes grupos, subgrupos principais, subgrupos e grupos de base de ocupação no trabalho principal |
+| Total                            | numérico    | Pessoas de 10 anos ou mais de idade, ocupadas                                                      |
+| Homens                           | numérico    | Homens de 10 anos ou mais de idade, ocupados                                                       |
+| Mulheres                         | numérico    | Mulheres de 10 anos ou mais de idade, ocupadas                                                     |
+| Total - Urbana                   | numérico    | Pessoas de 10 anos ou mais de idade, ocupadas, que residem em domicílio urbano                     |
+| Homens - Urbana                  | numérico    | Homens de 10 anos ou mais de idade, ocupados, que residem em domicílio urbano                      |
+| Mulheres - Urbana                | numérico    | Mulheres de 10 anos ou mais de idade, ocupadas, que residem em domicílio urbano                    |
+| Total - Rural                    | numérico    | Pessoas de 10 anos ou mais de idade, ocupadas, que residem em domicílio rural                      |
+| Homens - Rural                   | numérico    | Homens de 10 anos ou mais de idade, ocupados, que residem em domicílio rural                       |
+| Mulheres - Rural                 | numérico    | Mulheres de 10 anos ou mais de idade, ocupadas, que residem em domicílio rural                     |
+
+Tabela 1 - informações sobre o esquema das tabelas do CENSO 2010
+
 > * O que descobriu sobre esse banco?
+
+O banco de dados fornece informações sobre todas as etapas do Censo 2010, incluindo tabelas como a 1.1.36 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal.
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
+Ao integrar esta base com a do SIM no final da análise, para calcular a taxa de mortalidade por cem mil habitantes para todas as ocupações que aparecem nos registros de óbitos em 2010, percebeu-se que não existe uma coluna para o código da ocupação, portanto será necessário encontrar outra base que permita ligar ocupação da tabela CBO 2002 com as descrições de ocupação usadas no Censo.
+
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
+
+Devido a um problema para integração com a base SIM, a análise exploratória específica para essa base não pode ser realizada.
 
 ### Integração entre Bases e Análise Exploratória
 
