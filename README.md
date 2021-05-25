@@ -150,11 +150,13 @@ Em um primeiro momento, realizou-se a pesquisa e o levantamento de bases de dado
 Até este momento, cerca de 42 bases de dados haviam sido sugeridas para análise de viabilidade de utilização (Figura 1).
 
 ![Figura 1](references/Figura-1-Pre-selecao-de-bases.png)
+
 Figura 1 - Pré seleção de bases para análise de viabilidade de utilização
 
 Após a delimitação do estudo a nível nacional, descartou-se a utilização de bases internacionais, focando na pré-análise mais detalhada das bases de dados brasileiras (Figura 2).
 
 ![Figura 2](references/Figura-2-Pre-analise-das-bases.png)
+
 Figura 2 - Pré-análise e seleção das bases de dados nacionais utilizadas
 
 Durante essa etapa, 4 bases de dados foram escolhidas para estudo, estando descritas nas seções seguintes.
@@ -165,21 +167,33 @@ Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 Atlas do Desenvolvimento Humano no Brasil | http://www.atlasbrasil.org.br/ | Retrato do desenvolvimento humano e as desigualdades no Brasil, combinando dados como IDHM, IDHM Renda, IDHM Longevidade, IDHM Educação e taxa de mortalidade de mulheres por câncer de mama. Permite a visualização/download dos dados por estados e municípios entre outras.
 
+> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
+
+> * O que descobriu sobre esse banco?
+
 O site retrata o desenvolvimento humano sustentável e as desigualdades no Brasil, combinando dados de qualidade com formas amigáveis de visualização. A utilização da plataforma é muito simples: após seleção da territorialidade e do indicador, é possível realizar o download dos dados no formato de uma planilha excel, que posteriormente foi convertida para .CSV para utilização no Orange.
+
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
 Levando em conta dados gerados em 2016 pelo Coeficiente de Gini, instrumento para medir o grau de concentração de renda em determinado grupo, selecionamos o estado de Pernambuco, que apresentava uma das maiores taxas de desigualdade social no país. Dados relacionados à taxa de mortalidade estão disponíveis no período de 2013 a 2017. Entretanto, dada a ausência de dados da Pesquisa Nacional por Amostra de Domicílios  (PNAD) detalhados por município, escolheu-se utilizar os valores do Censo de 2010 e a taxa de 2013. Observou-se que para cinco municípios a taxa de mortalidade apareceu em branco.
 
+> * Por que este banco não foi adotado?
+
 O banco não foi adotado dada a ausência de dados individualizados, que dificultam a busca pela relação entre renda/educação com a mortalidade da doença. Os dados de IDH apresentados estão a nível municipal, sendo assim é possível que os populares de uma mesma cidade, que faleceram por câncer de mama, apresentem realidades socioeconômicas completamente distintas entre si.
+
+> * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
 A análise exploratória inicial foi realizada através da ferramenta Orange. Depois de importar a planilha do estado de PE, utilizou-se a função Feature Statistics para verificar os padrões de distribuição e os dados faltantes, conforme demonstrado na Figura 3.
 
+![Figura 3](references/Figura-3-Feature%20Statistics-PE.png)
 
+Figura 3 - Observação da distribuição e dos dados faltantes através da função Feature Statistics, na ferramenta Orange
 
-> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
-> * O que descobriu sobre esse banco?
-> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
-> * Por que este banco não foi adotado?
-> * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
+Em seguida, através da função Scatter Plot foi possível observar os gráficos de dispersão, que sugerem ausência de correlação entre IDHM e mortalidade (r=0,15), conforme Figura 4.
+
+![Figura 4](references/Figura-4-Scatter-Plot-PE.png)
+
+Figura 4 - Gráfico de dispersão observado para IDHM e Mortalidade, através da função Scatter Plot
 
 ### Bases Estudadas e Adotadas
 
@@ -187,12 +201,59 @@ A análise exploratória inicial foi realizada através da ferramenta Orange. De
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
+Sistema de Informações de Mortalidade - SIM 1996-2016 (Fiocruz) | https://bigdata-metadados.icict.fiocruz.br/dataset/sistema-de-informacoes-de-mortalidade-sim | Reunidos pela Plataforma de Ciência de Dados aplicada à Saúde (PCDaS), os dados foram obtidos junto ao DATASUS (Ministério da Saúde), resultando em um dataset anual com todos os registros das declarações de óbito a partir de 1996.
+
+> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
+> * Qual o esquema/dicionário desse banco (o formato é livre)?
+
+A base SIM (Sistema de Informações de Mortalidade) possui 165 colunas (https://bigdata-metadados.icict.fiocruz.br/dataset/sistema-de-informacoes-de-mortalidade-sim/resource/d6285f2a-576b-4666-aa63-0b00f7dfeff6). As que aparecem com nomes em MAIÚSCULO representam dados originais advindos do DATASUS e colunas com nomes iniciando em minúsculo representam dados resultantes de transformação ou enriquecimento. Durante a análise exploratória inicial, foram utilizadas as seguintes colunas:
+
+| Coluna                           | Tipo        | Descrição                                                                      |
+|----------------------------------|-------------|--------------------------------------------------------------------------------|
+| idade_obito_anos                 | numérico    | Idade do óbito (em anos) informada na declaração de óbito                      |
+| SEXO                             | numérico    | Sexo, conforme a tabela:0: Ignorado1: Masculino2: Feminino                     |
+| def_sexo                         | texto       | Sexo (Nominal, com as seguintes classificações: Masculino; Feminino; Ignorado) |
+| OCUP                             | numérico    | Ocupação, conforme a Classificação Brasileira de Ocupações (CBO-2002)          |
+| causabas_categoria               | texto       | Categoria CID-10 da causa base do óbito                                        |
+
+> * O que descobriu sobre esse banco?
+
+O banco de dados fornece com riqueza de detalhes informações sobre todos os registros das declarações de óbitos, de 1996 a 2016. Algumas das informações que podem ser consultadas são: data do óbito, sexo, causa base do óbito (CID), ocupação formal conforme a CBO, entre outras.
+
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+
+Após realizar o download do arquivo referente ao ano de 2016, durante a primeira tentativa de importação na ferramenta Orange, ocorreu um erro inesperado “Python int too large to convert to C long”. Desconfiou-se inicialmente, que o erro foi causado pelo número de registros (1.309.774), uma vez que o problema não foi observado durante importação dos dados do ano de 1996 (908.883). Através da escrita de um código em Python, foi possível filtrar as linhas correspondentes ao sexo feminino para gerar o arquivo utilizado na etapa de análise exploratória. Vide workflow da Figura 6, na seção análise exploratória. Após realizar o download do arquivo, observou-se que haviam dados faltantes. Os dados de OCUP estavam faltando em 2.097 registros (13%) e a idade_obito_anos em apenas 1 dos registros (0%), conforme demonstrado na Figura 5.
+
+![Figura 5](references/Figura-5-Feature-Statistics-ETLSIM.DORES_2016.FEM.png)
+
+Figura 5 - Observação de dados faltantes adquiridos através da base de dados SIM
+
+> * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
+
+Conforme citado na seção anterior, a análise exploratória deste banco de dados demandou a escrita de um código Python para filtrar os registros de sexo feminino. Na página 23 do artigo “A situação do câncer de mama no Brasil”, do Ministério da Saúde (INCA 2019), diz que em 2016 foram registrados 16.069 óbitos por câncer de mama em mulheres e que a taxa bruta foi de 15,4 óbitos por 100 mil mulheres. O mesmo valor de número de óbitos foi encontrado durante a análise da base de dados SIM. No workflow abaixo está demonstrado o processo pelo qual foram encontradas as mesmas ocorrências nos dados. Neste momento também foram agrupadas as ocupações.
+
+![Figura 6](references/Figura-6-WF_ETLSIM.DORES_2016.FEM.png)
+
+Figura 6 - Workflow para análise exploratória inicial do banco de dados
+
+Depois de filtradas as ocupações que apresentaram mais que 200 registros, obteve-se a seguinte relação:
+
+![Figura 7](references/Data%20Table-OCUP_COM_MAIS_DE_200_REGISTROS.png)
+
+Os códigos de OCUP 999992 e 999993 não foram encontradas as descrições correspondentes na base CBO 2002, sendo assim serão necessárias investigações complementares para compreender o significado destes códigos. Para calcular a taxa de mortalidade de cada ocupação por 100 mil habitantes, inicialmente pensou-se em utilizar os dados da RAIS (Relação Anual de Informações Sociais), porém seria necessário deixar de fora os trabalhadores informais. 
+Com a disponibilidade da tabela “1.1.36 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal” do Censo 2010, reavaliou-se tratar como base os registros dos óbitos de 2010 da base SIM pois contem os dados referentes ao mesmo ano. Assim um workflow similar (Figura 9) foi testado, onde a única diferença partiu do arquivo completo, uma vez que o problema ocorrido na importação do ano de 2016 na verdade era devido a uma coluna, com erro na conversão do valor para o tipo numérico do Orange. Depois de realizar os filtros e integrar com a tabela CBO2002, foram obtidos os números de óbitos apresentados na tabela 4. Usando a tabela 1.1.36 do Censo, o número de mulheres em cada uma das ocupações foi preenchido e por fim a taxa por cem mil calculada.
+
+Base de Dados | Endereço na Web | Resumo descritivo
+----- | ----- | -----
 Título da Base | http://base1.org/ | Breve resumo (duas ou três linhas) sobre a base.
 
 > Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
 > * Qual o esquema/dicionário desse banco (o formato é livre)?
+
 > * O que descobriu sobre esse banco?
+
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
 ### Integração entre Bases e Análise Exploratória
