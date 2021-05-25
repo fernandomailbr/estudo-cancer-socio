@@ -5,13 +5,13 @@
 
 O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação [*Ciência e Visualização de Dados em Saúde*](https://github.com/datasci4health/home), oferecida no primeiro semestre de 2021, na Unicamp.
 
-| Nome           | RA        | Especialização |
-|----------------|-----------|----------------|
-| Aline Borges   | 210598    | Saúde          |
-| Edgar Tanaka   | 023577    | Computação     |
-| Fernando Akune | 970709    | Computação     |
-| Lana Soares    | 209580    | Saúde          |
-| Tiago Andrade  | (ouvinte) | Saúde          |
+| Nome                           | RA        | Especialização |
+|--------------------------------|-----------|----------------|
+| Aline Borges                   | 210598    | Saúde          |
+| Fátima Aparecida Tagliaferro   | 98918     | Computação     |
+| Fernando Akune                 | 970709    | Computação     |
+| Lana Soares                    | 209580    | Saúde          |
+| Tiago Andrade                  | (ouvinte) | Saúde          |
 
 
 # Descrição Resumida do Projeto
@@ -20,10 +20,11 @@ O câncer de mama é o tipo de câncer mais frequente nas mulheres, sem consider
 Descrição do projeto em formato vídeo: https://youtu.be/DoauGouCxCo
 
 # Perguntas de Pesquisa
-A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
+* A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
+* Existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões?
 
 # Bases de Dados
-Listamos aqui bases de dados são apenas candidatas à nossa pesquisa e ainda passarão por uma análise mais rigorosa da equipe. 
+Listamos aqui bases de dados iniciais, candidatas à nossa pesquisa. 
 
 ## Brasil
 
@@ -132,6 +133,57 @@ A maioria dos artigos sobre o tema utilizam Revisões sistemáticas de literatur
 A metodologia que será utilizada no projeto é a CRISP-DM. Após uma rápida pesquisa, encontramos algumas bases de dados informando taxa de mortalidade de pacientes com câncer agrupados por local e ano. A partir de um determinado local (em diferentes granularidades como país, estado, cidade) e ano, podemos buscar outras bases contendo índices socioeconômicos como renda per capita, IDH e analfabetismo. Finalmente, mediremos a correlação entre taxas de mortalidade e o índice sócio-econômico através de: 1) coeficiente de correlação de Pearson e 2) regressão linear simples.
 
 ![Figura](https://github.com/edgartanaka/estudo-cancer-socio/blob/main/references/E1%20-%20Projeto%20-%20Primeira%20Entrega.jpg)
+
+## Bases de Dados e Evolução
+
+### Levantamento de Bases de dados
+
+Em um primeiro momento, realizou-se a pesquisa e o levantamento de bases de dados que poderiam ser utilizadas. Foi elaborada uma tabela para facilitar a visualização e seleção das bases com maior potencial de utilização, contendo os seguintes campos:
+
+* Link para a base de dados
+* Classificação em bases nacionais e internacionais
+* Se os dados estavam disponíveis em tabelas (CSV, Excel, JSON, XML)
+* Se o banco continha dados por ano
+* Se o banco continha dados por localização
+* Campos de observação a serem preenchidos com a primeira impressão dos participantes do grupo em relação às bases de dados
+
+Até este momento, cerca de 42 bases de dados haviam sido sugeridas para análise de viabilidade de utilização (Figura 1).
+
+
+
+
+
+### Bases Estudadas mas Não Adotadas
+
+> Para cada base, coloque uma mini-tabela no modelo a seguir e depois detalhamento sobre como ela foi analisada/usada, conforme exemplo a seguir.
+
+Base de Dados | Endereço na Web | Resumo descritivo
+----- | ----- | -----
+Título da Base | http://base1.org/ | Breve resumo (duas ou três linhas) sobre a base.
+
+> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
+> * O que descobriu sobre esse banco?
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+> * Por que este banco não foi adotado?
+> * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
+
+### Bases Estudadas e Adotadas
+
+> Para cada base, coloque uma mini-tabela no modelo a seguir e depois detalhamento sobre como ela foi analisada/usada, conforme exemplo a seguir.
+
+Base de Dados | Endereço na Web | Resumo descritivo
+----- | ----- | -----
+Título da Base | http://base1.org/ | Breve resumo (duas ou três linhas) sobre a base.
+
+> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
+> * Qual o esquema/dicionário desse banco (o formato é livre)?
+> * O que descobriu sobre esse banco?
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+> * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
+
+### Integração entre Bases e Análise Exploratória
+
+> Descreva etapas de integração de fontes de dados e apresente a seguir uma análise exploratória que envolva ambas.
 
 # Ferramentas
 1. Orange
