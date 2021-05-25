@@ -172,7 +172,7 @@ Atlas do Desenvolvimento Humano no Brasil | http://www.atlasbrasil.org.br/ | Ret
 
 > * O que descobriu sobre esse banco?
 
-O site retrata o desenvolvimento humano sustentável e as desigualdades no Brasil, combinando dados de qualidade com formas amigáveis de visualização. A utilização da plataforma é muito simples: após seleção da territorialidade e do indicador, é possível realizar o download dos dados no formato de uma planilha excel, que posteriormente foi convertida para .CSV para utilização no Orange.
+O site retrata o desenvolvimento humano e as desigualdades no Brasil, combinando dados de qualidade com formas amigáveis de visualização. A utilização da plataforma é muito simples: após seleção da territorialidade e do indicador, é possível realizar o download dos dados no formato de uma planilha excel, que posteriormente foi convertida para .CSV para utilização no Orange.
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
@@ -329,7 +329,7 @@ No momento de relacionar as bases de mortalidade e de número de habitantes, obs
 
 Figura 10 - Imagem da tabela 1.1.36, demonstrando a descrição das ocupações, sem o código.
 
-Foram escolhidas as ocupações “cabeleireiro”, “enfermeiro” e “auxiliar de enfermagem”, uma vez que são citadas no relatório do INCA (2019) por apresentarem maiores riscos de incidência por exposição laboral.. Não se pode afirmar que essas apresentam as maiores taxas de mortalidade, uma vez que ainda não foram analisadas outras ocupações, devido a ausência do código das ocupações na tabela do censo, necessitando de análise manual e demorada. Para as etapas seguintes, será necessário estabelecer um processo ou adquirir dados de outras fontes para otimização do processo de análise destes dados.
+Foram escolhidas as ocupações “cabeleireiro”, “enfermeiro” e “auxiliar de enfermagem”, uma vez que são citadas no relatório do INCA (2019) por apresentarem maiores riscos de incidência por exposição laboral. Não se pode afirmar que essas apresentam as maiores taxas de mortalidade, uma vez que ainda não foram analisadas outras ocupações, devido a ausência do código das ocupações na tabela do censo, necessitando de análise manual e demorada. Para as etapas seguintes, será necessário estabelecer um processo ou adquirir dados de outras fontes para otimização do processo de análise destes dados.
 
 | TÍTULO                                         | ÓBITOS C50     | POPULAÇÃO FEMININA | TAXA POR 100 MIL |
 |------------------------------------------------|----------------|--------------------|------------------|
