@@ -310,6 +310,36 @@ Trata-se de uma tabela referência com o código e a descrição das ocupações
 
 > Descreva etapas de integração de fontes de dados e apresente a seguir uma análise exploratória que envolva ambas.
 
+Uma vez que o propósito deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
+
+Com base nas informações apresentadas pelo artigo “As profissões e o Câncer” publicado pelo Instituto Nacional do Cancer (INCA, 2012) em https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//vigilancia-rede-cancer-17.pdf, aponta-se a hipótese de que 19 tipos de tumores malignos podem ter relação com determinadas profissões, dentre estes destacou-se como interesse ao grupo, a neoplasia maligna da mama (CID 10 - C50) para o intuito de avaliar a existencia de uma mortalidade maior em alguma das profissões listadas como de alto risco para desenvolvimento da doença, conforme demonstrado na figura abaixo.
+
+![Figura 8](references/Agentes-Cancer-Mama.png)
+
+Figura 8 - Agentes que podem desencadear a doença e profissões com maior predisposição para desenvolvimento do câncer de mama, de acordo com INCA 2012
+
+![Figura 9](references/WF_ETLSIM.DORES_2010.png)
+
+Figura 9 - Workflow para análise do banco de dados de 2010
+
+No momento de relacionar as bases de mortalidade e de número de habitantes, observou-se que a tabela 1.1.36 do Censo 2010 não traz o código da ocupação, apenas a descrição (Figura 10). Dificultando o processo automatizado de elucidação do número de óbitos em cada categoria.
+
+![Figura 10](references/Tabela-1.1.36-Censo-2010.png)
+
+Figura 10 - Imagem da tabela 1.1.36, demonstrando a descrição das ocupações, sem o código.
+
+Foram escolhidas as ocupações “cabeleireiro”, “enfermeiro” e “auxiliar de enfermagem”, uma vez que são citadas no relatório do INCA (2019) por apresentarem maiores riscos de incidência por exposição laboral.. Não se pode afirmar que essas apresentam as maiores taxas de mortalidade, uma vez que ainda não foram analisadas outras ocupações, devido a ausência do código das ocupações na tabela do censo, necessitando de análise manual e demorada. Para as etapas seguintes, será necessário estabelecer um processo ou adquirir dados de outras fontes para otimização do processo de análise destes dados.
+
+| TÍTULO                                         | ÓBITOS C50     | POPULAÇÃO FEMININA | TAXA POR 100 MIL |
+|------------------------------------------------|----------------|--------------------|------------------|
+| Cabeleireiro                                   | 68             | 687.244            | 9,89             |
+| Enfermeiro                                     | 36             | 279.625            | 12,87            |
+| Técnico de enfermagem                          | 59             | 486.243            | 12,33            |
+
+Tabela 4 - Taxa de mortalidade observada para população feminina em três diferentes ocupações
+
+Sendo assim, foi demonstrado que é possível correlacionar os dados das bases estudadas, entretanto serão necessárias etapas sequenciais e complementares que permitam utilizar as informações para dar continuidade na análise completa, visando responder às perguntas elaboradas para o projeto.
+
 # Ferramentas
 1. Orange
 2. pandas
