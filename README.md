@@ -17,16 +17,73 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Descrição Resumida do Projeto
 O câncer de mama é o tipo de câncer mais frequente nas mulheres, sem considerar o câncer de pele não melanoma. Apesar de todas as campanhas de conscientização, como o Outubro Rosa, o número de casos continua grande, estimativa de 66.280 em 2020 (segundo o INCA), e principalmente com uma alta taxa de letalidade, cerca de 30%. O diagnóstico da doença muitas vezes pode ser recebido como uma sentença de morte, além de todo sofrimento que pode ser causado pelo tratamento desse e de outros tipos de tumores malignos. Esse projeto visa estabelecer uma relação entre o nível socioeconômico e a probabilidade de sucesso do tratamento para o câncer de mama. 
 
-Descrição do projeto em formato vídeo: https://youtu.be/DoauGouCxCo
+# Vídeos do Projeto
+
+## Vídeo da Proposta
+
+https://youtu.be/DoauGouCxCo
+
+## Vídeo da Apresentação Final
+> Link para vídeo da apresentação final do projeto (máximo 8 minutos). *TODOS OS MEMBROS DO GRUPO DEVEM APARECER NO VÍDEO*.
+
+# Slides do Projeto
+
+## Slides da Proposta
+> Link para slides de apresentação da proposta do projeto.
+
+## Slides da Apresentação Final
+> Link para slides da apresentação final do projeto.
+
+# Introdução e Referenciais de Teóricos
+> Contextualização do projeto
+>
+> Caracterização do problema
+>
+> Motivação
+>
+> Relevância
+>
+> Trabalhos relacionados
+>
+> Indicação (bastante resumida) da análise proposta
+>
+> Indicação (bastante resumida) dos resultados alcançados
 
 # Perguntas de Pesquisa
 * A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
 * Existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões?
 
-# Bases de Dados
+# Objetivos do Projeto
+> Como seu projeto propôs abordar o problema apresentado.
+
+# Metodologia
+> Abordagem adotada pelo projeto na busca pela resposta às perguntas de pesquisa.
+> Justificar teoricamente, sempre que possível, a metodologia adotada.
+
+A maioria dos artigos sobre o tema utilizam Revisões sistemáticas de literatura para condensar e apresentar os dados:
+
+* (https://referenciaincor.com.br/wp-content/uploads/2020/02/priscila-berenice-da-costa.pdf; https://www.scielosp.org/pdf/rsap/2014.v16n5/786-798; https://www.unicesumar.edu.br/mostra-2016/wp-content/uploads/sites/154/2017/01/juliana_santos_tortajada.pdf;  https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-81232011000200025) 
+
+* “Foram analisados os óbitos por câncer ocorridos entre 2010 e 2012, obtidos no Sistema de Informação sobre Mortalidade. Foram selecionados 268 municípios brasileiros que apresentaram população acima de 80 mil habitantes e melhor qualidade de informação. Os indicadores socioeconômicos referentes ao ano 2000 foram extraídos do Atlas Brasil 2013. Para analisar a correlação entre indicadores socioeconômicos e a mortalidade por câncer foi utilizada a Correlação de Pearson e a regressão linear simples. Resultados: Verificou-se correlação negativa com o analfabetismo (r=-0,509) e com o Gini (r=-0,197); a correlação foi positiva com o indicador de renda (r=0,414) e esperança de vida (r=0,537); a regressão linear simples mostrou que há uma associação fraca entre a mortalidade por câncer e as variáveis socioeconômicas pesquisadas.” (https://periodicos.unifor.br/RBPS/article/view/4291) 
+
+* “O objetivo desse estudo foi analisar a influência dos índices socioeconômicos municipais nas taxas de mortalidade por câncer de boca e de orofaringe em idosos nas 645 cidades do Estado de São Paulo, Brasil. Dados secundários de óbitos foram obtidos no Sistema de Informações sobre Mortalidade do Ministério da Saúde. O número de idosos e os valores da renda média per capita e do Índice de Desenvolvimento Humano por município (IDH-M) foram obtidos de dados governamentais. A análise descritiva e exploratória dos dados foi realizada, seguida de modelos binomiais negativos descritos pelo procedimento PROC GENMOD e avaliados pelo AICc (Critério de Informação de Akaike corrigido), pelo grau de liberdade e pelo teste de Wald (α=0.05). 30% das cidades notificaram óbitos em 2013” (http://repositorio.unicamp.br/bitstream/REPOSIP/322214/1/Sakamoto_AssahitoJoel_M.pdf).
+
+* “Objetivo: Investigar associações entre nível socioeconômico e incidência e mortalidade por câncer e seus tipos, através de revisão de estudos ecológicos. Definir a real importância desempenhada pelos estudos ecológicos na investigação dessa relação. Método: As principais bases de dados regionais e internacionais foram pesquisadas na seleção de artigos em português, espanhol e inglês, publicados entre 1998 e 2008. Resultados: 32 estudos elegíveis foram incluídos. Verificou-se associação positiva e consistente do nível socioeconômico da área de residência com incidência de câncer de próstata e mortalidade pelo de cólon nos homens, e com incidência e mortalidade por câncer de mama e mortalidade pelo de cólon nas mulheres. Associação consistente e negativa foi encontrada para incidência e mortalidade por cânceres de esôfago e estômago, para incidência dos de cólon e pulmão e mortalidade pelos de laringe e cavidade oral, nos homens, e para incidência e a mortalidade pelos de esôfago, estômago e colo uterino e para incidência dos de cólon e pulmão, nas mulheres. Conclusão: Apesar da presença de efeito residual de área e de viés relacionado à medida agregada de nível socioeconômico, estudos ecológicos podem ser eficientemente utilizados na mensuração das desigualdades socioeconômicas em câncer. Uso de pequenas unidades geográficas e de dados de registros de câncer em países em desenvolvimento pode contribuir para melhor conhecimento de suas desigualdades em saúde” (https://www.revistas.usp.br/sausoc/article/download/76484/80219)
+
+* “Chronic non-communicable diseases represent a major public health problem, requiring more effective investigation and control by government agencies. The aim of this study was to correlate the mortality rate for oral cancer in Brazilian State capitals from 1998 to 2002 with socioeconomic factors collected in the 2000 census, using an ecological study design. Data were obtained from the Mortality Information System from 1998 to 2002. Social factors were taken from the Brazilian Human Development Atlases. After data collection, statistical analysis was performed using Pearson's correlation index. The findings included positive and significant correlations among the socioeconomic indicators (Municipal Human Development Index - MHDI, MHDI-income, MHDI-education, MHDI-life expectancy, and per capita income), and negative and significant correlations with the socioeconomic indicators Gini Index and infant mortality. Despite the study’s limitations and probable underreporting in less developed State capitals, the study found significant statistic correlations between the selected socioeconomic indicators and the oral cancer mortality rate.” (https://repositorio.ufrn.br/bitstream/1/3055/1/2010ART_Mortalidade_Angelloroncalli.pdf)
+
+* “Desenho do estudo: Estudo transversal contemporâneo do perfil socioeconômico de pacientes oncológicos adultos em tratamento quimioterápico ambulatorial. Pacientes e métodos: 136 pacientes adultos em tratamento quimioterápico parental para câncer no hospital das clinica de porto alegre responderam a um questionário com perguntas relacionadas a situação socioeconômica durante o tratamento no período de fevereiro a setembro de 2004” (https://lume.ufrgs.br/bitstream/handle/10183/11364/00061173%205.pdf?sequence=1)  
+
+A metodologia que será utilizada no projeto é a CRISP-DM (CRoss-Industry Standard Process for Data Mining), que foi projetado para ser uma ferramenta da indústria e application-neutral, considerando que as informações para definição do processo foram obtidas de uma ampla gama de praticantes, fornecedores de data warehouse e consultores. O processo do CRISP-DM possui 6 passos, que de forma breve podem ser elencados como: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e divulgação 
+Após uma rápida pesquisa, encontramos algumas bases de dados informando taxa de mortalidade de pacientes com câncer agrupados por local e ano. A partir de um determinado local (em diferentes granularidades como país, estado, cidade) e ano, podemos buscar outras bases contendo índices socioeconômicos como renda per capita, IDH e analfabetismo. Finalmente, mediremos a correlação entre taxas de mortalidade e o índice sócio-econômico através de: 1) coeficiente de correlação de Pearson e 2) regressão linear simples.
+
+![Figura](https://github.com/edgartanaka/estudo-cancer-socio/blob/main/references/E1%20-%20Projeto%20-%20Primeira%20Entrega.jpg)
+
+## Bases de Dados e Evolução
+
 Listamos aqui bases de dados iniciais, candidatas à nossa pesquisa. 
 
-## Brasil
+### Brasil
 
 https://datasus.saude.gov.br/
 
@@ -62,7 +119,7 @@ https://bvsalud.org/ (Biblioteca virtual de saúde)
 
 https://mtci.bvsalud.org/pt/
 
-## Internacional
+### Internacional
 
 https://data.world/dartmouthatlas/cancer-patients-death (mortalidade por estado nos EUA) 
 
@@ -112,30 +169,6 @@ http://datatopics.worldbank.org/ (Datatopics - World Bank)
 https://www.br.undp.org/content/brazil/pt/home/idh0/rankings/idh-global.html
 
 https://www.who.int/data/data-collection-tools/who-mortality-database 
-
-
-# Metodologia
-A maioria dos artigos sobre o tema utilizam Revisões sistemáticas de literatura para condensar e apresentar os dados:
-
-
-* (https://referenciaincor.com.br/wp-content/uploads/2020/02/priscila-berenice-da-costa.pdf; https://www.scielosp.org/pdf/rsap/2014.v16n5/786-798; https://www.unicesumar.edu.br/mostra-2016/wp-content/uploads/sites/154/2017/01/juliana_santos_tortajada.pdf;  https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-81232011000200025) 
-
-* “Foram analisados os óbitos por câncer ocorridos entre 2010 e 2012, obtidos no Sistema de Informação sobre Mortalidade. Foram selecionados 268 municípios brasileiros que apresentaram população acima de 80 mil habitantes e melhor qualidade de informação. Os indicadores socioeconômicos referentes ao ano 2000 foram extraídos do Atlas Brasil 2013. Para analisar a correlação entre indicadores socioeconômicos e a mortalidade por câncer foi utilizada a Correlação de Pearson e a regressão linear simples. Resultados: Verificou-se correlação negativa com o analfabetismo (r=-0,509) e com o Gini (r=-0,197); a correlação foi positiva com o indicador de renda (r=0,414) e esperança de vida (r=0,537); a regressão linear simples mostrou que há uma associação fraca entre a mortalidade por câncer e as variáveis socioeconômicas pesquisadas.” (https://periodicos.unifor.br/RBPS/article/view/4291) 
-
-* “O objetivo desse estudo foi analisar a influência dos índices socioeconômicos municipais nas taxas de mortalidade por câncer de boca e de orofaringe em idosos nas 645 cidades do Estado de São Paulo, Brasil. Dados secundários de óbitos foram obtidos no Sistema de Informações sobre Mortalidade do Ministério da Saúde. O número de idosos e os valores da renda média per capita e do Índice de Desenvolvimento Humano por município (IDH-M) foram obtidos de dados governamentais. A análise descritiva e exploratória dos dados foi realizada, seguida de modelos binomiais negativos descritos pelo procedimento PROC GENMOD e avaliados pelo AICc (Critério de Informação de Akaike corrigido), pelo grau de liberdade e pelo teste de Wald (α=0.05). 30% das cidades notificaram óbitos em 2013” (http://repositorio.unicamp.br/bitstream/REPOSIP/322214/1/Sakamoto_AssahitoJoel_M.pdf).
-
-* “Objetivo: Investigar associações entre nível socioeconômico e incidência e mortalidade por câncer e seus tipos, através de revisão de estudos ecológicos. Definir a real importância desempenhada pelos estudos ecológicos na investigação dessa relação. Método: As principais bases de dados regionais e internacionais foram pesquisadas na seleção de artigos em português, espanhol e inglês, publicados entre 1998 e 2008. Resultados: 32 estudos elegíveis foram incluídos. Verificou-se associação positiva e consistente do nível socioeconômico da área de residência com incidência de câncer de próstata e mortalidade pelo de cólon nos homens, e com incidência e mortalidade por câncer de mama e mortalidade pelo de cólon nas mulheres. Associação consistente e negativa foi encontrada para incidência e mortalidade por cânceres de esôfago e estômago, para incidência dos de cólon e pulmão e mortalidade pelos de laringe e cavidade oral, nos homens, e para incidência e a mortalidade pelos de esôfago, estômago e colo uterino e para incidência dos de cólon e pulmão, nas mulheres. Conclusão: Apesar da presença de efeito residual de área e de viés relacionado à medida agregada de nível socioeconômico, estudos ecológicos podem ser eficientemente utilizados na mensuração das desigualdades socioeconômicas em câncer. Uso de pequenas unidades geográficas e de dados de registros de câncer em países em desenvolvimento pode contribuir para melhor conhecimento de suas desigualdades em saúde” (https://www.revistas.usp.br/sausoc/article/download/76484/80219)
-
-* “Chronic non-communicable diseases represent a major public health problem, requiring more effective investigation and control by government agencies. The aim of this study was to correlate the mortality rate for oral cancer in Brazilian State capitals from 1998 to 2002 with socioeconomic factors collected in the 2000 census, using an ecological study design. Data were obtained from the Mortality Information System from 1998 to 2002. Social factors were taken from the Brazilian Human Development Atlases. After data collection, statistical analysis was performed using Pearson's correlation index. The findings included positive and significant correlations among the socioeconomic indicators (Municipal Human Development Index - MHDI, MHDI-income, MHDI-education, MHDI-life expectancy, and per capita income), and negative and significant correlations with the socioeconomic indicators Gini Index and infant mortality. Despite the study’s limitations and probable underreporting in less developed State capitals, the study found significant statistic correlations between the selected socioeconomic indicators and the oral cancer mortality rate.” (https://repositorio.ufrn.br/bitstream/1/3055/1/2010ART_Mortalidade_Angelloroncalli.pdf)
-
-* “Desenho do estudo: Estudo transversal contemporâneo do perfil socioeconômico de pacientes oncológicos adultos em tratamento quimioterápico ambulatorial. Pacientes e métodos: 136 pacientes adultos em tratamento quimioterápico parental para câncer no hospital das clinica de porto alegre responderam a um questionário com perguntas relacionadas a situação socioeconômica durante o tratamento no período de fevereiro a setembro de 2004” (https://lume.ufrgs.br/bitstream/handle/10183/11364/00061173%205.pdf?sequence=1)  
-
-A metodologia que será utilizada no projeto é a CRISP-DM (CRoss-Industry Standard Process for Data Mining), que foi projetado para ser uma ferramenta da indústria e application-neutral, considerando que as informações para definição do processo foram obtidas de uma ampla gama de praticantes, fornecedores de data warehouse e consultores. O processo do CRISP-DM possui 6 passos, que de forma breve podem ser elencados como: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e divulgação 
-Após uma rápida pesquisa, encontramos algumas bases de dados informando taxa de mortalidade de pacientes com câncer agrupados por local e ano. A partir de um determinado local (em diferentes granularidades como país, estado, cidade) e ano, podemos buscar outras bases contendo índices socioeconômicos como renda per capita, IDH e analfabetismo. Finalmente, mediremos a correlação entre taxas de mortalidade e o índice sócio-econômico através de: 1) coeficiente de correlação de Pearson e 2) regressão linear simples.
-
-![Figura](https://github.com/edgartanaka/estudo-cancer-socio/blob/main/references/E1%20-%20Projeto%20-%20Primeira%20Entrega.jpg)
-
-## Bases de Dados e Evolução
 
 ### Levantamento de Bases de dados
 
@@ -341,41 +374,56 @@ Tabela 4 - Taxa de mortalidade observada para população feminina em três dife
 
 Sendo assim, foi demonstrado que é possível correlacionar os dados das bases estudadas, entretanto serão necessárias etapas sequenciais e complementares que permitam utilizar as informações para dar continuidade na análise completa, visando responder às perguntas elaboradas para o projeto.
 
-# Ferramentas
+# Análises Realizadas
+> Descrição detalhada das análises realizadas.
+>
+>
+>
+>Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
+>
+>
+>
+> Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
+>
+> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
+
+~~~python
+df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
+sns.set(color_codes=True);
+sns.distplot(df.Hemoglobin);
+plt.show();
+~~~
+
+## Ferramentas
 1. Orange
 2. pandas
 3. scikit-learn
 4. matplotlib
 
-# Cronograma
-| Etapa                                          | Semana inicial | Semana final |
-|------------------------------------------------|----------------|--------------|
-| Entendimento da Pesquisa                       | 1              | 2            |
-| Determinar os objetivos                        |                |              |
-| Avaliar a situação                             |                |              |
-| Determinar os objetivos da mineração dos dados |                |              |
-| Produzir o plano do projeto                    |                |              |
-| Entendimento dos Dados                         | 3              | 5            |
-| Coletar os dados iniciais                      |                |              |
-| Descrever os dados                             |                |              |
-| Explorar os dados                              |                |              |
-| Verificar a qualidade dos dados                |                |              |
-| Preparação dos Dados                           | 6              | 6            |
-| Selecionar os dados                            |                |              |
-| Limpar os dados                                |                |              |
-| Integrar os dados                              |                |              |
-| Formatar os dados                              |                |              |
-| Modelagem                                      | 7              | 8            |
-| Selecionar as técnicas de modelagem            |                |              |
-| Gerar os dados de teste                        |                |              |
-| Construir o modelo                             |                |              |
-| Avaliar o modelo                               |                |              |
-| Avaliação                                      | 9              | 9            |
-| Avaliar os resultados                          |                |              |
-| Revisar o processo?                            |                |              |
-| Determinar os próximos passos                  |                |              |
-| Consolidação                                   | 10             | 10           |
-| Produzir o relatório final                     |                |              |
+# Resultados
+> Descrição dos resultados mais importantes obtidos.
+>
+> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de Análises Realizadas (o que for mais pertinente).
+
+# Discussão
+> Discussão dos resultados. Relacionar os resultados com as perguntas de pesquisa ou hipóteses avaliadas.
+>
+> A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
+
+# Conclusão
+> Destacar as principais conclusões obtidas no desenvolvimento do projeto.
+>
+> Destacar os principais desafios enfrentados.
+>
+> Principais lições aprendidas.
+
+# Trabalhos Futuros
+> O que poderia ser melhorado se houvesse mais tempo?
+
+# Referências Bibliográficas
+> Lista de artigos, links e referências bibliográficas.
+>
+> Fiquem à vontade para escolher o padrão de referenciamento preferido pelo grupo.
 
 Project Organization
 ------------
