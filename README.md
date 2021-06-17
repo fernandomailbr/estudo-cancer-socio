@@ -285,9 +285,9 @@ Após realizar o download do arquivo referente ao ano de 2010, foram configurara
 
 ![Feature Statistics](references/Feature_Statistics.png)
 
-Posteriormente foi descoberto que o erro acima não tinha relação com o número de registros, mas com a conversão do valor de alguma coluna com conteúdo não numérico. Configurando o tipo apenas das colunas de interesse, o problema não aconteceu mais. Além de filtrar os registros do sexo feminino, o campo causabas_categoria foi utilizado para filtrar os óbitos causados por 
+Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR1 estavam sem valores, portanto, somente def_escol foi utilizada. Os 3.175 registros (25%) com valor 'Ignorado' no campo def_escol foram desconsiderados nessa análise. A distribuição dos valores aparece detalhada na figura abaixo.
 
-Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR1 estavam sem valores, portanto, somente def_escol foi utilizada. Os 3.175 registros (25%) com valor 'Ignorado' no campo def_escol foram desconsiderados nessa análise. 
+![Distributions def_escol](references/Distributions_def_escol.png)
 
 Após realizar os filtros, os registros foram agrupados de acordo com objetivo da análise, ou seja, por ocupação, escolaridade e faixa etária.
 
