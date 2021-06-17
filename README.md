@@ -268,13 +268,11 @@ A base SIM (Sistema de Informações de Mortalidade) possui 165 colunas (https:/
 | Coluna                           | Tipo        | Descrição                                                                      |
 |----------------------------------|-------------|--------------------------------------------------------------------------------|
 | idade_obito_anos                 | numérico    | Idade do óbito (em anos) informada na declaração de óbito                      |
-| SEXO                             | numérico    | Sexo, conforme a tabela:0: Ignorado1: Masculino2: Feminino                     |
 | def_sexo                         | texto       | Sexo (Nominal, com as seguintes classificações: Masculino; Feminino; Ignorado) |
 | OCUP                             | numérico    | Ocupação, conforme a Classificação Brasileira de Ocupações (CBO-2002)          |
 | causabas_categoria               | texto       | Categoria CID-10 da causa base do óbito                                        |
 | ESC2010                          | numérico    | Escolaridade 2010. Valores: 0 – Sem escolaridade; 1 – FundamentalI (1a a 4a série); 2 – Fundamental II (5a a 8a série); 3 – Médio(antigo 2o Grau); 4 – Superior incompleto; 5 – Superior completo; 9– Ignorado.|
 | ESCFALAGR1                       | texto       | Escolaridade 2010 agregada. Valores: 00 – Sem Escolaridade; 01 –Fundamental I Incompleto; 02 – Fundamental I Completo; 03 –Fundamental II Incompleto; 04 – Fundamental II Completo; 05 –Ensino Médio Incompleto; 06 – Ensino Médio Completo; 07 –Superior Incompleto; 08 – Superior Completo; 09 – Ignorado; 10 –Fundamental I Incompleto ou Inespecífico; 11 – Fundamental II Incompleto ou Inespecífico; 12 – Ensino Médio Incompleto ou Inespecífico.|
-| ESC                              | numérico    | Escolaridade, Anos de estudo concluídos: 1: Nenhuma 2: 1 a 3 anos 3: 4 a 7 anos 4: 8 a 11 anos 5: 12 e mais 9: Ignorado |
 | def_escol                        | texto       | Escolaridade (Nominal, com as seguintes classificações: Nenhuma; de 1 a 3 anos; de 4 a 7 anos; de 8 a 11 anos; 12 e mais; Ignorado) |
 
 > * O que descobriu sobre esse banco?
@@ -283,11 +281,13 @@ O banco de dados fornece com riqueza de detalhes informações sobre todos os re
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
-Após realizar o download do arquivo referente ao ano de 2010, foram configurarados os tipos apenas das colunas de interesse, para evitar erros de conversão durante a importação na ferramenta Orange. O workflow aparece na Figura 6. Os dados de OCUP estavam faltando em XXX registros (XX%) e a idade_obito_anos em apenas 1 dos registros, conforme demonstrado na Figura 5. 
+Após realizar o download do arquivo referente ao ano de 2010, foram configurarados os tipos apenas das colunas de interesse, para evitar erros de conversão durante a importação na ferramenta Orange. De um total de 1.136.947 registros de óbitos, foram obtidos 487.137 ao filtrar o sexo feminino. Obteve-se 12.705 registros após filtrar os óbitos causados por Neoplasias Malignas da Mama (CID-10 = C50). A figura a seguir mostra as distribuições das variáveis e indica a falta do valor do campo ocupação para 2.041 (16%) registros.
 
-Posteriormente foi descoberto que o erro acima não tinha relação com o número de registros, mas com a conversão do valor de alguma coluna com conteúdo não numérico. Configurando o tipo apenas das colunas de interesse, o problema não aconteceu mais. Além de filtrar os registros do sexo feminino, o campo causabas_categoria foi utilizado para filtrar os óbitos causados por Neoplasias Malignas da Mama (CID-10 = C50).
+![Feature Statistics](references/Feature_Statistics.png)
 
-Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR1 estavam sem valores, portanto, somente ESC e def_escol foram utilizadas. Os 3.175 registros (25%) com valor 9 no campo ESC foram desconsiderados nessa análise. 
+Posteriormente foi descoberto que o erro acima não tinha relação com o número de registros, mas com a conversão do valor de alguma coluna com conteúdo não numérico. Configurando o tipo apenas das colunas de interesse, o problema não aconteceu mais. Além de filtrar os registros do sexo feminino, o campo causabas_categoria foi utilizado para filtrar os óbitos causados por 
+
+Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR1 estavam sem valores, portanto, somente def_escol foi utilizada. Os 3.175 registros (25%) com valor 'Ignorado' no campo def_escol foram desconsiderados nessa análise. 
 
 Após realizar os filtros, os registros foram agrupados de acordo com objetivo da análise, ou seja, por ocupação, escolaridade e faixa etária.
 
