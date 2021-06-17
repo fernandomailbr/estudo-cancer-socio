@@ -272,6 +272,10 @@ A base SIM (Sistema de Informações de Mortalidade) possui 165 colunas (https:/
 | def_sexo                         | texto       | Sexo (Nominal, com as seguintes classificações: Masculino; Feminino; Ignorado) |
 | OCUP                             | numérico    | Ocupação, conforme a Classificação Brasileira de Ocupações (CBO-2002)          |
 | causabas_categoria               | texto       | Categoria CID-10 da causa base do óbito                                        |
+| ESC2010                          | numérico    | Escolaridade 2010. Valores: 0 – Sem escolaridade; 1 – FundamentalI (1a a 4a série); 2 – Fundamental II (5a a 8a série); 3 – Médio(antigo 2o Grau); 4 – Superior incompleto; 5 – Superior completo; 9– Ignorado.|
+| ESCFALAGR1                       | texto       | Escolaridade 2010 agregada. Valores: 00 – Sem Escolaridade; 01 –Fundamental I Incompleto; 02 – Fundamental I Completo; 03 –Fundamental II Incompleto; 04 – Fundamental II Completo; 05 –Ensino Médio Incompleto; 06 – Ensino Médio Completo; 07 –Superior Incompleto; 08 – Superior Completo; 09 – Ignorado; 10 –Fundamental I Incompleto ou Inespecífico; 11 – Fundamental II Incompleto ou Inespecífico; 12 – Ensino Médio Incompleto ou Inespecífico.|
+| ESC                              | numérico    | Escolaridade, Anos de estudo concluídos: 1: Nenhuma 2: 1 a 3 anos 3: 4 a 7 anos 4: 8 a 11 anos 5: 12 e mais 9: Ignorado |
+| def_escol                        | texto       | Escolaridade (Nominal, com as seguintes classificações: Nenhuma; de 1 a 3 anos; de 4 a 7 anos; de 8 a 11 anos; 12 e mais; Ignorado) |
 
 > * O que descobriu sobre esse banco?
 
@@ -279,11 +283,17 @@ O banco de dados fornece com riqueza de detalhes informações sobre todos os re
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
-Após realizar o download do arquivo referente ao ano de 2016, durante a primeira tentativa de importação na ferramenta Orange, ocorreu um erro inesperado “Python int too large to convert to C long”. Desconfiou-se inicialmente, que o erro foi causado pelo número de registros (1.309.774), uma vez que o problema não foi observado durante importação dos dados do ano de 1996 (908.883). Através da escrita de um código em Python, foi possível filtrar as linhas correspondentes ao sexo feminino para gerar o arquivo utilizado na etapa de análise exploratória. Vide workflow da Figura 6, na seção análise exploratória. Após realizar o download do arquivo, observou-se que haviam dados faltantes. Os dados de OCUP estavam faltando em 2.097 registros (13%) e a idade_obito_anos em apenas 1 dos registros (0%), conforme demonstrado na Figura 5.
+Após realizar o download do arquivo referente ao ano de 2010, foram configurarados os tipos apenas das colunas de interesse, para evitar erros de conversão durante a importação na ferramenta Orange. O workflow aparece na Figura 6. Os dados de OCUP estavam faltando em XXX registros (XX%) e a idade_obito_anos em apenas 1 dos registros, conforme demonstrado na Figura 5. 
+
+Posteriormente foi descoberto que o erro acima não tinha relação com o número de registros, mas com a conversão do valor de alguma coluna com conteúdo não numérico. Configurando o tipo apenas das colunas de interesse, o problema não aconteceu mais. Além de filtrar os registros do sexo feminino, o campo causabas_categoria foi utilizado para filtrar os óbitos causados por Neoplasias Malignas da Mama (CID-10 = C50).
+
+Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR1 estavam sem valores, portanto, somente ESC e def_escol foram utilizadas. Os 3.175 registros (25%) com valor 9 no campo ESC foram desconsiderados nessa análise. 
+
+Após realizar os filtros, os registros foram agrupados de acordo com objetivo da análise, ou seja, por ocupação, escolaridade e faixa etária.
 
 ![Figura 5](references/Figura-5-Feature-Statistics-ETLSIM.DORES_2016.FEM.png)
 
-Figura 5 - Observação de dados faltantes adquiridos através da base de dados SIM
+Figura 5 - Observação de dados faltantes adquiridos através da base de dados SIM - ** TROCAR PELA DE 2010 **
 
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
@@ -297,8 +307,8 @@ Depois de filtradas as ocupações que apresentaram mais que 200 registros, obte
 
 ![Figura 7](references/Data%20Table-OCUP_COM_MAIS_DE_200_REGISTROS.png)
 
-Os códigos de OCUP 999992 e 999993 não foram encontradas as descrições correspondentes na base CBO 2002, sendo assim serão necessárias investigações complementares para compreender o significado destes códigos. Para calcular a taxa de mortalidade de cada ocupação por 100 mil habitantes, inicialmente pensou-se em utilizar os dados da RAIS (Relação Anual de Informações Sociais), porém seria necessário deixar de fora os trabalhadores informais. 
-Com a disponibilidade da tabela “1.1.36 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal” do Censo 2010, reavaliou-se tratar como base os registros dos óbitos de 2010 da base SIM pois contem os dados referentes ao mesmo ano. Assim um workflow similar (Figura 9) foi testado, onde a única diferença partiu do arquivo completo, uma vez que o problema ocorrido na importação do ano de 2016 na verdade era devido a uma coluna, com erro na conversão do valor para o tipo numérico do Orange. Depois de realizar os filtros e integrar com a tabela CBO2002, foram obtidos os números de óbitos apresentados na tabela 4. Usando a tabela 1.1.36 do Censo, o número de mulheres em cada uma das ocupações foi preenchido e por fim a taxa por cem mil calculada.
+Os códigos de OCUP 999992 e 999993 não foram encontradas as descrições correspondentes na base CBO 2002, sendo assim foram retirados da análise por ocupação. Para calcular a taxa de mortalidade de cada ocupação por 100 mil habitantes, inicialmente pensou-se em utilizar os dados da RAIS (Relação Anual de Informações Sociais), porém seria necessário deixar de fora os trabalhadores informais. 
+Com a disponibilidade da tabela “1.1.36 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal” do Censo 2010, reavaliou-se tratar como base os registros dos óbitos de 2010 da base SIM pois contem os dados referentes ao mesmo ano. Assim um workflow similar (Figura 9) foi testado. Depois de realizar os filtros e integrar com a tabela CBO2002, foram obtidos os números de óbitos apresentados na tabela 4. Usando a tabela 1.1.36 do Censo, o número de mulheres em cada uma das ocupações foi preenchido e por fim a taxa por cem mil calculada.
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
