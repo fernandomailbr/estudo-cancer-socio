@@ -415,6 +415,8 @@ No *script* Python, do componente merge do *workflow*, foi feita a integração 
 | 212420  |	Analista de suporte computacional            |	2131	|	2523	|	Profissionais em rede de computadores |
 | 212420  |	Analista de suporte computacional            |	2131	|	2529	|	Especialistas em base de dados e em redes de computadores não classificados anteriormente |
 
+O Código CIUO-88 2131 referente a *Creadores y analistas de sistemas informáticos* tem três correnspondentes na CBO2002: 212405-Analista de desenvolvimento de sistemas, 212410-Analista de redes e de comunicação de dados e 212420-Analista de suporte computacional. Na revisão 2007, essa categoria foi desmembrada em oito ocupações diferentes, listadas na tabela acima. Para contornar essas situações, todas as ocupações foram agrupadas em conjuntos disjuntos, totalizando 96 grupos.
+
 Uma vez que o propósito deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
 
 Com base nas informações apresentadas pelo artigo “As profissões e o Câncer” publicado pelo Instituto Nacional do Cancer (INCA, 2012) em https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//vigilancia-rede-cancer-17.pdf, aponta-se a hipótese de que 19 tipos de tumores malignos podem ter relação com determinadas profissões, dentre estes destacou-se como interesse ao grupo, a neoplasia maligna da mama (CID 10 - C50) para o intuito de avaliar a existencia de uma mortalidade maior em alguma das profissões listadas como de alto risco para desenvolvimento da doença, conforme demonstrado na figura abaixo.
