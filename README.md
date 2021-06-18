@@ -346,10 +346,21 @@ RelatorioTabuaCBO2002_CBO94_CIUO88 | https://www.mtecbo.gov.br/cbosite/pages/tab
 
 > * O que descobriu sobre esse banco?
 
-A Classificação Brasileira de Ocupações de 2002 (CBO2002), gerida pelo Ministério do Trabalho e Emprego - MTE, usou como referência a *Clasificación Internacional Uniforme de Ocupaciones* de 88 (CIUO88), que por sua vez, é elaborada pela Organização Internacional do Trabalho - OIT. Essa tabela permite descobrir o código CIUO88 de uma ocupação, a partir do CBO2002.
+A Classificação Brasileira de Ocupações de 2002 (CBO2002), gerida pelo Ministério do Trabalho e Emprego - MTE, usou como referência a *Clasificación Internacional Uniforme de Ocupaciones* 88 (CIUO88), que por sua vez, é elaborada pela Organização Internacional do Trabalho - OIT. Essa tabela permite descobrir o código CIUO88 de uma ocupação, a partir do CBO2002.
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 Como o arquivo é gerado pelo *site* no formato *Portable Document Format* (.pdf), foi necessário copiar o conteúdo para um arquivo texto no formato *Comma Separated Values* (.csv).
+
+Base de Dados | Endereço na Web | Resumo descritivo
+----- | ----- | -----
+corrtab88-08 | https://www.ilo.org/public/spanish/bureau/stat/isco/docs/corrtab08-88.xls | Tábua de Conversão CIUO88 - CIUO08
+
+> * O que descobriu sobre esse banco?
+
+A CIOU vem sendo revisada para acompanhar a evolução no mundo do trabalho e em 2007 a OIT divulgou uma atualização, denomindada CIUO-08.
+
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+Como o arquivo é gerado pelo *site* no formato de planilha eletrônica (.xls), foi necessário salvar o conteúdo como texto no formato *Comma Separated Values* (.csv).
 
 ### Integração entre Bases e Análise Exploratória
 
