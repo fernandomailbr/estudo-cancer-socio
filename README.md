@@ -290,24 +290,10 @@ Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR
 
 Após realizar os filtros, os registros foram agrupados de acordo com objetivo da análise, ou seja, por ocupação, escolaridade e faixa etária.
 
-![Figura 5](references/Figura-5-Feature-Statistics-ETLSIM.DORES_2016.FEM.png)
-
-Figura 5 - Observação de dados faltantes adquiridos através da base de dados SIM - ** TROCAR PELA DE 2010 **
-
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
-Conforme citado na seção anterior, a análise exploratória deste banco de dados demandou a escrita de um código Python para filtrar os registros de sexo feminino. Na página 23 do artigo “A situação do câncer de mama no Brasil”, do Ministério da Saúde (INCA 2019), diz que em 2016 foram registrados 16.069 óbitos por câncer de mama em mulheres e que a taxa bruta foi de 15,4 óbitos por 100 mil mulheres. O mesmo valor de número de óbitos foi encontrado durante a análise da base de dados SIM. No workflow abaixo está demonstrado o processo pelo qual foram encontradas as mesmas ocorrências nos dados. Neste momento também foram agrupadas as ocupações.
-
-![Figura 6](references/Figura-6-WF_ETLSIM.DORES_2016.FEM.png)
-
-Figura 6 - Workflow para análise exploratória inicial do banco de dados
-
-Depois de filtradas as ocupações que apresentaram mais que 200 registros, obteve-se a seguinte relação:
-
-![Figura 7](references/Data%20Table-OCUP_COM_MAIS_DE_200_REGISTROS.png)
-
 Os códigos de OCUP 999992 e 999993 não foram encontradas as descrições correspondentes na base CBO 2002, sendo assim foram retirados da análise por ocupação. Para calcular a taxa de mortalidade de cada ocupação por 100 mil habitantes, inicialmente pensou-se em utilizar os dados da RAIS (Relação Anual de Informações Sociais), porém seria necessário deixar de fora os trabalhadores informais. 
-Com a disponibilidade da tabela “1.1.36 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal” do Censo 2010, reavaliou-se tratar como base os registros dos óbitos de 2010 da base SIM pois contem os dados referentes ao mesmo ano. Assim um workflow similar (Figura 9) foi testado. Depois de realizar os filtros e integrar com a tabela CBO2002, foram obtidos os números de óbitos apresentados na tabela 4. Usando a tabela 1.1.36 do Censo, o número de mulheres em cada uma das ocupações foi preenchido e por fim a taxa por cem mil calculada.
+Com a disponibilidade da tabela “1.1.11 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal” do Censo 2010, reavaliou-se tratar como base os registros dos óbitos de 2010 da base SIM pois contem os dados referentes ao mesmo ano. Usando a tabela Tabela 1.1.11 do Censo, o número de mulheres em cada uma das ocupações foi preenchido e por fim a taxa por cem mil calculada.
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
