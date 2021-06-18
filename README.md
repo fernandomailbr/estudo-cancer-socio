@@ -326,7 +326,14 @@ A Tabela 3592 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de refer
 | Homens                           | numérico    | Homens de 10 anos ou mais de idade, ocupados                                                       |
 | Mulheres                         | numérico    | Mulheres de 10 anos ou mais de idade, ocupadas                                                     |
 
-Tabela 1 - informações sobre o esquema das tabelas do CENSO 2010
+A Tabela 1.1.11 - Pessoas de 10 anos ou mais de idade, por nível de instrução, segundo o sexo e os grupos de idade - Brasil - 2010, foi gerada com a estrutura a seguir.
+
+| Coluna                           | Tipo        | Descrição                                                                                          |
+|----------------------------------|-------------|----------------------------------------------------------------------------------------------------|
+| nível de instrução                | texto      | Valores: Sem instrução e fundamental incompleto, Fundamental completo e médio incompleto, Médio completo e superior incompleto, Superior completo e Não determinado  |
+| grupo de idade                   | texto       | Valores: 10 a 13 anos, 14, 15 a 17, 18 ou 19, 20 a 24, 25 a 29, 30 a 34, 35 a 39, 40 a 44, 45 a 49, 50 a 54, 55 a 59, 
+60 a 69, 70 anos ou mais |                                                      |
+| Número de Pessoas (Mulheres)     | numérico    | Mulheres de 10 anos ou mais de idade                                                               |
 
 > * O que descobriu sobre esse banco?
 
@@ -381,6 +388,7 @@ A CIOU vem sendo revisada para acompanhar a evolução no mundo do trabalho e em
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 Como o arquivo é gerado pelo *site* no formato de planilha eletrônica (.xls), foi necessário salvar o conteúdo como texto no formato *Comma Separated Values* (.csv).
+
 
 ### Integração entre Bases e Análise Exploratória
 
