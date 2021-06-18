@@ -388,6 +388,35 @@ Como o arquivo é gerado pelo *site* no formato de planilha eletrônica (.xls), 
 
 No *script* Python, do componente merge do *workflow*, foi feita a integração entre a base dos óbitos agrupados por ocupação, RelatorioTabuaCBO2002_CBO94_CIUO88, corrtab88-08 e a tabela 3592. O objetivo foi obter a população referente a cada código de ocupação, fazendo a junção dessas tabelas seguindo a sequência dos campos OCUP, CBO2002, CIUO88, Código CIUO-88, Código CIUO-08 e Código do grupo (Tabela 3592). Um problema surgido nessa etapa foi que o relacionamento entre essas tabelas é do tipo muitos para muitos, gerando situações como no exemplo mostrado abaixo.
 
+| CBO2002	| Título CBO2002	                              | Código CIUO-88 |	Código CIUO-08 |	Descrição do grupo de ocupação |
+| --------|----------------------------------------------|----------------|----------------|--------------------------------|
+| 212405	 | Analista de desenvolvimento de sistemas	     | 2131	| 2511	| Analistas de sistemas |
+| 212405	 | Analista de desenvolvimento de sistemas	     | 2131	|	2512	|	Desenvolvedores de programas e aplicativos (software) |
+| 212405  |	Analista de desenvolvimento de sistemas	     | 2131	|	2513	|	Desenvolvedores de páginas de internet (web) e multimídia |
+| 212405	 | Analista de desenvolvimento de sistemas	     | 2131	|	2519	|	Desenvolvedores e analistas de programas e aplicativos (software) e multimídia não classificados anteriormente |
+| 212405  |	Analista de desenvolvimento de sistemas	     |	2131	|	2521	|	Desenhistas e administradores de bases de dados |
+| 212405  |	Analista de desenvolvimento de sistemas	     |	2131	|	2522	|	Administradores de sistemas |
+| 212405  |	Analista de desenvolvimento de sistemas	     |	2131	|	2523	|	Profissionais em rede de computadores |
+| 212405  |	Analista de desenvolvimento de sistemas	     |	2131	|	2529	|	Especialistas em base de dados e em redes de computadores não classificados anteriormente |
+| 212410  |	Analista de redes e de comunicação de dados	 | 2131	|	2511	|	Analistas de sistemas |
+| 212410  |	Analista de redes e de comunicação de dados	 |	2131	|	2512	|	Desenvolvedores de programas e aplicativos (software) |
+| 212410  |	Analista de redes e de comunicação de dados	 |	2131	|	2513	|	Desenvolvedores de páginas de internet (web) e multimídia |
+| 212410  |	Analista de redes e de comunicação de dados	 |	2131	|	2519	|	Desenvolvedores e analistas de programas e aplicativos (software) e multimídia não classificados anteriormente |
+| 212410  |	Analista de redes e de comunicação de dados	 |	2131	|	2521	|	Desenhistas e administradores de bases de dados |
+| 212410  |	Analista de redes e de comunicação de dados	 |	2131	|	2522	|	Administradores de sistemas |
+| 212410  |	Analista de redes e de comunicação de dados	 |	2131	|	2523	|	Profissionais em rede de computadores |
+| 212410  |	Analista de redes e de comunicação de dados	 |	2131	|	2529	|	Especialistas em base de dados e em redes de computadores não classificados anteriormente |
+| 212420  |	Analista de suporte computacional            |	2131	|	2511	|	Analistas de sistemas |
+| 212420  |	Analista de suporte computacional            |	2131	|	2512	|	Desenvolvedores de programas e aplicativos (software) |
+| 212420  |	Analista de suporte computacional            |	2131	|	2513	|	Desenvolvedores de páginas de internet (web) e multimídia |
+| 212420  |	Analista de suporte computacional            |	2131	|	2519	|	Desenvolvedores e analistas de programas e aplicativos (software) e multimídia não classificados anteriormente |
+| 212420  |	Analista de suporte computacional            |	2131	|	2521	|	Desenhistas e administradores de bases de dados |
+| 212420  |	Analista de suporte computacional            |	2131	|	2522	|	Administradores de sistemas |
+| 212420  |	Analista de suporte computacional            |	2131	|	2523	|	Profissionais em rede de computadores |
+| 212420  |	Analista de suporte computacional            |	2131	|	2529	|	Especialistas em base de dados e em redes de computadores não classificados anteriormente |
+
+![image](https://user-images.githubusercontent.com/39654837/122493581-5616c200-cfbe-11eb-8df5-32c7ccedde9b.png)
+
 Uma vez que o propósito deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
 
 Com base nas informações apresentadas pelo artigo “As profissões e o Câncer” publicado pelo Instituto Nacional do Cancer (INCA, 2012) em https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//vigilancia-rede-cancer-17.pdf, aponta-se a hipótese de que 19 tipos de tumores malignos podem ter relação com determinadas profissões, dentre estes destacou-se como interesse ao grupo, a neoplasia maligna da mama (CID 10 - C50) para o intuito de avaliar a existencia de uma mortalidade maior em alguma das profissões listadas como de alto risco para desenvolvimento da doença, conforme demonstrado na figura abaixo.
@@ -441,8 +470,6 @@ plt.show();
 ## Ferramentas
 1. Orange
 2. pandas
-3. scikit-learn
-4. matplotlib
 
 # Resultados
 > Descrição dos resultados mais importantes obtidos.
