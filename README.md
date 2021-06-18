@@ -343,6 +343,8 @@ O banco de dados fornece informações sobre todas as etapas do Censo 2010, incl
 
 Foi necessário um *script* Python, presente no componente merge do *workflow* para separar o código da descrição da ocupação. Além disso, somente as linhas referentes ao grupo de base, nível de detalhe mínimo, foram consideradas.
 
+No caso da Tabela 1.1.11, obtida pelo *site* no formato de planilha eletrônica (.xls), foi necessário salvar o conteúdo como texto no formato *Comma Separated Values* (.csv).
+
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
 A análise foi feita após a integração com as demais bases utilizadas.
@@ -424,6 +426,22 @@ No *script* Python, do componente merge do *workflow*, foi feita a integração 
 | 212420  |	Analista de suporte computacional            |	2131	|	2529	|	Especialistas em base de dados e em redes de computadores não classificados anteriormente |
 
 O Código CIUO-88 2131 referente a *Creadores y analistas de sistemas informáticos* tem três correnspondentes na CBO2002: 212405-Analista de desenvolvimento de sistemas, 212410-Analista de redes e de comunicação de dados e 212420-Analista de suporte computacional. Na revisão 2007, essa categoria foi desmembrada em oito ocupações diferentes, listadas na tabela acima. Para contornar essas situações, todas as ocupações foram agrupadas em conjuntos disjuntos, totalizando 96 grupos.
+
+Como os valores das opções do campo def_escol da base SIM 2010 são diferentes da classificação adotada pela coluna nível de instrução da Tabela 1.1.11, as faixas foram agrupadas de acordo o a tabela a seguir.
+
+| def_escol   | nível de instrução                                       |
+|-------------|----------------------------------------------------------|
+| Nenhuma     |  Sem instrução e fundamental incompleto                  |
+| 1 a 3 anos  |  Sem instrução e fundamental incompleto                  | 
+| 4 a 7 anos  |  Sem instrução e fundamental incompleto                  |
+|-------------|----------------------------------------------------------|
+| 8 a 11 anos |  Fundamental completo e médio incompleto                 |   
+|-------------|----------------------------------------------------------|
+| 12 e mais   |  Médio completo e superior incompleto / Superior completo| 
+|-------------|----------------------------------------------------------|
+| Ignorado    |  Não determinado                                         |
+
+A última linha foi retirada da análise.
 
 Uma vez que o propósito deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
 
