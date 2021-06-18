@@ -573,15 +573,15 @@ TAXA POR 100 MIL|Descrição grupo
 
 Agrupando os óbitos e população por grau de escolaridae, foram obtidos os valores abaixo para a taxa de mortalidade.
 
-cod grupo | populacao_mulheres | total_obitos | TAXA POR 100 MIL | grupo de escolaridade
-----------|--------------------|--------------|------------------|---------------------- 
-1|29458500|6004|20.38|Sem instrução e fundamental incompleto
-2|11240992|1981|17.62|Fundamental completo e médio incompleto
-3|27944068|1545|5.53|Médio completo e superior incompleto / Superior completo
+cod grupo  | populacao_mulheres | total_obitos | TAXA POR 100 MIL | grupo de escolaridade
+-----------|--------------------|--------------|------------------|---------------------- 
+1|29458500 | 6004 |20,38 | Sem instrução e fundamental incompleto
+2|11240992 | 1981 |17,62 | Fundamental completo e médio incompleto
+3|27944068 | 1545 |5,53  | Médio completo e superior incompleto / Superior completo
 
 Foi montado um modelo de regresssão linear usando num primeiro momento o grupo de escolaridade e a taxa de óbitos por 100 mil habitantes. Em seguida, os valores foram agrupados também pela faixa etária e por último a regressão foi testada apenas com a faixa etária. A tabela a seguir mostra os valores do R2 para cada uma dessas opções.
 
-variaveis                           | R2 
+variáveis                           | R2 
 ------------------------------------|---
 grupo de escolaridade               | 0,884
 grupo de escolaridade, IDADE        | 0,747
@@ -595,6 +595,9 @@ intercept  |	-20,0281
 IDADE      |	0,962576
 cod grupo  |	-2,13558
 
+O gráfico a seguir mostra a evolução da taxa de mortalidade em função da idade.
+
+![Idade Taxa](references/IDADE_TAXA.png)
 
 >Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
 >
