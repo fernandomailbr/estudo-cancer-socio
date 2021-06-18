@@ -74,7 +74,6 @@ A maioria dos artigos sobre o tema utilizam Revisões sistemáticas de literatur
 
 * “Desenho do estudo: Estudo transversal contemporâneo do perfil socioeconômico de pacientes oncológicos adultos em tratamento quimioterápico ambulatorial. Pacientes e métodos: 136 pacientes adultos em tratamento quimioterápico parental para câncer no hospital das clinica de porto alegre responderam a um questionário com perguntas relacionadas a situação socioeconômica durante o tratamento no período de fevereiro a setembro de 2004” (https://lume.ufrgs.br/bitstream/handle/10183/11364/00061173%205.pdf?sequence=1)  
 
-A metodologia que será utilizada no projeto é a CRISP-DM (CRoss-Industry Standard Process for Data Mining), que foi projetado para ser uma ferramenta da indústria e application-neutral, considerando que as informações para definição do processo foram obtidas de uma ampla gama de praticantes, fornecedores de data warehouse e consultores. O processo do CRISP-DM possui 6 passos, que de forma breve podem ser elencados como: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e divulgação 
 Após uma rápida pesquisa, encontramos algumas bases de dados informando taxa de mortalidade de pacientes com câncer agrupados por local e ano. A partir de um determinado local (em diferentes granularidades como país, estado, cidade) e ano, podemos buscar outras bases contendo índices socioeconômicos como renda per capita, IDH e analfabetismo. Finalmente, mediremos a correlação entre taxas de mortalidade e o índice sócio-econômico através de: 1) coeficiente de correlação de Pearson e 2) regressão linear simples.
 
 ![Figura](https://github.com/edgartanaka/estudo-cancer-socio/blob/main/references/E1%20-%20Projeto%20-%20Primeira%20Entrega.jpg)
@@ -445,15 +444,9 @@ Com base nas informações apresentadas pelo artigo “As profissões e o Cânce
 
 Figura 8 - Agentes que podem desencadear a doença e profissões com maior predisposição para desenvolvimento do câncer de mama, de acordo com INCA 2012
 
-![Figura 9](references/WF_ETLSIM.DORES_2010.png)
+![Figura 9](references/WF_ETLSIM.DORES_2010-v4.png)
 
 Figura 9 - Workflow para análise do banco de dados de 2010
-
-No momento de relacionar as bases de mortalidade e de número de habitantes, observou-se que a tabela 1.1.36 do Censo 2010 não traz o código da ocupação, apenas a descrição (Figura 10). Dificultando o processo automatizado de elucidação do número de óbitos em cada categoria.
-
-![Figura 10](references/Tabela-1.1.36-Censo-2010.png)
-
-Figura 10 - Imagem da tabela 1.1.36, demonstrando a descrição das ocupações, sem o código.
 
 Foram escolhidas as ocupações “cabeleireiro”, “enfermeiro” e “auxiliar de enfermagem”, uma vez que são citadas no relatório do INCA (2019) por apresentarem maiores riscos de incidência por exposição laboral. Não se pode afirmar que essas apresentam as maiores taxas de mortalidade, uma vez que ainda não foram analisadas outras ocupações, devido a ausência do código das ocupações na tabela do censo, necessitando de análise manual e demorada. Para as etapas seguintes, será necessário estabelecer um processo ou adquirir dados de outras fontes para otimização do processo de análise destes dados.
 
