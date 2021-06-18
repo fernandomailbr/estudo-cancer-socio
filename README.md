@@ -340,6 +340,16 @@ Foi necessário um *script* Python, presente no componente merge do *workflow* p
 
 A análise foi feita após a integração com as demais bases utilizadas.
 
+Base de Dados | Endereço na Web | Resumo descritivo
+----- | ----- | -----
+RelatorioTabuaCBO2002_CBO94_CIUO88 | https://www.mtecbo.gov.br/cbosite/pages/tabua/FiltroConversao_CBO2002_CBO94_CIUO88.jsf | Tábua de Conversão CBO2002 - CBO94 - CIUO88
+
+> * O que descobriu sobre esse banco?
+
+A Classificação Brasileira de Ocupações de 2002 (CBO2002), gerida pelo Ministério do Trabalho e Emprego - MTE, usou como referência a *Clasificación Internacional Uniforme de Ocupaciones* de 88 (CIUO88), que por sua vez, é elaborada pela Organização Internacional do Trabalho - OIT. Essa tabela permite descobrir o código CIUO88 de uma ocupação, a partir do CBO2002.
+
+> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
+Como o arquivo é gerado pelo *site* no formato *Portable Document Format* (.pdf), foi necessário copiar o conteúdo para um arquivo texto no formato *Comma Separated Values* (.csv).
 
 ### Integração entre Bases e Análise Exploratória
 
