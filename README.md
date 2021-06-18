@@ -330,7 +330,7 @@ Tabela 1 - informações sobre o esquema das tabelas do CENSO 2010
 
 > * O que descobriu sobre esse banco?
 
-O banco de dados fornece informações sobre todas as etapas do Censo 2010, incluindo tabelas como a 3592 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal. Essa tabela pode ser gerada no site escolhendo-se as variáveis, no caso apenas sexo foi selecionada.
+O banco de dados fornece informações sobre todas as etapas do Censo 2010, incluindo tabelas como a 3592 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por situação do domicílio e sexo, segundo os grandes grupos, os subgrupos principais, os subgrupos e os grupos de base de ocupação no trabalho principal. Essa tabela pode ser gerada no site escolhendo-se as variáveis, no caso apenas sexo foi selecionada. A Classificação de Ocupações para Pesquisas Domiciliares implantada no Censo Demográfico de 2010 tem compatibilidade com a CIUO-08 (*Clasificación Internacional Uniforme de Ocupaciones*) no nível mais desagregado (4 dígitos) em 8 dos 10 Grandes Grupos.
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
@@ -344,6 +344,15 @@ Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 RelatorioTabuaCBO2002_CBO94_CIUO88 | https://www.mtecbo.gov.br/cbosite/pages/tabua/FiltroConversao_CBO2002_CBO94_CIUO88.jsf | Tábua de Conversão CBO2002 - CBO94 - CIUO88
 
+> * Qual o esquema/dicionário desse banco (o formato é livre)?
+
+| Coluna          | Tipo        | Descrição                                                                               |
+|-----------------|-------------|-----------------------------------------------------------------------------------------|
+| CBO2002         | texto       | Código da ocupação                                                                      |
+| Título CBO2002  | texto       | Descrição da ocupação                                                                   |
+| CBO94           | texto       | Código da ocupação pela tabela de 94                                                    |
+| CIUO88          | numérico    | Código da ocupação pela CIUO-88 (*Clasificación Internacional Uniforme de Ocupaciones*) |
+
 > * O que descobriu sobre esse banco?
 
 A Classificação Brasileira de Ocupações de 2002 (CBO2002), gerida pelo Ministério do Trabalho e Emprego - MTE, usou como referência a *Clasificación Internacional Uniforme de Ocupaciones* 88 (CIUO88), que por sua vez, é elaborada pela Organização Internacional do Trabalho - OIT. Essa tabela permite descobrir o código CIUO88 de uma ocupação, a partir do CBO2002.
@@ -355,6 +364,17 @@ Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 corrtab88-08 | https://www.ilo.org/public/spanish/bureau/stat/isco/docs/corrtab08-88.xls | Tábua de Conversão CIUO88 - CIUO08
 
+> * Qual o esquema/dicionário desse banco (o formato é livre)?
+
+| Coluna             | Tipo        | Descrição                              |
+|--------------------|-------------|----------------------------------------|
+| Level              | texto       | Nível do grupo                         |
+| CIUO-88 Título SP  | texto       | Descrição da ocupação pela CIUO-88     |
+| Código CIUO-88     | numérico    | Código da ocupação pela CIUO-88        |
+| Código CIUO-08     | numérico    | Código da ocupação pela CIUO-08        |
+| CIUO-08 parte      | texto       |                                        |
+| CIUO-08 Título SP  | texto       | Descrição da ocupação pela CIUO-08     |
+ 
 > * O que descobriu sobre esse banco?
 
 A CIOU vem sendo revisada para acompanhar a evolução no mundo do trabalho e em 2007 a OIT divulgou uma atualização, denomindada CIUO-08.
@@ -365,6 +385,8 @@ Como o arquivo é gerado pelo *site* no formato de planilha eletrônica (.xls), 
 ### Integração entre Bases e Análise Exploratória
 
 > Descreva etapas de integração de fontes de dados e apresente a seguir uma análise exploratória que envolva ambas.
+
+No *script* Python, do componente merge do *workflow*, foi feita a integração entre a base dos óbitos agrupados por ocupação, RelatorioTabuaCBO2002_CBO94_CIUO88, corrtab88-08 e a tabela 3592. O objetivo foi obter a população referente a cada código de ocupação, fazendo a junção dessas tabelas seguindo a sequência dos campos OCUP, CBO2002, CIUO88, Código CIUO-88, Código CIUO-08 e Código do grupo (Tabela 3592). Um problema surgido nessa etapa foi que o relacionamento entre essas tabelas é do tipo muitos para muitos, gerando situações como no exemplo mostrado abaixo.
 
 Uma vez que o propósito deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
 
