@@ -449,9 +449,110 @@ Sendo assim, foi demonstrado que é possível correlacionar os dados das bases e
 
 # Análises Realizadas
 > Descrição detalhada das análises realizadas.
->
->
->
+
+A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
+
+TAXA POR 100 MIL|Descrição grupo
+----------------|---------------
+0,163819216|Professores do ensino fundamental
+0,385871446|Cuidadores de crianças; Ajudantes de professores
+0,426097627|Agricultores e trabalhadores qualificados no cultivo de hortas, viveiros e jardins
+0,556139502|Pedreiros; Canteiros, cortadores e gravadores de pedras
+0,60437568|Guardas de segurança; Trabalhadores dos serviços de proteção e segurança não classificados anteriormente; Mensageiros, carregadores de bagagens e entregadores de encomendas; Outras ocupações elementares não classificadas anteriormente
+0,716194326|Trabalhadores de limpeza de interior de edifícios, escritórios, hotéis e outros estabelecimentos; Ajudantes de cozinha
+0,761407792|Criadores de gado e trabalhadores qualificados da criação de gado; Avicultores e trabalhadores qualificados da avicultura; Apicultores, sericicultores e trabalhadores qualificados da apicultura e sericicultura
+0,789749057|Vendedores a domicilio; Vendedores por telefone
+0,84874513|Gerentes de hotéis; Gerentes de restaurantes
+0,88410555|Agricultores e trabalhadores qualificados em atividades da agricultura (exclusive hortas, viveiros e jardins)
+1,290888906|Artistas plásticos
+1,31299073|Magarefes e afins
+1,383432018|Dirigentes financeiros; Dirigentes de recursos humanos; Dirigentes de administração e de serviços não classificados anteriormente; Dirigentes de vendas e comercialização; Dirigentes de publicidade e relações públicas; Dirigentes de serviços de tecnologia da informação e comunicações; Gerentes de sucursais de bancos, de serviços financeiros e de seguros
+1,507161845|Trabalhadores elementares da indústria de transformação não classificados anteriormente; Classificadores de resíduos
+1,69049323|Padeiros, confeiteiros e afins
+2,35173764|Caixas de banco e afins; Coletores de apostas e de jogos; Caixas e expedidores de bilhetes
+2,413360363|Ajudantes de ambulâncias; Trabalhadores de cuidados pessoais em instituições; Trabalhadores de cuidados pessoais nos serviços de saúde não classificados anteriormente
+2,728140772|Costureiros, bordadeiros e afins
+3,014560326|Inspetores de polícia e detetives; Profissionais de nível médio do direito e serviços legais e afins
+3,056188017|Analistas de sistemas; Desenvolvedores de programas e aplicativos (software); Desenvolvedores de páginas de internet (web) e multimídia; Desenvolvedores e analistas de programas e aplicativos (software) e multimídia não classificados anteriormente; Desenhistas e administradores de bases de dados; Administradores de sistemas; Profissionais em rede de computadores; Especialistas em base de dados e em redes de computadores não classificados anteriormente
+4,01187515|Trabalhadores qualificados da preparação da confecção de roupas
+5,186151522|Técnicos em documentação sanitária; Supervisores de secretaria; Secretários jurídicos; Secretários executivos e administrativos; Secretários de medicina; Escriturários gerais; Secretários (geral); Operadores de máquinas de processamento de texto e mecanógrafos; Trabalhadores de centrais de atendimento; Telefonistas; Recepcionistas de hotéis; Trabalhadores dos serviços de informações; Recepcionistas em geral; Entrevistadores de pesquisas de mercado; Trabalhadores de serviços de informação ao cliente não classificados anteriormente; Trabalhadores de contabilidade e cálculo de custos; Trabalhadores de serviços estatísticos, financeiros e de seguros; Trabalhadores encarregados de folha de pagamento; Trabalhadores de controle de abastecimento e estoques; Trabalhadores de serviços de apoio à produção; Trabalhadores de serviços de transporte; Trabalhadores de serviços de correios; Codificadores de dados, revisores de provas de impressão e afins; Trabalhadores do serviço de pessoal; Trabalhadores de apoio administrativo não classificados anteriormente
+5,243663509|Supervisores de lojas; Balconistas e vendedores de lojas; Demonstradores de lojas; Frentistas de posto de gasolina; Balconistas dos serviços de alimentação; Vendedores não classificados anteriormente
+5,277044855|Técnicos em aparelhos de diagnóstico e tratamento médico
+5,566874868|Porteiros e zeladores
+5,61576908|Policiais
+6,046314771|Controladores de processos de produção de metais; Operadores de instalações de processamento de metais
+6,098676587|Técnicos e profissionais de nível médio em ciências biológicas (exclusive da medicina); Técnicos de laboratórios médicos
+6,692208596|Artesãos de tecidos, couros e materiais semelhantes; Operadores de teares e outras máquinas de tecelagem
+7,171598586|Trabalhadores dos serviços domésticos em geral
+7,263131136|Químicos; Farmacêuticos
+7,671653241|Músicos, cantores e compositores
+7,926796039|Vendedores ambulantes (exclusive de serviços de alimentação)
+8,285567391|Professores de universidades e do ensino superior; Professores de formação profissional; Professores do ensino médio
+8,843818171|Condutores de automóveis, taxis e caminhonetes
+8,851907586|Técnicos em operações de tecnologia da informação e das comunicações; Técnicos da web
+9,582674524|Técnicos em ciências físicas e da engenharia não classificados anteriormente
+9,859988168|Supervisores de manutenção e limpeza de edifícios em escritórios, hotéis e estabelecimentos; Governantas e mordomos domésticos
+10,30722856|Supervisores de indústrias de transformação; Impressores; Operadores de máquinas polidoras, galvanizadoras e recobridoras de metais; Operadores de teares e outras máquinas de tecelagem; Operadores de máquinas de costura; Operadores de máquinas de branqueamento, tingimento e limpeza de tecidos; Operadores de máquinas para fabricação de calçados e afins; Operadores de máquinas de lavar, tingir e passar roupas; Operadores de máquinas para fabricar produtos têxteis e artigos de couro e pele não classificados anteriormente; Operadores de máquinas para elaborar alimentos e produtos afins; Operadores de máquinas de embalagem, engarrafamento e etiquetagem; Operadores de máquinas e de instalações fixas não classificados anteriormente; Mecânicos montadores de maquinaria mecânica; Montadores de equipamentos elétricos e eletrônicos; Montadores não classificados anteriormente
+10,57192156|Cabeleireiros; Especialistas em tratamento de beleza e afins
+10,72846261|Operadores de máquinas de lavrar madeira
+10,79039655|Desenhistas e projetistas técnicos
+11,06653756|Vendedores ambulantes de serviços de alimentação
+11,37429977|Operadores de entrada de dados
+11,50906915|Fotógrafos; Técnicos de radiodifusão e gravação audiovisual; Técnicos de engenharia de telecomunicações
+11,60963364|Contadores; Assessores financeiros e em investimentos; Analistas financeiros; Analistas de gestão e administração; Especialistas em políticas de administração; Profissionais da publicidade e da comercialização; Profissionais de relações públicas; Organizadores de conferências e eventos; Agentes de serviços comerciais não classificados anteriormente; Trabalhadores de agências de viagem
+12,11739331|Dentistas
+12,85189227|Chefes de cozinha; Cozinheiros; Preparadores de comidas rápidas
+13,10787783|Soldadores e oxicortadores
+13,51672205|Gerentes de comércios atacadistas e varejistas; Comerciantes de lojas
+14,05481377|Garçons; Atendentes de bar
+14,16932341|Biólogos, botânicos, zoólogos e afins; Profissionais da proteção do meio ambiente
+14,70372004|Técnicos em química industrial
+15,10802236|Agentes de seguros
+15,45197013|Psicólogos
+15,52819761|Especialistas em métodos pedagógicos
+16,23244866|Agentes imobiliários
+16,65278934|Engenheiros químicos
+16,87194196|Agrônomos e afins
+17,64913519|Mecânicos e ajustadores eletricistas
+17,67772952|Professores do ensino pré-escolar
+17,99928003|Arquitetos de edificações; Arquitetos paisagistas; Urbanistas e engenheiros de trânsito
+18,82352941|Bibliotecários, documentaristas e afins
+19,3615954|Profissionais da saúde e da higiene laboral e ambiental; Profissionais da saúde não classificados anteriormente; Especialistas em políticas e serviços de pessoal e afins; Especialistas em formação de pessoal; Inspetores de saúde laboral, ambiental e afins
+20,12882448|Eletricistas de obras e afins
+20,79988019|Assistentes sociais
+21,88582893|Engenheiros civis
+22,36135957|Tradutores, intérpretes e linguistas
+22,95157218|Advogados e juristas
+23,00331248|Trabalhadores elementares da construção de edifícios
+23,98886916|Veterinários
+25,06516944|Técnicos em eletrônica; Técnicos de engenharia de telecomunicações
+25,39175856|Contabilistas e guarda livros; Profissionais de nível médio de serviços estatísticos, matemáticos e afins
+25,47410133|Fiscais e cobradores de transportes públicos
+26,88541619|Dirigentes de serviços de saúde; Dirigentes de serviços de cuidado a pessoas idosas; Profissionais de enfermagem; Profissionais de partos; Profissionais de nível médio de enfermagem; Profissionais de nível médio de partos
+29,95327289|Escritores; Jornalistas
+30,55861142|Ministros de cultos religiosos, missionários e afins
+30,58103976|Legisladores
+34,70395007|Agricultores e trabalhadores qualificados de cultivos mistos
+35,58718861|Engenheiros eletricistas
+35,90019745|Técnicos agropecuários; Técnicos florestais
+45,1059991|Trabalhadores qualificados do tratamento de couros e peles
+50,94243505|Profissionais em direito não classificados anteriormente
+60,12325267|Engenheiros industriais e de produção; Engenheiros de meio ambiente; Engenheiros não classificados anteriormente
+64,62035541|Trabalhadores da degustação e classificação de alimentos e bebidas
+64,75485661|Varredores e afins; Pessoas que realizam várias tarefas; Carregadores de água e coletores de lenha
+68,82312457|Matemáticos, atuários e estatísticos
+68,98454746|Alfaiates, modistas, chapeleiros e peleteiros
+70,87172218|Filósofos, historiadores e especialistas em ciência política
+86,82230369|Diretores de cinema, de teatro e afins; Atores
+92,75720801|Economistas
+180,5054152|Sociólogos, antropólogos e afins
+240,7407407|Corretores de comercialização
+368,4523304|Produtores e trabalhadores qualificados de exploração agropecuária mista
+385,6041131|Arquivologistas e curadores de museus
+20833,33333|Trabalhadores subaquáticos
+
+
+
 >Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
 >
 >
