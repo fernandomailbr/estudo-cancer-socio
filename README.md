@@ -331,8 +331,7 @@ A Tabela 1.1.11 - Pessoas de 10 anos ou mais de idade, por nível de instrução
 | Coluna                           | Tipo        | Descrição                                                                                          |
 |----------------------------------|-------------|----------------------------------------------------------------------------------------------------|
 | nível de instrução                | texto      | Valores: Sem instrução e fundamental incompleto, Fundamental completo e médio incompleto, Médio completo e superior incompleto, Superior completo e Não determinado  |
-| grupo de idade                   | texto       | Valores: 10 a 13 anos, 14, 15 a 17, 18 ou 19, 20 a 24, 25 a 29, 30 a 34, 35 a 39, 40 a 44, 45 a 49, 50 a 54, 55 a 59, 
-60 a 69, 70 anos ou mais |                                                      |
+| grupo de idade                   | texto       | Valores: 10 a 13 anos, 14, 15 a 17, 18 ou 19, 20 a 24, 25 a 29, 30 a 34, 35 a 39, 40 a 44, 45 a 49, 50 a 54, 55 a 59, 60 a 69, 70 anos ou mais |                                                      |
 | Número de Pessoas (Mulheres)     | numérico    | Mulheres de 10 anos ou mais de idade                                                               |
 
 > * O que descobriu sobre esse banco?
@@ -429,19 +428,14 @@ O Código CIUO-88 2131 referente a *Creadores y analistas de sistemas informáti
 
 Como os valores das opções do campo def_escol da base SIM 2010 são diferentes da classificação adotada pela coluna nível de instrução da Tabela 1.1.11, as faixas foram agrupadas de acordo o a tabela a seguir.
 
-| def_escol   | nível de instrução                                       |
-|-------------|----------------------------------------------------------|
-| Nenhuma     |  Sem instrução e fundamental incompleto                  |
-| 1 a 3 anos  |  Sem instrução e fundamental incompleto                  | 
-| 4 a 7 anos  |  Sem instrução e fundamental incompleto                  |
-|-------------|----------------------------------------------------------|
-| 8 a 11 anos |  Fundamental completo e médio incompleto                 |   
-|-------------|----------------------------------------------------------|
-| 12 e mais   |  Médio completo e superior incompleto / Superior completo| 
-|-------------|----------------------------------------------------------|
-| Ignorado    |  Não determinado                                         |
-
-A última linha foi retirada da análise.
+| cod grupo | def_escol   | nível de instrução                                       |
+|---------- |-------------|----------------------------------------------------------|
+| 1         | Nenhuma     |  Sem instrução e fundamental incompleto                  |
+| 1         | 1 a 3 anos  |  Sem instrução e fundamental incompleto                  | 
+| 1         | 4 a 7 anos  |  Sem instrução e fundamental incompleto                  |
+| 2         | 8 a 11 anos |  Fundamental completo e médio incompleto                 |   
+| 3         | 12 e mais   |  Médio completo e superior incompleto / Superior completo| 
+| (não considerado) | Ignorado    |  Não determinado                                         |
 
 Uma vez que o propósito deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
 
