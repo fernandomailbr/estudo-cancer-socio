@@ -583,6 +583,7 @@ plt.show();
 > A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
 # Conclusão
+
 > Destacar as principais conclusões obtidas no desenvolvimento do projeto.
 >
 > Destacar os principais desafios enfrentados.
