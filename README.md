@@ -31,6 +31,7 @@ https://youtu.be/DoauGouCxCo
 
 ## Slides da Proposta
 > Link para slides de apresentação da proposta do projeto.
+[Slides da Proposta](references/Slides_da_Proposta.pdf)
 
 ## Slides da Apresentação Final
 > Link para slides da apresentação final do projeto.
@@ -470,8 +471,8 @@ plt.show();
 
 ## Ferramentas
 1. Orange
-2. Pandas (Merge esc e Merge ocup)
-3. Phyton
+2. Pandas (merge ESC e merge OCUP do Workflow)
+3. Python
 
 # Resultados
 > Descrição dos resultados mais importantes obtidos.
