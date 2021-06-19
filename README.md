@@ -343,7 +343,16 @@ No caso da Tabela 1.1.11, obtida pelo *site* no formato de planilha eletrônica 
 
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
-A análise foi feita após a integração com as demais bases utilizadas.
+Após as transformações e tratamentos, a Tabela 3592 resultou em 434 registros de ocupação, totalizando uma população de 33.810.209 mulheres. A tabela abaixo mostram as três ocupações com os menores e maiores números de mulheres ocupadas.
+
+Mulheres  | Codigo grupo | Descrição grupo
+----------|--------------|---------------- 
+        9 |	        3151 | Oficiais maquinistas em navegação
+       24 |         6224 | Caçadores
+       24 |         7541 | Trabalhadores subaquáticos
+1.293.029	|         4110 | Escriturários gerais
+2.084.668	|         5223 | Balconistas e vendedores de lojas
+4.671.204	|         9111 | Trabalhadores dos serviços domésticos em geral
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
