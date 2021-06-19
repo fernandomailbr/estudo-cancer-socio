@@ -46,9 +46,16 @@ A falta de estrutura e investimento nos serviços de saúde, combinadas ao envel
 
 
 > Caracterização do problema
->
+
+As desigualdades em saúde operam através de toda a sociedade e refletem as desigualdades sociais, mais prevalentes nos estratos socioeconômicos desfavorecidos.  
+As diferenças socioeconômicas se manifestam em diversos aspectos no perfil epidemiológico em relação ao câncer. Os grupos de níveis socioeconômicos mais baixos são os que apresentam maior incidência; maior proporção de diagnóstico tardio de neoplasias passíveis de detecção em estágios iniciais; maior dificuldade de acesso ao diagnóstico e tratamento adequado; pior prognóstico e menor sobrevida após o diagnóstico; evidências que demonstram o maior risco de óbito por câncer em geral e por tipos de câncer potencialmente curáveis. 
+Análises de estudos ecológicos contribuem e estruturam uma abordagem essencial para a identificação de fatores responsáveis por variações regionais de níveis em saúde pública e epidemiológica, para formulação de hipóteses e interpretações a serem investigadas em futuras pesquisas. Porém devido a limitações, que se referem ao ajuste incompleto para variáveis de confusão e à falácia ecológica, esses estudos muitas vezes têm sido relegados a segundo plano e, no tocante à investigação das desigualdades sociais em câncer, seus resultados raramente têm sido incluídos em revisões sistemáticas, focalizadas que estão nos estudos de coorte e caso-controle (RIBEIRO E NARDOCCI, 2013).
+
+
 > Motivação
->
+
+A identificação de áreas ou grupos populacionais sob maior risco de mortalidade por câncer, serve de base informativa para o monitoramento do estado de saúde pública, para a identificação das populações de risco, planejamento, definição e implantação de políticas voltadas para áreas mais vulneráveis. Produzir estas análises permite relacionar os grupos em vantagem ou desvantagem social e quantificar as disparidades na mortalidade por câncer, assim estudos ecológicos que analisem os padrões sociais e econômicos são fundamentais para compreensão estrutural deste problema no Brasil e no mundo (BARBOSA, 2016 ).  O Ministério da Saúde destaca a carência de informações que permitam evidenciar os fatores de risco de câncer relacionados ao trabalho, assim como as dificuldades de se estabelecer um sistema de vigilância do câncer dos trabalhadores expostos e dos agentes cancerígenos (BOZA, 2012).
+
 > Relevância
 >
 > Trabalhos relacionados
