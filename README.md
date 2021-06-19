@@ -435,6 +435,43 @@ Figura 9 - Workflow para análise do banco de dados de 2010
 # Análises Realizadas
 > Descrição detalhada das análises realizadas.
 
+Foram realizadas duas etapas de análise.
+
+1) Análise das ocupações com maior mortalidade
+
+Embasados pelo artigo do INCA que descreve as ocupações com maior incidência de cancer de mama, realizou-se através da base de dados X e das bases Y de informação sobre a ocupação, análise da mortalidade por cancer de mama em função da ocupação relatada no registro de óbito de cada indivíduo.
+
+
+2) análise da influência da idade e/ou escolaridade na mortalidade
+Para análise de aspecto socioeconômico, em decorrência dos dados disponibilizados, escolheu-se a análise do grau de escolaridade. Foi montado um modelo de regressão linear usando num primeiro momento o grupo de escolaridade e a taxa de óbitos por 100 mil habitantes. Em seguida, os valores foram agrupados também pela faixa etária e por último a regressão foi testada apenas com a faixa etária. 
+
+>Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
+>
+>
+>
+> Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
+>
+> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
+
+~~~python
+df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
+sns.set(color_codes=True);
+sns.distplot(df.Hemoglobin);
+plt.show();
+~~~
+
+## Ferramentas
+1. Orange
+2. Pandas (Merge esc e Merge ocup)
+3. Phyton
+
+# Resultados
+> Descrição dos resultados mais importantes obtidos.
+>
+> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de Análises Realizadas (o que for mais pertinente).
+
+1) Resultados da análise para ocupações com maior mortalidade
+
 A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
 
 TAXA POR 100 MIL|Descrição grupo
@@ -536,7 +573,8 @@ TAXA POR 100 MIL|Descrição grupo
 385,6041131|Arquivologistas e curadores de museus
 20833,33333|Trabalhadores subaquáticos
 
-Para análise de aspecto socioeconômico, em decorrência dos dados disponibilizados, escolheu-se a análise do grau de escolaridade. Foi montado um modelo de regresssão linear usando num primeiro momento o grupo de escolaridade e a taxa de óbitos por 100 mil habitantes. Em seguida, os valores foram agrupados também pela faixa etária e por último a regressão foi testada apenas com a faixa etária. A tabela a seguir mostra os valores do R2 para cada uma dessas opções.
+2) Resultados da análise da influência da idade e/ou escolaridade na mortalidade
+A tabela a seguir mostra os valores do R2 para grupo de escolaridade e faixa etária.
 
 variáveis                           | R2 
 ------------------------------------|---
@@ -555,31 +593,6 @@ cod grupo  |	-2,13558
 O gráfico a seguir mostra a evolução da taxa de mortalidade em função da idade.
 
 ![Idade Taxa](references/IDADE_TAXA.png)
-
->Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
->
->
->
-> Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
->
-> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
-
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
-~~~
-
-## Ferramentas
-1. Orange
-2. Pandas (Merge esc e Merge ocup)
-3. Phyton
-
-# Resultados
-> Descrição dos resultados mais importantes obtidos.
->
-> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de Análises Realizadas (o que for mais pertinente).
 
 # Discussão
 > Discussão dos resultados. Relacionar os resultados com as perguntas de pesquisa ou hipóteses avaliadas.
