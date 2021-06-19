@@ -254,7 +254,7 @@ Essa tabela não foi adotada porque posteriormente foi encontrada outra contendo
 
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
-Trata-se de uma tabela referência com o código e a descrição das ocupações, assim não houve necessidade de uma análise exploratória.
+Trata-se de uma tabela com o código e a descrição das ocupações, assim não houve necessidade de uma análise exploratória.
 
 
 ### Bases Estudadas e Adotadas
