@@ -434,18 +434,6 @@ Figura 8 - Agentes que podem desencadear a doença e profissões com maior predi
 
 Figura 9 - Workflow para análise do banco de dados de 2010
 
-Foram escolhidas as ocupações “cabeleireiro”, “enfermeiro” e “auxiliar de enfermagem”, uma vez que são citadas no relatório do INCA (2019) por apresentarem maiores riscos de incidência por exposição laboral. Não se pode afirmar que essas apresentam as maiores taxas de mortalidade, uma vez que ainda não foram analisadas outras ocupações, devido a ausência do código das ocupações na tabela do censo, necessitando de análise manual e demorada. Para as etapas seguintes, será necessário estabelecer um processo ou adquirir dados de outras fontes para otimização do processo de análise destes dados.
-
-| TÍTULO                                         | ÓBITOS C50     | POPULAÇÃO FEMININA | TAXA POR 100 MIL |
-|------------------------------------------------|----------------|--------------------|------------------|
-| Cabeleireiro                                   | 68             | 687.244            | 9,89             |
-| Enfermeiro                                     | 36             | 279.625            | 12,87            |
-| Técnico de enfermagem                          | 59             | 486.243            | 12,33            |
-
-Tabela 4 - Taxa de mortalidade observada para população feminina em três diferentes ocupações
-
-Sendo assim, foi demonstrado que é possível correlacionar os dados das bases estudadas, entretanto serão necessárias etapas sequenciais e complementares que permitam utilizar as informações para dar continuidade na análise completa, visando responder às perguntas elaboradas para o projeto.
-
 # Análises Realizadas
 > Descrição detalhada das análises realizadas.
 
