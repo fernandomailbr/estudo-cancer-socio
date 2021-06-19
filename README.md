@@ -66,7 +66,8 @@ A maioria dos artigos sobre o tema utilizam Revisões sistemáticas de literatur
 
 # Objetivos do Projeto
 > Como seu projeto propôs abordar o problema apresentado.
-O objetivo deste projeto foi investigar associações entre nível socioeconômico, profissões e mortalidade por câncer de mama, através da análises de dados disponibilizados em bancos de acesso público.
+
+O objetivo deste projeto foi investigar associações entre idade, nível socioeconômico (anos de estudo), profissões (ocupação) e mortalidade por câncer de mama, através da análises de dados disponibilizados em bancos de acesso público.
 
 # Metodologia
 > Abordagem adotada pelo projeto na busca pela resposta às perguntas de pesquisa.
