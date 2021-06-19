@@ -635,11 +635,23 @@ Através da análise dos dados foi possível observar
 > Lista de artigos, links e referências bibliográficas.
 > Fiquem à vontade para escolher o padrão de referenciamento preferido pelo grupo.
 
-Barbosa, et al. Desigualdades socioeconômicas e mortalidade por câncer: um estudo ecológico no Brasil. Rev. bras. promoç. saúde (Impr.) ; 29(3): 350-356, jul.-set.2016. Disponível em: https://periodicos.unifor.br/RBPS/article/view/4291
+BARBOSA, et al. Desigualdades socioeconômicas e mortalidade por câncer: um estudo ecológico no Brasil. Rev. bras. promoç. saúde (Impr.) ; 29(3): 350-356, jul.-set.2016. Disponível em: <https://periodicos.unifor.br/RBPS/article/view/4291> Acesso em 18/06/2021.
 
-Sakamoto, et al. Influência dos índices socioeconômicos municipais nas taxas de mortalidade por câncer de boca e orofaringe em idosos no estado de São Paulo. Rev. bras. epidemiol ; 22: e190013, 2019. Disponível em: https://pesquisa.bvsalud.org/portal/resource/pt/biblio-990731
+SAKAMOTO, et al. Influência dos índices socioeconômicos municipais nas taxas de mortalidade por câncer de boca e orofaringe em idosos no estado de São Paulo. Rev. bras. epidemiol ; 22: e190013, 2019. Disponível em: <https://pesquisa.bvsalud.org/portal/resource/pt/biblio-990731> Acesso em 18/06/2021.
 
-Ribeiro, Nardocci. Desigualdades socioeconômicas na incidência e mortalidade por câncer : revisão de estudos ecológicos, 1998-2008. Saúde Soc. 2013; 22(3): 878–91. Disponível em: https://www.scielo.br/j/sausoc/a/gmPjZZwLHZ5zmYt5SWHNJ7y/abstract/?lang=pt
+RIBEIRO, NARDOCCI. Desigualdades socioeconômicas na incidência e mortalidade por câncer : revisão de estudos ecológicos, 1998-2008. Saúde Soc. 2013; 22(3): 878–91. Disponível em: <https://www.scielo.br/j/sausoc/a/gmPjZZwLHZ5zmYt5SWHNJ7y/abstract/?lang=pt> Acesso em 18/06/2021.
+
+INSTITUTO NACIONAL DO CANCER - Outubro Rosa. INCA,2020. Disponível em: <https://www.inca.gov.br/campanhas/cancer-de-mama/2020/outubro-rosa-2020> Acesso em 18/06/2021.
+
+INSTITUTO NACIONAL DO CANCER. Tipos de câncer - Câncer de mama versão para Profissionais de Saúde 2021. Disponível em: <https://www.inca.gov.br/tipos-de-cancer/cancer-de-mama> Acesso em 18/06/2021.
+
+RIBEIRO, A. A., NARDOCCI, A. C., Desigualdades socioeconômicas na incidência e mortalidade por câncer: revisão de estudos ecológicos, 1998-2008 - Departamento de Saúde Ambiental, Faculdade de Saúde Pública, Universidade de São Paulo Saúde Soc. São Paulo, v.22, n.3, p.878-891, 2013. Disponível: <https://www.scielo.br/j/sausoc/a/gmPjZZwLHZ5zmYt5SWHNJ7y/?format=pdf&lang=pt> Acesso em: 19/06/2021.
+
+BOZA., V. Saiba quais profissões estão mais propensas a desenvolver câncer. GZH Agência RBS, 2012. Disponivel em: <https://gauchazh.clicrbs.com.br/amp/saiba-quais-profissoes-estao-mais-propensas-a-desenvolver-cancer-3743429.html> Acesso em 18/06/2021.
+
+Censo demográfico brasileiro de 2021 é adiado por falta de recursos. UOL economia, 2021. Disponível em: <https://economia.uol.com.br/noticias/afp/2021/04/23/censo-demografico-brasileiro-de-2021-e-adiado-por-falta-de-recursos.htm>. Acesso em: 19/06/2021
+
+O que é o Censo? Entenda como a não realização dele afeta a nossa vida. ECOA UOL, 2021. Disponivel em: https://www.uol.com.br/ecoa/ultimas-noticias/2021/04/26/o-que-e-o-censo-entenda-como-a-nao-realizacao-dele-afeta-a-nossa-vida.htm> Acesso em: 19/06/2021
 
 Project Organization
 ------------
