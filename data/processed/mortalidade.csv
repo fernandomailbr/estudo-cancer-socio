@@ -1,0 +1,97 @@
+Id,Mulheres,OBITOS C50,TAXA POR 100 MIL,Descrição grupo
+1.0,3270.0,1.0,30.581039755351682,Legisladores
+2.0,470698.0,39.0,8.285567391405955,Professores de universidades e do ensino superior; Professores de formação profissional; Professores do ensino médio
+3.0,1124533.0,152.0,13.516722052620956,Gerentes de comércios atacadistas e varejistas; Comerciantes de lojas
+4.0,117821.0,1.0,0.8487451303248148,Gerentes de hotéis; Gerentes de restaurantes
+5.0,433704.0,6.0,1.383432018150628,"Dirigentes financeiros; Dirigentes de recursos humanos; Dirigentes de administração e de serviços não classificados anteriormente; Dirigentes de vendas e comercialização; Dirigentes de publicidade e relações públicas; Dirigentes de serviços de tecnologia da informação e comunicações; Gerentes de sucursais de bancos, de serviços financeiros e de seguros"
+6.0,13306.0,8.0,60.12325266796933,Engenheiros industriais e de produção; Engenheiros de meio ambiente; Engenheiros não classificados anteriormente
+7.0,594334.0,69.0,11.609633640343645,Contadores; Assessores financeiros e em investimentos; Analistas financeiros; Analistas de gestão e administração; Especialistas em políticas de administração; Profissionais da publicidade e da comercialização; Profissionais de relações públicas; Organizadores de conferências e eventos; Agentes de serviços comerciais não classificados anteriormente; Trabalhadores de agências de viagem
+8.0,28230.0,4.0,14.169323414806943,"Biólogos, botânicos, zoólogos e afins; Profissionais da proteção do meio ambiente"
+9.0,1411.0,1.0,70.87172218284904,"Filósofos, historiadores e especialistas em ciência política"
+10.0,99517.0,3.0,3.014560326376398,Inspetores de polícia e detetives; Profissionais de nível médio do direito e serviços legais e afins
+11.0,1453.0,1.0,68.82312456985548,"Matemáticos, atuários e estatísticos"
+12.0,65441.0,2.0,3.0561880166867863,Analistas de sistemas; Desenvolvedores de programas e aplicativos (software); Desenvolvedores de páginas de internet (web) e multimídia; Desenvolvedores e analistas de programas e aplicativos (software) e multimídia não classificados anteriormente; Desenhistas e administradores de bases de dados; Administradores de sistemas; Profissionais em rede de computadores; Especialistas em base de dados e em redes de computadores não classificados anteriormente
+13.0,82609.0,6.0,7.263131135832658,Químicos; Farmacêuticos
+14.0,50002.0,9.0,17.999280028798847,Arquitetos de edificações; Arquitetos paisagistas; Urbanistas e engenheiros de trânsito
+15.0,27415.0,6.0,21.885828925770564,Engenheiros civis
+16.0,2810.0,1.0,35.587188612099645,Engenheiros eletricistas
+17.0,6005.0,1.0,16.65278934221482,Engenheiros químicos
+18.0,5927.0,1.0,16.871941960519656,Agrônomos e afins
+19.0,123789.0,15.0,12.117393306351937,Dentistas
+20.0,20843.0,5.0,23.988869164707577,Veterinários
+21.0,654630.0,176.0,26.88541618929777,Dirigentes de serviços de saúde; Dirigentes de serviços de cuidado a pessoas idosas; Profissionais de enfermagem; Profissionais de partos; Profissionais de nível médio de enfermagem; Profissionais de nível médio de partos
+22.0,113627.0,22.0,19.361595395460586,"Profissionais da saúde e da higiene laboral e ambiental; Profissionais da saúde não classificados anteriormente; Especialistas em políticas e serviços de pessoal e afins; Especialistas em formação de pessoal; Inspetores de saúde laboral, ambiental e afins"
+23.0,548713.0,97.0,17.67772952344851,Professores do ensino pré-escolar
+24.0,1220858.0,2.0,0.16381921566635924,Professores do ensino fundamental
+25.0,251156.0,39.0,15.528197614231793,Especialistas em métodos pedagógicos
+26.0,257063.0,59.0,22.951572182694516,Advogados e juristas
+27.0,5889.0,3.0,50.94243504839532,Profissionais em direito não classificados anteriormente
+28.0,2770.0,5.0,180.50541516245488,"Sociólogos, antropólogos e afins"
+29.0,12937.0,12.0,92.75720800803894,Economistas
+30.0,116490.0,18.0,15.451970126191089,Psicólogos
+31.0,120193.0,25.0,20.79988019269009,Assistentes sociais
+32.0,3991399.0,207.0,5.186151522310849,"Técnicos em documentação sanitária; Supervisores de secretaria; Secretários jurídicos; Secretários executivos e administrativos; Secretários de medicina; Escriturários gerais; Secretários (geral); Operadores de máquinas de processamento de texto e mecanógrafos; Trabalhadores de centrais de atendimento; Telefonistas; Recepcionistas de hotéis; Trabalhadores dos serviços de informações; Recepcionistas em geral; Entrevistadores de pesquisas de mercado; Trabalhadores de serviços de informação ao cliente não classificados anteriormente; Trabalhadores de contabilidade e cálculo de custos; Trabalhadores de serviços estatísticos, financeiros e de seguros; Trabalhadores encarregados de folha de pagamento; Trabalhadores de controle de abastecimento e estoques; Trabalhadores de serviços de apoio à produção; Trabalhadores de serviços de transporte; Trabalhadores de serviços de correios; Codificadores de dados, revisores de provas de impressão e afins; Trabalhadores do serviço de pessoal; Trabalhadores de apoio administrativo não classificados anteriormente"
+33.0,50078.0,15.0,29.953272894284915,Escritores; Jornalistas
+34.0,31875.0,6.0,18.823529411764707,"Bibliotecários, documentaristas e afins"
+35.0,778.0,3.0,385.60411311053986,Arquivologistas e curadores de museus
+36.0,8944.0,2.0,22.361359570661897,"Tradutores, intérpretes e linguistas"
+37.0,43444.0,5.0,11.509069146487432,Fotógrafos; Técnicos de radiodifusão e gravação audiovisual; Técnicos de engenharia de telecomunicações
+38.0,10366.0,9.0,86.82230368512444,"Diretores de cinema, de teatro e afins; Atores"
+39.0,154932.0,2.0,1.290888906100741,Artistas plásticos
+40.0,13035.0,1.0,7.671653241273495,"Músicos, cantores e compositores"
+41.0,16362.0,5.0,30.55861141669723,"Ministros de cultos religiosos, missionários e afins"
+42.0,19948.0,5.0,25.065169440545418,Técnicos em eletrônica; Técnicos de engenharia de telecomunicações
+43.0,13602.0,2.0,14.703720041170415,Técnicos em química industrial
+44.0,1503799.0,155.0,10.307228559135895,"Supervisores de indústrias de transformação; Impressores; Operadores de máquinas polidoras, galvanizadoras e recobridoras de metais; Operadores de teares e outras máquinas de tecelagem; Operadores de máquinas de costura; Operadores de máquinas de branqueamento, tingimento e limpeza de tecidos; Operadores de máquinas para fabricação de calçados e afins; Operadores de máquinas de lavar, tingir e passar roupas; Operadores de máquinas para fabricar produtos têxteis e artigos de couro e pele não classificados anteriormente; Operadores de máquinas para elaborar alimentos e produtos afins; Operadores de máquinas de embalagem, engarrafamento e etiquetagem; Operadores de máquinas e de instalações fixas não classificados anteriormente; Mecânicos montadores de maquinaria mecânica; Montadores de equipamentos elétricos e eletrônicos; Montadores não classificados anteriormente"
+45.0,11297.0,1.0,8.8519075860848,Técnicos em operações de tecnologia da informação e das comunicações; Técnicos da web
+46.0,18535.0,2.0,10.790396547073106,Desenhistas e projetistas técnicos
+47.0,24926.0,1.0,4.011875150445318,Trabalhadores qualificados da preparação da confecção de roupas
+48.0,5571.0,2.0,35.90019745108598,Técnicos agropecuários; Técnicos florestais
+49.0,1031033.0,109.0,10.57192155828184,Cabeleireiros; Especialistas em tratamento de beleza e afins
+50.0,18950.0,1.0,5.277044854881266,Técnicos em aparelhos de diagnóstico e tratamento médico
+51.0,32794.0,2.0,6.098676587180582,Técnicos e profissionais de nível médio em ciências biológicas (exclusive da medicina); Técnicos de laboratórios médicos
+52.0,20871.0,2.0,9.582674524459776,Técnicos em ciências físicas e da engenharia não classificados anteriormente
+53.0,35330.0,9.0,25.47410133031418,Fiscais e cobradores de transportes públicos
+54.0,82704.0,21.0,25.39175856065003,"Contabilistas e guarda livros; Profissionais de nível médio de serviços estatísticos, matemáticos e afins"
+55.0,33095.0,5.0,15.108022359873091,Agentes de seguros
+56.0,49284.0,8.0,16.232448664881097,Agentes imobiliários
+57.0,16200.0,39.0,240.74074074074073,Corretores de comercialização
+58.0,35167.0,4.0,11.374299769670431,Operadores de entrada de dados
+59.0,680348.0,16.0,2.351737640148865,Caixas de banco e afins; Coletores de apostas e de jogos; Caixas e expedidores de bilhetes
+60.0,253245.0,2.0,0.789749057237063,Vendedores a domicilio; Vendedores por telefone
+61.0,179634.0,10.0,5.566874867786722,Porteiros e zeladores
+62.0,20284.0,2.0,9.8599881680142,"Supervisores de manutenção e limpeza de edifícios em escritórios, hotéis e estabelecimentos; Governantas e mordomos domésticos"
+63.0,330920.0,2.0,0.6043756799226399,"Guardas de segurança; Trabalhadores dos serviços de proteção e segurança não classificados anteriormente; Mensageiros, carregadores de bagagens e entregadores de encomendas; Outras ocupações elementares não classificadas anteriormente"
+64.0,213450.0,30.0,14.054813773717498,Garçons; Atendentes de bar
+65.0,4671204.0,335.0,7.171598585717943,Trabalhadores dos serviços domésticos em geral
+66.0,871467.0,112.0,12.851892269013055,Chefes de cozinha; Cozinheiros; Preparadores de comidas rápidas
+67.0,530799.0,8.0,1.5071618446907398,Trabalhadores elementares da indústria de transformação não classificados anteriormente; Classificadores de resíduos
+68.0,10810.0,7.0,64.75485661424607,Varredores e afins; Pessoas que realizam várias tarefas; Carregadores de água e coletores de lenha
+69.0,1535896.0,11.0,0.7161943256574664,"Trabalhadores de limpeza de interior de edifícios, escritórios, hotéis e outros estabelecimentos; Ajudantes de cozinha"
+70.0,290052.0,7.0,2.4133603629693985,Ajudantes de ambulâncias; Trabalhadores de cuidados pessoais em instituições; Trabalhadores de cuidados pessoais nos serviços de saúde não classificados anteriormente
+71.0,777461.0,3.0,0.3858714456416463,Cuidadores de crianças; Ajudantes de professores
+72.0,17807.0,1.0,5.615769079575448,Policiais
+73.0,2307547.0,121.0,5.243663509345638,Supervisores de lojas; Balconistas e vendedores de lojas; Demonstradores de lojas; Frentistas de posto de gasolina; Balconistas dos serviços de alimentação; Vendedores não classificados anteriormente
+74.0,36145.0,4.0,11.066537557061835,Vendedores ambulantes de serviços de alimentação
+75.0,201847.0,16.0,7.926796038583679,Vendedores ambulantes (exclusive de serviços de alimentação)
+76.0,58895.0,217.0,368.45233041854146,Produtores e trabalhadores qualificados de exploração agropecuária mista
+77.0,792417.0,275.0,34.70395006669468,Agricultores e trabalhadores qualificados de cultivos mistos
+78.0,678652.0,6.0,0.8841055504146454,"Agricultores e trabalhadores qualificados em atividades da agricultura (exclusive hortas, viveiros e jardins)"
+79.0,234688.0,1.0,0.4260976274884101,"Agricultores e trabalhadores qualificados no cultivo de hortas, viveiros e jardins"
+80.0,394007.0,3.0,0.7614077922473459,"Criadores de gado e trabalhadores qualificados da criação de gado; Avicultores e trabalhadores qualificados da avicultura; Apicultores, sericicultores e trabalhadores qualificados da apicultura e sericicultura"
+81.0,24.0,5.0,20833.333333333332,Trabalhadores subaquáticos
+82.0,179811.0,1.0,0.5561395020326898,"Pedreiros; Canteiros, cortadores e gravadores de pedras"
+83.0,4968.0,1.0,20.128824476650564,Eletricistas de obras e afins
+84.0,43472.0,10.0,23.003312476996687,Trabalhadores elementares da construção de edifícios
+85.0,16539.0,1.0,6.046314771146986,Controladores de processos de produção de metais; Operadores de instalações de processamento de metais
+86.0,7629.0,1.0,13.107877834578582,Soldadores e oxicortadores
+87.0,11332.0,2.0,17.649135192375574,Mecânicos e ajustadores eletricistas
+88.0,59771.0,4.0,6.692208596141942,"Artesãos de tecidos, couros e materiais semelhantes; Operadores de teares e outras máquinas de tecelagem"
+89.0,2217.0,1.0,45.10599909788002,Trabalhadores qualificados do tratamento de couros e peles
+90.0,7248.0,5.0,68.98454746136865,"Alfaiates, modistas, chapeleiros e peleteiros"
+91.0,36655.0,1.0,2.7281407720638384,"Costureiros, bordadeiros e afins"
+92.0,9321.0,1.0,10.7284626113078,Operadores de máquinas de lavrar madeira
+93.0,67844.0,6.0,8.843818171098402,"Condutores de automóveis, taxis e caminhonetes"
+94.0,3095.0,2.0,64.62035541195478,Trabalhadores da degustação e classificação de alimentos e bebidas
+95.0,177463.0,3.0,1.6904932295746156,"Padeiros, confeiteiros e afins"
+96.0,76162.0,1.0,1.3129907302854442,Magarefes e afins
