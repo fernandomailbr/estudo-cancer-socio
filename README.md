@@ -420,7 +420,7 @@ Como os valores das opções do campo def_escol da base SIM 2010 são diferentes
 | 3         | 12 e mais   |  Médio completo e superior incompleto / Superior completo| 
 | (não considerado) | Ignorado    |  Não determinado                                         |
 
-Uma vez que o propósito deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
+Uma vez que um dos propósitos deste trabalho é observar se existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões realizou-se a análise exploratória das bases escolhidas para determinação das etapas de integração.
 
 Com base nas informações apresentadas pelo artigo “As profissões e o Câncer” publicado pelo Instituto Nacional do Cancer (INCA, 2012) em https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document//vigilancia-rede-cancer-17.pdf, aponta-se a hipótese de que 19 tipos de tumores malignos podem ter relação com determinadas profissões, dentre estes destacou-se como interesse ao grupo, a neoplasia maligna da mama (CID 10 - C50) para o intuito de avaliar a existencia de uma mortalidade maior em alguma das profissões listadas como de alto risco para desenvolvimento da doença, conforme demonstrado na figura abaixo.
 
@@ -536,7 +536,7 @@ TAXA POR 100 MIL|Descrição grupo
 385,6041131|Arquivologistas e curadores de museus
 20833,33333|Trabalhadores subaquáticos
 
-Foi montado um modelo de regresssão linear usando num primeiro momento o grupo de escolaridade e a taxa de óbitos por 100 mil habitantes. Em seguida, os valores foram agrupados também pela faixa etária e por último a regressão foi testada apenas com a faixa etária. A tabela a seguir mostra os valores do R2 para cada uma dessas opções.
+Para análise de aspecto socioeconômico, em decorrência dos dados disponibilizados, escolheu-se a análise do grau de escolaridade. Foi montado um modelo de regresssão linear usando num primeiro momento o grupo de escolaridade e a taxa de óbitos por 100 mil habitantes. Em seguida, os valores foram agrupados também pela faixa etária e por último a regressão foi testada apenas com a faixa etária. A tabela a seguir mostra os valores do R2 para cada uma dessas opções.
 
 variáveis                           | R2 
 ------------------------------------|---
