@@ -575,6 +575,7 @@ TAXA POR 100 MIL|Descrição grupo
 20833,33333|Trabalhadores subaquáticos
 
 2) Resultados da análise da influência da idade e/ou escolaridade na mortalidade
+
 A tabela a seguir mostra os valores do R2 para grupo de escolaridade e faixa etária.
 
 variáveis                           | R2 
