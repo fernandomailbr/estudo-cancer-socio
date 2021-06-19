@@ -11,7 +11,6 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Fátima Aparecida Tagliaferro   | 98918     | Computação     |
 | Fernando Akune                 | 970709    | Computação     |
 | Lana Soares                    | 209580    | Saúde          |
-| Tiago Andrade                  | (ouvinte) | Saúde          |
 
 
 # Descrição Resumida do Projeto
