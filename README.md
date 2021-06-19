@@ -66,18 +66,14 @@ A maioria dos artigos sobre o tema utilizam Revisões sistemáticas de literatur
 
 # Objetivos do Projeto
 > Como seu projeto propôs abordar o problema apresentado.
+O objetivo deste projeto foi investigar associações entre nível socioeconômico, profissões e mortalidade por câncer de mama, através da análises de dados disponibilizados em bancos de acesso público.
 
 # Metodologia
 > Abordagem adotada pelo projeto na busca pela resposta às perguntas de pesquisa.
-> Justificar teoricamente, sempre que possível, a metodologia adotada.
+> Justificar teoricamente, sempre que possível, a metodologia adotada. 
 
+A metodologia utilizada para desenvolvimento desta pesquisa foi  (1) estratégias de seleção de dados guiadas por perguntas de pesquisa; (2) técnicas de pré-processamento; (3) etapas típicas de transformação, incluindo anonimização de dados; (4) análise e mineração de dados; (5) interpretação e avaliação por meio de técnicas de visualização de dados. (precisa descrever como utilizamos, copiei esse trecho da disciplina)
 
-
-* “Desenho do estudo: Estudo transversal contemporâneo do perfil socioeconômico de pacientes oncológicos adultos em tratamento quimioterápico ambulatorial. Pacientes e métodos: 136 pacientes adultos em tratamento quimioterápico parental para câncer no hospital das clinica de porto alegre responderam a um questionário com perguntas relacionadas a situação socioeconômica durante o tratamento no período de fevereiro a setembro de 2004” (https://lume.ufrgs.br/bitstream/handle/10183/11364/00061173%205.pdf?sequence=1)  
-
-Após uma rápida pesquisa, encontramos algumas bases de dados informando taxa de mortalidade de pacientes com câncer agrupados por local e ano. A partir de um determinado local (em diferentes granularidades como país, estado, cidade) e ano, podemos buscar outras bases contendo índices socioeconômicos como renda per capita, IDH e analfabetismo. Finalmente, mediremos a correlação entre taxas de mortalidade e o índice sócio-econômico através de: 1) coeficiente de correlação de Pearson e 2) regressão linear simples.
-
-![Figura](https://github.com/edgartanaka/estudo-cancer-socio/blob/main/references/E1%20-%20Projeto%20-%20Primeira%20Entrega.jpg)
 
 ## Bases de Dados e Evolução
 
@@ -576,7 +572,8 @@ plt.show();
 
 ## Ferramentas
 1. Orange
-2. pandas
+2. Pandas (Merge esc e Merge ocup)
+3. Phyton
 
 # Resultados
 > Descrição dos resultados mais importantes obtidos.
@@ -585,7 +582,7 @@ plt.show();
 
 # Discussão
 > Discussão dos resultados. Relacionar os resultados com as perguntas de pesquisa ou hipóteses avaliadas.
->
+Através da análise dos dados foi possível observar 
 > A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
 # Conclusão
@@ -593,7 +590,10 @@ plt.show();
 > Destacar as principais conclusões obtidas no desenvolvimento do projeto.
 >
 > Destacar os principais desafios enfrentados.
->
+ - Encontrar bases de dados completas, que permitissem relacionar as informações socioeconômicas de cada indivíduo que faleceu de cancer de mama.
+ - Ausência de dados coletados pelo IBGE em 2020 para poder replicar a análise para outros períodos de tempo, demonstrando reprodutibilidade da análise
+ - O código das ocupações sofreu alterações que dificultaram o processo de análise
+ - 
 > Principais lições aprendidas.
 
 # Trabalhos Futuros
