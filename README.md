@@ -439,7 +439,7 @@ Foram realizadas duas etapas de análise.
 
 1) Análise das ocupações com maior mortalidade
 
-Embasados pelo artigo do INCA que descreve as ocupações com maior incidência de cancer de mama, realizou-se através da base de dados X e das bases Y de informação sobre a ocupação, análise da mortalidade por cancer de mama em função da ocupação relatada no registro de óbito de cada indivíduo.
+Embasados pelo artigo do INCA que descreve as ocupações com maior incidência de cancer de mama, realizou-se através da base de dados SIM 2010 e da bases Classificação Brasileira de Ocupações de 2002 (CBO2002), gerida pelo Ministério do Trabalho e Emprego - MTE, que utilizou como referência a *Clasificación Internacional Uniforme de Ocupaciones* 88 (CIUO88), elaborada pela Organização Internacional do Trabalho - OIT. Essa tabela permite descobrir o código CIUO88 de uma ocupação, a partir do CBO2002 de informação sobre a ocupação, análise da mortalidade por cancer de mama em função da ocupação relatada no registro de óbito de cada indivíduo.
 
 
 2) Análise da influência da idade e/ou escolaridade na mortalidade
