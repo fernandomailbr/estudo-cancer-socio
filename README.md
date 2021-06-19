@@ -31,6 +31,7 @@ https://youtu.be/DoauGouCxCo
 
 ## Slides da Proposta
 > Link para slides de apresentação da proposta do projeto.
+
 [Slides da Proposta](references/Slides_da_Proposta.pdf)
 
 ## Slides da Apresentação Final
