@@ -91,8 +91,17 @@ O objetivo deste projeto foi investigar associações entre idade, nível socioe
 > Abordagem adotada pelo projeto na busca pela resposta às perguntas de pesquisa.
 > Justificar teoricamente, sempre que possível, a metodologia adotada. 
 
-A metodologia utilizada para desenvolvimento desta pesquisa foi  (1) estratégias de seleção de dados guiadas por perguntas de pesquisa; (2) técnicas de pré-processamento; (3) etapas típicas de transformação, incluindo anonimização de dados; (4) análise e mineração de dados; (5) interpretação e avaliação por meio de técnicas de visualização de dados. (precisa descrever como utilizamos, copiei esse trecho da disciplina)
+Procurou-se usar nesse projeto a metodologia CRISP-DM (CRoss-Industry Standard Process for Data Mining), que de forma breve possui os seguintes passos: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e divulgação. Entretanto, relatórios não foram produzidos da maneira detalhada em cada etapa dessa metodologia.
 
+Partindo da primeira pegunta de pesquisa, se existe relação entre a condição socioeconômica e a mortalidade do câncer de mama, foram buscadas uma série de bases que pudessem trazer dados (mortalidade, índice de desenvolvimento humano, renda per capita, escolaridade, etc.) que permitissem análises nesse sentido.
+
+Grande parte do trabalho da pesquisa foi no entendimento dos dados, pois algumas bases encontradas são bastante ricas em detalhes, com o Sistema de Informações de Mortalidade (SIM), disponibilizado pela Fiocruz e que possui mais de cem dados sobre todos os registros de óbitos no país. Entender como a ocupação das pessoas foi relatada nesses registros e a evolução da classificação das ocupações até chegar na tabela utilizada pelo CENSO de 2010, é um exemplo do desafio nessa etapa.
+
+A preparação dos dados foi fundamental porque a partir dos registros de óbitos individualizados criou-se a necessidade de obter a população total em cada grupo, de ocupação, idade ou escolaridade, para calcular da taxa de mortalidade (normalização), antes de compara-los.
+
+Na etapa de modelagem, uma regressão linear múltipla foi usada para procurar explicar a influência de cada variável nas taxas de mortalidade. A avaliação foi feita através da medida do coeficiente de determinação (R2).
+
+Por fim, a divulgação está sendo feita aqui, incluindo todos os scripts e arquivos de dados necessários para reprodução dos resultados.
 
 ## Bases de Dados e Evolução
 
