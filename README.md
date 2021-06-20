@@ -492,7 +492,7 @@ Embasados pelo artigo do INCA que descreve as ocupações com maior incidência 
 
 O rank das taxas de mortalidade por grupo de ocupação aparecem na tabela 1 dos resultados. Uma linha foi adicionada para mostrar o total da população e óbitos considerados nessa análise, resultando em uma taxa de mortalidade de **8,93** por cem mil mulheres. A interpretação desse resultado deve ser feita com cautela, pois os números representam 20,83% de todos óbitos por câncer de mama e 42,56% da população feminina com idade maior ou igual a 18 anos. Essa limitação do estudo foi provocada pela ausência da informação da ocupação no registro do óbito ou falta de corresponência nas tabelas CBO2002/CIUO88/CIUO08. O grupo com a maior taxa de mortalidade, "Trabalhadores subaquáticos", que engloba as ocupações de "pescador artesanal de água doce" e "mergulhador profissional (raso e profundo)", registrou uma população de apenas 24 mulheres e 5 óbitos em 2010. 
 
-No outro extremo da tabela, o grupo de professores do ensino fundamental tem uma população feminina bastante grande, porém um número de óbitos muito baxio, devido a conversão pela tabelas CBO2002/CIUO88/CIUO08 que leva esse grupo às ocupações de "Professor de ciências exatas e naturais do ensino fundamental", "Professor de história do ensino fundamental", "Professor de língua portuguesa do ensino fundamental" e "Professor de matemática do ensino fundamental". Parte dos óbitos das professoras do ensino fundamental pode ter sido registrada como "Professor de nível superior do ensino fundamental (primeira a quarta série)", que faz parte do grupo "Professores do ensino pré-escolar", o qual apresenta uma taxa bem acima do valor geral.
+No outro extremo da tabela, o grupo de professores do ensino fundamental tem uma população feminina bastante grande, porém um número de óbitos muito baixo, devido a conversão pela tabelas CBO2002/CIUO88/CIUO08 que leva esse grupo às ocupações de "Professor de ciências exatas e naturais do ensino fundamental", "Professor de história do ensino fundamental", "Professor de língua portuguesa do ensino fundamental" e "Professor de matemática do ensino fundamental". Parte dos óbitos das professoras do ensino fundamental pode ter sido registrada como "Professor de nível superior do ensino fundamental (primeira a quarta série)", que faz parte do grupo "Professores do ensino pré-escolar", o qual apresenta uma taxa bem acima do valor geral.
 
 Apesar dessas limitações, a tabela indica taxas acima da média nacional para ocupações como cabelereiras e profissionais de enfermagem, alinhada com o levantamento que aponta essas profissões como sendo de alto risco para o desenvolvimento do câncer de mama. Não foi possível obter dados de renda para completar a análise econômica, contudo, o aparecimento de ocupações com rendimentos mais altas, na parte de cima e de baixo da tabela, indicam a dificuldade de mostrar a rende como fator determinante para a taxa.  
 
@@ -561,7 +561,7 @@ A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
 | 8,85 | 1 | 11.297 | Técnicos em operações de tecnologia da informação e das comunicações; Técnicos da web |
 | **8,93** | **2.646** | **29.642.889** | **TODAS AS OCUPAÇÕES** |
 | 9,58 | 2 | 20.871 | Técnicos em ciências físicas e da engenharia não classificados anteriormente |
-| 9,86 | 2 | 20.284 | Supervisores de manutenção e limpeza de edifícios em escritórios, hotéis e estabelecimentos; Governantas e mordomos domésticos |
+| 9,86 | 2 | 20.284 | Supervisores de manutenção e limpeza de edifícios em escritórios, hotéis e estabelecimentos; Governantas e mor
 | 10,31 | 155 | 1.503.799 | Supervisores de indústrias de transformação; Impressores; Operadores de máquinas polidoras, galvanizadoras e recobridoras de metais; Operadores de teares e outras máquinas de tecelagem; Operadores de máquinas de costura; Operadores de máquinas de branqueamento, tingimento e limpeza de tecidos; Operadores de máquinas para fabricação de calçados e afins; Operadores de máquinas de lavar, tingir e passar roupas; Operadores de máquinas para fabricar produtos têxteis e artigos de couro e pele não classificados anteriormente; Operadores de máquinas para elaborar alimentos e produtos afins; Operadores de máquinas de embalagem, engarrafamento e etiquetagem; Operadores de máquinas e de instalações fixas não classificados anteriormente; Mecânicos montadores de maquinaria mecânica; Montadores de equipamentos elétricos e eletrônicos; Montadores não classificados anteriormente |
 | 10,57 | 109 | 1.031.033 | Cabeleireiros; Especialistas em tratamento de beleza e afins |
 | 10,73 | 1 | 9.321 | Operadores de máquinas de lavrar madeira |
@@ -585,6 +585,7 @@ A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
 | 16,87 | 1 | 5.927 | Agrônomos e afins |
 | 17,65 | 2 | 11.332 | Mecânicos e ajustadores eletricistas |
 | 17,68 | 97 | 548.713 | Professores do ensino pré-escolar |
+| **18,24** | **12.705** | **69.654.476** | **TODAS AS MULHERES ACIMA DE 18 ANOS** |
 | 18,00 | 9 | 50.002 | Arquitetos de edificações; Arquitetos paisagistas; Urbanistas e engenheiros de trânsito |
 | 18,82 | 6 | 31.875 | Bibliotecários, documentaristas e afins |
 | 19,36 | 22 | 113.627 | Profissionais da saúde e da higiene laboral e ambiental; Profissionais da saúde não classificados anteriormente; Especialistas em políticas e serviços de pessoal e afins; Especialistas em formação de pessoal; Inspetores de saúde laboral, ambiental e afins |
@@ -619,7 +620,7 @@ A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
 | 240,74 | 39 | 16.200 | Corretores de comercialização |
 | 368,45 | 217 | 58.895 | Produtores e trabalhadores qualificados de exploração agropecuária mista |
 | 385,60 | 3 | 778 | Arquivologistas e curadores de museus |
-| 20833,33 | 5 | 24 | Trabalhadores subaquáticos |
+| 20.833,33 | 5 | 24 | Trabalhadores subaquáticos |
 
 2) Resultados da análise da influência da idade e/ou escolaridade na mortalidade
 
@@ -648,6 +649,19 @@ O gráfico a seguir mostra a evolução da taxa de mortalidade em função da id
 Através da análise dos dados foi possível observar 
 > A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
+* A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
+
+Inicialmente a pergunta tratava de encontrar uma relação entre variáveis socioeconômicas e mortalidade por cancêr de mama em mulheres. Deu-se a busca pelos índice de desenvolvimento humano dos munícipios de um estado e tentou-se correlacionar com as respectivas taxas de mortalidade. Essa primeira análise não evidenciou correlação significativa entre essas variáveis. Assim, buscou-se outros dados socioeconômicos para explicar as diferentes taxas de mortalidade e encontrou-se um artigo do INCA citando as profissões com maior risco de incidência de câncer, incluindo as neoplasias da mama. Em decorrência dos dados disponíveis optou-se pela utilização de nível de instrução/escolaridade como uma variável indicativa de condição socioeconômica, por ser uma que estava disponível em ambas as bases: mortalidade (SIM 2010) e população (CENSO). O modelo de regressão linear usando somente essa variável apresentou um coeficiente muito baixo de determinação (R2), sugerindo a ausência de relação entre escolaridade e a taxa de mortalidade. Dado que a inicidência do câncer se dá principalmente com o envelhecimento, decidiu-se usar a IDADE como outra variável num modelo de regressão múltipla, que alcançou um valor de R2 consideravelmente maior. Considerando o gráfico da idade e escolaridade x mortalidade entende-se que é possível sugerir a existência de uma influência da escolaridade na taxa, observando a separação dos grupos. Uma hipótese para que o grupo com ensino fundamental completo ter apresentado taxas acima do grupo de menor escolaridade é que boa parte dos registros ignorados correspondam a falecidos com baixa escolaridade.
+
+Com isso incluiu-se uma nova pergunta de pesquisa, procurando responder se para mortalidade havia uma relação também com a profissão.  
+
+* Existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões?
+
+Apenas baseado nos resultados da primeira análise desse projeto não foi possível responder com segurança se existe alguma relação entre a mortalidade de câncer de mama e as ocupações profissionais. Entretanto, o trabalho possibilitou a compreensão dos dados necessários para responder a questão com maior nível de confiabilidade. Apesar disso, as taxas obtidas em alguma ocupações, como 34,7/100 mil nos trabalhadores da agricultura, bem acima da taxa bruta de 18,26/100 mil, sugerem que existe sim uma relação da mortalidade com fatores em que esses trabalhadores estão expostos, como agrotóxicos, resultado que pode ser relacionado com a incidência citada pelo INCA. A análise poderia ter indicado uma resposta mais precisa se não houvesse problema na notificação (dados faltantes de ocupação) e diferentes tabelas de nomenclatura das ocupações. 
+
+
+
+
 # Conclusão
 
 > Destacar as principais conclusões obtidas no desenvolvimento do projeto.
@@ -656,7 +670,8 @@ Através da análise dos dados foi possível observar
  - Encontrar bases de dados completas, que permitissem relacionar as informações socioeconômicas de cada indivíduo que faleceu de cancer de mama.
  - Ausência de dados coletados pelo IBGE em 2020 para poder replicar a análise para outros períodos de tempo, demonstrando reprodutibilidade da análise
  - O código das ocupações sofreu alterações que dificultaram o processo de análise
- - 
+ - Levar em conta somente as ocupações com pelo menos 100 mil mulheres
+
 > Principais lições aprendidas.
 
 # Trabalhos Futuros
@@ -664,8 +679,10 @@ Através da análise dos dados foi possível observar
 
 - Fazer uma análise da mortalidade por raça/cor
 - Análises regionais, por munícipio ou estado
-- Obter as taxas de mortalidade em outros anos (1990, 2000, etc.), para verificar a significância estatística (ou evolução). 
+- Obter as taxas de mortalidade em outros anos (1990, 2000, etc.), para verificar a significância estatística (ou evolução). Falta do CENSO em 2020 devido a pandemia
 - Rodar os modelos de regressão diretamente no python, para obter os valores de probabilidade (*p-value*)
+- Procurar fazer uma clusterização diferente das ocupações
+- situação do domicílio 
 
 # Referências Bibliográficas
 > Lista de artigos, links e referências bibliográficas.
