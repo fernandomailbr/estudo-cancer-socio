@@ -639,7 +639,7 @@ intercept  |	-20,0281
 IDADE      |	0,962576
 cod grupo  |	-2,13558
 
-O gráfico a seguir mostra a evolução da taxa de mortalidade em função da idade.
+O gráfico a seguir mostra a evolução da taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
 
 ![Idade Taxa](references/IDADE_TAXA.png)
 
