@@ -343,7 +343,7 @@ No caso da Tabela 1.1.11, obtida pelo *site* no formato de planilha eletrônica 
 
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
-Após as transformações e tratamentos, a Tabela 3592 resultou em 434 registros de ocupação, totalizando uma população de 33.810.209 mulheres. A tabela abaixo mostram as três ocupações com os menores e maiores números de mulheres ocupadas.
+Após as transformações e tratamentos, a Tabela 3592 resultou em 434 registros de ocupação, totalizando uma população de 33.810.209 mulheres. A tabela abaixo mostra as três ocupações com os menores e maiores números de mulheres ocupadas.
 
 | Mulheres  | Codigo grupo | Descrição grupo                                 |
 |-----------|--------------|-------------------------------------------------| 
@@ -353,6 +353,10 @@ Após as transformações e tratamentos, a Tabela 3592 resultou em 434 registros
 | 1.293.029	|         4110 | Escriturários gerais                            |
 | 2.084.668	|         5223 | Balconistas e vendedores de lojas               |
 | 4.671.204	|         9111 | Trabalhadores dos serviços domésticos em geral  |
+
+O total da população femina na tabela 1.1.11 é igual a 83.223.618, destas, somente 514.562 (0,62%) aparecem com nível de instrução não determinado. O gráfico a seguir procurar mostrar como estão distrubuídas de acordo com os grupos de escolaridade.
+
+![Mosaic Display](references/Mosaic_Display.png)
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
