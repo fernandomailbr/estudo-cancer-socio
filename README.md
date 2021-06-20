@@ -91,7 +91,7 @@ O objetivo deste projeto foi investigar associações entre idade, nível socioe
 > Abordagem adotada pelo projeto na busca pela resposta às perguntas de pesquisa.
 > Justificar teoricamente, sempre que possível, a metodologia adotada. 
 
-Procurou-se usar nesse projeto a metodologia CRISP-DM (CRoss-Industry Standard Process for Data Mining), que de forma breve possui os seguintes passos: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e divulgação. Entretanto, relatórios não foram produzidos da maneira detalhada em cada etapa dessa metodologia.
+Procurou-se usar nesse projeto a metodologia *CRISP-DM (CRoss-Industry Standard Process for Data Mining)*, que de forma breve possui os seguintes passos: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e divulgação. Entretanto, relatórios não foram produzidos da maneira detalhada em cada etapa dessa metodologia.
 
 Partindo da primeira pegunta de pesquisa, se existe relação entre a condição socioeconômica e a mortalidade do câncer de mama, foram buscadas uma série de bases que pudessem trazer dados (mortalidade, índice de desenvolvimento humano, renda per capita, escolaridade, etc.) que permitissem análises nesse sentido.
 
