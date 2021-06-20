@@ -492,7 +492,7 @@ Embasados pelo artigo do INCA que descreve as ocupações com maior incidência 
 
 O rank das taxas de mortalidade por grupo de ocupação aparecem na tabela 1 dos resultados. Uma linha foi adicionada para mostrar o total da população e óbitos considerados nessa análise, resultando em uma taxa de mortalidade de **8,93** por cem mil mulheres. A interpretação desse resultado deve ser feita com cautela, pois os números representam 20,83% de todos óbitos por câncer de mama e 42,56% da população feminina com idade maior ou igual a 18 anos. Essa limitação do estudo foi provocada pela ausência da informação da ocupação no registro do óbito ou falta de corresponência nas tabelas CBO2002/CIUO88/CIUO08. O grupo com a maior taxa de mortalidade, "Trabalhadores subaquáticos", que engloba as ocupações de "pescador artesanal de água doce" e "mergulhador profissional (raso e profundo)", registrou uma população de apenas 24 mulheres e 5 óbitos em 2010. 
 
-No outro extremo da tabela, o grupo de professores do ensino fundamental tem uma população feminina bastante grande, porém um número de óbitos muito baxio, devido a conversão pela tabelas CBO2002/CIUO88/CIUO08 que leva esse grupo às ocupações de "Professor de ciências exatas e naturais do ensino fundamental", "Professor de história do ensino fundamental", "Professor de língua portuguesa do ensino fundamental" e "Professor de matemática do ensino fundamental". Parte dos óbitos das professoras do ensino fundamental pode ter sido registrada como "Professor de nível superior do ensino fundamental (primeira a quarta série)", que faz parte do grupo "Professores do ensino pré-escolar", o qual apresenta uma taxa bem acima da média nacional.
+No outro extremo da tabela, o grupo de professores do ensino fundamental tem uma população feminina bastante grande, porém um número de óbitos muito baxio, devido a conversão pela tabelas CBO2002/CIUO88/CIUO08 que leva esse grupo às ocupações de "Professor de ciências exatas e naturais do ensino fundamental", "Professor de história do ensino fundamental", "Professor de língua portuguesa do ensino fundamental" e "Professor de matemática do ensino fundamental". Parte dos óbitos das professoras do ensino fundamental pode ter sido registrada como "Professor de nível superior do ensino fundamental (primeira a quarta série)", que faz parte do grupo "Professores do ensino pré-escolar", o qual apresenta uma taxa bem acima do valor geral.
 
 Apesar dessas limitações, a tabela indica taxas acima da média nacional para ocupações como cabelereiras e profissionais de enfermagem, alinhada com o levantamento que aponta essas profissões como sendo de alto risco para o desenvolvimento do câncer de mama. Não foi possível obter dados de renda para completar a análise econômica, contudo, o aparecimento de ocupações com rendimentos mais altas, na parte de cima e de baixo da tabela, indicam a dificuldade de mostrar a rende como fator determinante para a taxa.  
 
@@ -500,20 +500,12 @@ Apesar dessas limitações, a tabela indica taxas acima da média nacional para 
 
 Para análise de aspecto socioeconômico, em decorrência dos dados disponibilizados, escolheu-se a análise do grau de escolaridade. Foi montado um modelo de regressão linear usando num primeiro momento o grupo de escolaridade e a taxa de óbitos por 100 mil habitantes. Em seguida, os valores foram agrupados também pela faixa etária e por último a regressão foi testada apenas com a faixa etária. 
 
->Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
->
->
->
-> Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
->
-> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
+O modelo de regressão linear que considerou somente o grupo de escolaridade apresentou um coeficiente de determinação (R2) muito baixo. Ao adicionar a faixa etária, o R2 aumentou consideravelmente, indicando a IDADE com um fator determinante para a taxa de mortalidade. Isso já era esperado, pois a incidência do câncer em geral aumenta com o envelhecimento da pessoa. Olhando para os coeficientes de cada variável e para o gráfico é possível observar a influência da escolaridade na taxa. São necessários mais dados, de outros períodos, por exemplo, para aperfeiçoar essa análise e verificar melhor o impacto da escolaridade.
 
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
-~~~
+Utilizando apenas a variável IDADE, o R2 fica ligeiramente abaixo do modelo da regressão múltipla. Os valores de propabilidade (*p-value*) não foram encontrados na ferramenta Orange.
+
+>Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
+
 
 ## Ferramentas
 1. Orange
@@ -669,6 +661,11 @@ Através da análise dos dados foi possível observar
 
 # Trabalhos Futuros
 > O que poderia ser melhorado se houvesse mais tempo?
+
+- Fazer uma análise da mortalidade por raça/cor
+- Análises regionais, por munícipio ou estado
+- Obter as taxas de mortalidade em outros anos (1990, 2000, etc.), para verificar a significância estatística (ou evolução). 
+- Rodar os modelos de regressão diretamente no python, para obter os valores de probabilidade (*p-value*)
 
 # Referências Bibliográficas
 > Lista de artigos, links e referências bibliográficas.
