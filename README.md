@@ -205,12 +205,6 @@ Em um primeiro momento, realizou-se a pesquisa e o levantamento de bases de dado
 * Se o banco continha dados por localização
 * Campos de observação a serem preenchidos com a primeira impressão dos participantes do grupo em relação às bases de dados
 
-Até este momento, cerca de 42 bases de dados haviam sido sugeridas para análise de viabilidade de utilização (Figura 1).
-
-![Figura 1](references/Figura-1-Pre-selecao-de-bases.png)
-
-Figura 1 - Pré seleção de bases para análise de viabilidade de utilização
-
 Após a delimitação do estudo a nível nacional, descartou-se a utilização de bases internacionais, focando na pré-análise mais detalhada das bases de dados brasileiras (Figura 2).
 
 ![Figura 2](references/Figura-2-Pre-analise-das-bases.png)
