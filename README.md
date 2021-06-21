@@ -671,15 +671,11 @@ Com este trabalho o grupo trocou experiências e chegou-se ao consenso que são 
 
 
 # Trabalhos Futuros
-> O que poderia ser melhorado se houvesse mais tempo?
 
-- Fazer uma análise da mortalidade por raça/cor
-- Análises regionais, por munícipio ou estado
-- Obter as taxas de mortalidade em outros anos (1990, 2000, etc.), para verificar a significância estatística (ou evolução). Falta do CENSO em 2020 devido a pandemia
-- Rodar os modelos de regressão diretamente no python, para obter os valores de probabilidade (*p-value*)
-- Procurar fazer uma clusterização diferente das ocupações
-- situação do domicílio 
-- Levar em conta somente as ocupações com pelo menos 100 mil mulheres
+Para análises mais profundas, estudos com variáveis de raça/cor, munícipio ou estado, situação do domicílio, renda poderiam ser feitos para verificar a correlação com a taxa de mortalidade do câncer de mama e outras neoplasias malignas. 
+Obter as taxas de mortalidade em outros anos (1990, 2000, 2022), para aumentar a segurança das análises, buscando significância estatística. 
+Considerar somente as ocupações com pelo menos 100 mil mulheres nas comparações das taxas de mortalidade e procurar agrupa-las através de um processo de  *clusterização*.
+Os modelos de regressão linear poderiam ser revalidados diretamente no python, para obter os valores de probabilidade (*p-value*).
 
 # Referências Bibliográficas
 > Lista de artigos, links e referências bibliográficas.
