@@ -585,8 +585,8 @@ A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
 | 16,87 | 1 | 5.927 | Agrônomos e afins |
 | 17,65 | 2 | 11.332 | Mecânicos e ajustadores eletricistas |
 | 17,68 | 97 | 548.713 | Professores do ensino pré-escolar |
-| **18,24** | **12.705** | **69.654.476** | **TODAS AS MULHERES ACIMA DE 18 ANOS** |
 | 18,00 | 9 | 50.002 | Arquitetos de edificações; Arquitetos paisagistas; Urbanistas e engenheiros de trânsito |
+| **18,24** | **12.705** | **69.654.476** | **TODAS AS MULHERES ACIMA DE 18 ANOS** |
 | 18,82 | 6 | 31.875 | Bibliotecários, documentaristas e afins |
 | 19,36 | 22 | 113.627 | Profissionais da saúde e da higiene laboral e ambiental; Profissionais da saúde não classificados anteriormente; Especialistas em políticas e serviços de pessoal e afins; Especialistas em formação de pessoal; Inspetores de saúde laboral, ambiental e afins |
 | 20,13 | 1 | 4.968 | Eletricistas de obras e afins |
