@@ -629,16 +629,16 @@ A tabela a seguir mostra os valores do R2 para grupo de escolaridade e faixa et�
 variáveis                           | R2 
 ------------------------------------|---
 grupo de escolaridade               | 0,017
-grupo de escolaridade, IDADE        | 0,747
-IDADE                               | 0,740
+grupo de escolaridade, IDADE        | 0,752
+IDADE                               | 0,745
 
 Para a alternativa com duas variáveis, os valores dos coeficientes foram:
 
 coeficiente| valor
 -----------|------------
-intercept  |	-20,0281
-IDADE      |	0,962576
-cod grupo  |	-2,13558
+intercept  |	-19,3062
+IDADE      |	0,942053
+cod grupo  |	-2,21324
 
 O gráfico a seguir mostra a evolução da taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
 
