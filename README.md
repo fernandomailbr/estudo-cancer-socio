@@ -651,28 +651,24 @@ Através da análise dos dados foi possível observar
 
 * A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
 
-Inicialmente a pergunta tratava de encontrar uma relação entre variáveis socioeconômicas e mortalidade por cancêr de mama em mulheres. Deu-se a busca pelos índice de desenvolvimento humano dos munícipios de um estado e tentou-se correlacionar com as respectivas taxas de mortalidade. Essa primeira análise não evidenciou correlação significativa entre essas variáveis. Assim, buscou-se outros dados socioeconômicos para explicar as diferentes taxas de mortalidade e encontrou-se um artigo do INCA citando as profissões com maior risco de incidência de câncer, incluindo as neoplasias da mama. Em decorrência dos dados disponíveis optou-se pela utilização de nível de instrução/escolaridade como uma variável indicativa de condição socioeconômica, por ser uma que estava disponível em ambas as bases: mortalidade (SIM 2010) e população (CENSO). O modelo de regressão linear usando somente essa variável apresentou um coeficiente muito baixo de determinação (R2), sugerindo a ausência de relação entre escolaridade e a taxa de mortalidade. Dado que a inicidência do câncer se dá principalmente com o envelhecimento, decidiu-se usar a IDADE como outra variável num modelo de regressão múltipla, que alcançou um valor de R2 consideravelmente maior. Considerando o gráfico da idade e escolaridade x mortalidade entende-se que é possível sugerir a existência de uma influência da escolaridade na taxa, observando a separação dos grupos. Uma hipótese para que o grupo com ensino fundamental completo ter apresentado taxas acima do grupo de menor escolaridade é que boa parte dos registros ignorados correspondam a falecidos com baixa escolaridade.
-
-Com isso incluiu-se uma nova pergunta de pesquisa, procurando responder se para mortalidade havia uma relação também com a profissão.  
+Inicialmente a pergunta tratava de encontrar uma relação entre variáveis socioeconômicas e mortalidade por cancêr de mama em mulheres. Deu-se a busca pelos índice de desenvolvimento humano dos munícipios de um estado e tentou-se correlacionar com as respectivas taxas de mortalidade. Essa primeira análise não evidenciou correlação significativa entre essas variáveis. Assim, buscou-se outros dados socioeconômicos para explicar as diferentes taxas de mortalidade e encontrou-se um artigo do INCA citando as profissões com maior risco de incidência de câncer, incluindo as neoplasias da mama. Em decorrência dos dados disponíveis optou-se pela utilização de nível de instrução/escolaridade como uma variável indicativa de condição socioeconômica, por ser uma que estava disponível em ambas as bases: mortalidade (SIM 2010) e população (CENSO). O modelo de regressão linear usando somente essa variável apresentou um coeficiente muito baixo de determinação (R2), sugerindo a ausência de relação entre escolaridade e a taxa de mortalidade. Dado que a inicidência do câncer se dá principalmente com o envelhecimento, decidiu-se usar a IDADE como outra variável num modelo de regressão múltipla, que alcançou um valor de R2 consideravelmente maior. Considerando o gráfico da idade e escolaridade x mortalidade entende-se que é possível sugerir a existência de uma influência da escolaridade na taxa, observando a separação dos grupos. Uma hipótese para que o grupo com ensino fundamental completo ter apresentado taxas acima do grupo de menor escolaridade é que boa parte dos registros ignorados correspondam a falecidos com baixa escolaridade. Com isso incluiu-se uma nova pergunta de pesquisa, procurando responder se para mortalidade havia uma relação também com a profissão.  
 
 * Existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões?
 
 Apenas baseado nos resultados da primeira análise desse projeto não foi possível responder com segurança se existe alguma relação entre a mortalidade de câncer de mama e as ocupações profissionais. Entretanto, o trabalho possibilitou a compreensão dos dados necessários para responder a questão com maior nível de confiabilidade. Apesar disso, as taxas obtidas em alguma ocupações, como 34,7/100 mil nos trabalhadores da agricultura, bem acima da taxa bruta de 18,26/100 mil, sugerem que existe sim uma relação da mortalidade com fatores em que esses trabalhadores estão expostos, como agrotóxicos, resultado que pode ser relacionado com a incidência citada pelo INCA. A análise poderia ter indicado uma resposta mais precisa se não houvesse problema na notificação (dados faltantes de ocupação) e diferentes tabelas de nomenclatura das ocupações. 
 
 
-
-
 # Conclusão
 
-> Destacar as principais conclusões obtidas no desenvolvimento do projeto.
->
-> Destacar os principais desafios enfrentados.
- - Encontrar bases de dados completas, que permitissem relacionar as informações socioeconômicas de cada indivíduo que faleceu de cancer de mama.
- - Ausência de dados coletados pelo IBGE em 2020 para poder replicar a análise para outros períodos de tempo, demonstrando reprodutibilidade da análise
- - O código das ocupações sofreu alterações que dificultaram o processo de análise
- - Levar em conta somente as ocupações com pelo menos 100 mil mulheres
+Encontrar bases de dados completas, que permitissem relacionar as informações socioeconômicas de cada indivíduo que faleceu de cancer de mama foi primeiro desafio encontrado no início da elaboração da pesquisa. Essa dificuldade levou a equipe a modificar a pergunta inicial da pesquisa, uma vez que a normalização da mortalidade exige dados de óbitos e população em cada variável potencial. O código das ocupações sofreu alterações que dificultaram o processo de análise, sendo o maior desafio a falta de padronização da classificação de ocupações profissionais e níveis de escolaridade entre as bases de mortalidade e população. 
 
-> Principais lições aprendidas.
+A ausência de dados coletados pelo IBGE em 2020, devido à pandemia e questões orçamentárias, impediu a possiblidade de replicar a análise para outros períodos de tempo, além disso acarreta em grandes prejuízos para a população, uma vez que todo o planejamento e infraestrutura da saúde, políticas públicas e dados epidemiológicos são embasadas nestes dados populacionais.
+
+O trabalho remoto foi desenvolvido com todos os desafios em integração com equipe de maneira fluida.
+Para os alunos integrantes da área da saúde a primeira lição aprendida foi a utilização de novas ferramentas computacionais como Orange, bem como a utilização de bases de dados e a importação destes pelas ferramentas. 
+Para os alunos da computação, uma lição aprendida foi o entendimento de que, a utilização de artigos da área da saúde são essenciais como base para a busca de dados que alimentem análises e respondam perguntas de pesquisa.
+Com este trabalho o grupo trocou experiências e chegou-se ao consenso que são necessários conhecimentos específicos e multidisciplinares para validação das análises e obtenção de resultados concisos. 
+
 
 # Trabalhos Futuros
 > O que poderia ser melhorado se houvesse mais tempo?
@@ -683,6 +679,7 @@ Apenas baseado nos resultados da primeira análise desse projeto não foi possí
 - Rodar os modelos de regressão diretamente no python, para obter os valores de probabilidade (*p-value*)
 - Procurar fazer uma clusterização diferente das ocupações
 - situação do domicílio 
+- Levar em conta somente as ocupações com pelo menos 100 mil mulheres
 
 # Referências Bibliográficas
 > Lista de artigos, links e referências bibliográficas.
