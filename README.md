@@ -291,6 +291,7 @@ O banco de dados fornece com riqueza de detalhes informações sobre todos os re
 Após realizar o download do arquivo referente ao ano de 2010, foram configurados os tipos apenas das colunas de interesse, para evitar erros de conversão durante a importação na ferramenta Orange. De um total de 1.136.947 registros de óbitos, foram obtidos 487.137 ao filtrar o sexo feminino. Obteve-se 12.705 registros após filtrar os óbitos causados por Neoplasias Malignas da Mama (CID-10 = C50). A figura 4 a seguir mostra as distribuições das variáveis e indica a falta do valor do campo ocupação para 2.041 (16%) registros.
 
 ![Feature Statistics](references/Feature_Statistics.png)
+
 Figura 4 - Distribuição dos dados, através da função Feature Statistics
 
 Após realizar os filtros, os registros foram agrupados de acordo com objetivo da análise, ou seja, por ocupação, escolaridade e faixa etária.
@@ -303,6 +304,7 @@ Com a disponibilidade da tabela “1.1.11 - Pessoas de 10 anos ou mais de idade,
 Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR1 estavam sem valores, portanto, somente def_escol foi utilizada. Os 3.175 registros (25%) com valor 'Ignorado' no campo def_escol foram desconsiderados nessa análise. A distribuição dos valores aparece detalhada na figura abaixo.
 
 ![Distributions def_escol](references/Distributions_def_escol.png)
+
 Figura 5 - Distribuição dos valores
 
 Base de Dados | Endereço na Web | Resumo descritivo
@@ -354,6 +356,7 @@ Após as transformações e tratamentos, a Tabela 3592 resultou em 434 registros
 O total da população feminina na tabela 1.1.11 é igual a 83.223.618, destas, somente 514.562 (0,62%) aparecem com nível de instrução não determinado. O gráfico a seguir procurar mostrar como estão distribuídas de acordo com os grupos de escolaridade.
 
 ![Mosaic Display](references/Mosaic_Display_18.png)
+
 Figura 6 - Distribuição dos valores em mosaico
 
 Base de Dados | Endereço na Web | Resumo descritivo
