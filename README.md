@@ -8,7 +8,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 | Nome                           | RA        | Especialização |
 |--------------------------------|-----------|----------------|
 | Aline Borges                   | 210598    | Saúde          |
-| Fátima Aparecida Tagliaferro   | 98918     | Computação     |
+| Fátima Aparecida Tagliaferro   | 098918    | Computação     |
 | Fernando Akune                 | 970709    | Computação     |
 | Lana Soares                    | 209580    | Saúde          |
 
