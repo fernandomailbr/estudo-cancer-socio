@@ -1,6 +1,6 @@
 # Instruções Básicas de Instalação e Execução
 
-* O arquivo [ETLSIM.DORES_2010-v4](src/ETLSIM.DORES_2010-v4.ows) referente ao *Workflow* desenvolvido na ferramenta [Orange](https://orangedatamining.com/) deve ser baixado em uma pasta local;
+* O arquivo [ETLSIM.DORES_2010-v4](https://github.com/fernandomailbr/estudo-cancer-socio/blob/7e05268d3f0e1efb64fbb1e09aa53fd8d688b899/src/ETLSIM.DORES_2010-v4.ows) referente ao *Workflow* desenvolvido na ferramenta [Orange](https://orangedatamining.com/) deve ser baixado em uma pasta local;
 * Todos os arquivos do tipo CSV presentes na pasta data/interim também devem ser baixados na mesma pasta do ETLSIM.DORES_2010-v4.ows;
 * A escolha de uma das opções a seguir, não deve alterar na obtenção dos resultados finais:
   * Se a intenção for rodar o processo com o subconjunto dos dados de mortalidade, o arquivo ETLSIM.DORES_2010-sub.csv deve ser previamente renomeado para ETLSIM.DORES_2010.csv
