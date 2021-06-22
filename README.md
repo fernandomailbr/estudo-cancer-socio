@@ -475,7 +475,7 @@ Foram realizadas duas etapas de análise.
 
 Embasados pelo artigo do INCA que descreve as ocupações com maior incidência de câncer de mama, realizou-se análise da mortalidade para cada ocupação, através da base de dados SIM 2010 e da bases Classificação Brasileira de Ocupações de 2002 (CBO2002), gerida pelo Ministério do Trabalho e Emprego - MTE, que utilizou como referência a *Clasificación Internacional Uniforme de Ocupaciones* 88 (CIUO88), elaborada pela Organização Internacional do Trabalho - OIT. Essa tabela permite descobrir o código CIUO88 de uma ocupação, a partir do CBO2002 de informação sobre a ocupação, análise da mortalidade por câncer de mama em função da ocupação relatada no registro de óbito de cada indivíduo.
 
-O rank das taxas de mortalidade por grupo de ocupação aparece na tabela 1 dos resultados. A taxa bruta da mortalidade de **18,24** óbitos por cem mil mulheres foi adicionada na tabela, calculada a partir dos 12.705 óbitos e numa população de 69.654.476 mulheres acima de 18 anos. Outra linha foi adicionada para mostrar o total da população e óbitos considerados nessa análise, ou seja, com a ocupação encontrada nas tabelas de classificação, resultando em uma taxa de mortalidade de **8,93** por cem mil mulheres. A interpretação desse resultado deve ser feita com cautela, pois os números representam 20,83% de todos os óbitos por câncer de mama e 42,56% da população feminina com idade maior ou igual a 18 anos. Essa limitação do estudo foi provocada pela ausência da informação da ocupação no registro do óbito ou falta de correspondência nas tabelas CBO2002/CIUO88/CIUO08. O grupo com a maior taxa de mortalidade, "Trabalhadores subaquáticos", que engloba as ocupações de "pescador artesanal de água doce" e "mergulhador profissional (raso e profundo)", registrou uma população de apenas 24 mulheres e 5 óbitos em 2010. 
+O *ranking* das taxas de mortalidade por grupo de ocupação aparece na tabela 1 dos resultados. A taxa bruta da mortalidade de **18,24** óbitos por cem mil mulheres foi adicionada na tabela, calculada a partir dos 12.705 óbitos e numa população de 69.654.476 mulheres acima de 18 anos. Outra linha foi adicionada para mostrar o total da população e óbitos considerados nessa análise, ou seja, com a ocupação encontrada nas tabelas de classificação, resultando em uma taxa de mortalidade de **8,93** por cem mil mulheres. A interpretação desse resultado deve ser feita com cautela, pois os números representam 20,83% de todos os óbitos por câncer de mama e 42,56% da população feminina com idade maior ou igual a 18 anos. Essa limitação do estudo foi provocada pela ausência da informação da ocupação no registro do óbito ou falta de correspondência nas tabelas CBO2002/CIUO88/CIUO08. O grupo com a maior taxa de mortalidade, "Trabalhadores subaquáticos", que engloba as ocupações de "pescador artesanal de água doce" e "mergulhador profissional (raso e profundo)", registrou uma população de apenas 24 mulheres e 5 óbitos em 2010. 
 
 No outro extremo da tabela, o grupo de professores do ensino fundamental tem uma população feminina bastante grande, porém um número de óbitos muito baixo, devido a conversão pelas tabelas CBO2002/CIUO88/CIUO08 que leva esse grupo às ocupações de "Professor de ciências exatas e naturais do ensino fundamental", "Professor de história do ensino fundamental", "Professor de língua portuguesa do ensino fundamental" e "Professor de matemática do ensino fundamental". Parte dos óbitos das professoras do ensino fundamental pode ter sido registrada como "Professor de nível superior do ensino fundamental (primeira a quarta série)", que faz parte do grupo "Professores do ensino pré-escolar", o qual apresenta uma taxa bem acima do valor geral.
 
@@ -609,16 +609,16 @@ A tabela a seguir mostra os valores do R2 para grupo de escolaridade e faixa et�
 variáveis                           | R2 
 ------------------------------------|---
 grupo de escolaridade               | 0,017
-grupo de escolaridade, IDADE        | 0,752
-IDADE                               | 0,745
+grupo de escolaridade, IDADE        | 0,750
+IDADE                               | 0,743
 
 Para a alternativa com duas variáveis, os valores dos coeficientes foram:
 
 coeficiente| valor
 -----------|------------
-intercept  |	-19,3062
-IDADE      |	0,942053
-cod grupo  |	-2,21324
+intercept  |	-20,4167
+IDADE      |	0,971648
+cod grupo  |	-2,18876
 
 A figura 9 a seguir mostra a evolução da taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
 
