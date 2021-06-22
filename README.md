@@ -255,7 +255,7 @@ Não foram necessárias transformações por tratar-se de uma tabela simples, ap
 
 > * Por que este banco não foi adotado?
 
-Essa tabela não foi adotada porque posteriormente foi encontrada outra contendo o código CIUO88, além código e título da CBO 2002.
+Essa tabela não foi adotada porque posteriormente foi encontrada outra contendo o código CIUO88, além do código e título da CBO 2002.
 
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
