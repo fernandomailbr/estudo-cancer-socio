@@ -201,11 +201,11 @@ Em um primeiro momento, realizou-se a pesquisa e o levantamento de bases de dado
 * Se o banco continha dados por localização
 * Campos de observação a serem preenchidos com a primeira impressão dos participantes do grupo em relação às bases de dados
 
-Após a delimitação do estudo a nível nacional, descartou-se a utilização de bases internacionais, focando na pré-análise mais detalhada das bases de dados brasileiras (Figura 2).
+Após a delimitação do estudo a nível nacional, descartou-se a utilização de bases internacionais, focando na pré-análise mais detalhada das bases de dados brasileiras (Figura 1).
 
 ![Figura 2](references/Figura-2-Pre-analise-das-bases.png)
 
-Figura 2 - Pré-análise e seleção das bases de dados nacionais utilizadas
+Figura 1 - Pré-análise e seleção das bases de dados nacionais utilizadas
 
 Durante essa etapa, 4 bases de dados foram escolhidas para estudo, estando descritas nas seções seguintes.
 
@@ -229,17 +229,17 @@ O banco não foi adotado dada a ausência de dados individualizados, que dificul
 
 > * Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
 
-A análise exploratória inicial foi realizada através da ferramenta Orange. Depois de importar a planilha do estado de PE, utilizou-se a função Feature Statistics para verificar os padrões de distribuição e os dados faltantes, conforme demonstrado na Figura 3.
+A análise exploratória inicial foi realizada através da ferramenta Orange. Depois de importar a planilha do estado de PE, utilizou-se a função Feature Statistics para verificar os padrões de distribuição e os dados faltantes, conforme demonstrado na Figura 2.
 
 ![Figura 3](references/Figura-3-Feature%20Statistics-PE.png)
 
-Figura 3 - Observação da distribuição e dos dados faltantes através da função Feature Statistics, na ferramenta Orange
+Figura 2 - Observação da distribuição e dos dados faltantes através da função Feature Statistics, na ferramenta Orange
 
-Em seguida, através da função Scatter Plot foi possível observar os gráficos de dispersão, que sugerem ausência de correlação entre IDHM e mortalidade (r=0,15), conforme Figura 4.
+Em seguida, através da função Scatter Plot foi possível observar os gráficos de dispersão, que sugerem ausência de correlação entre IDHM e mortalidade (r=0,15), conforme Figura 3.
 
 ![Figura 4](references/Figura-4-Scatter-Plot-PE.png)
 
-Figura 4 - Gráfico de dispersão observado para IDHM e Mortalidade, através da função Scatter Plot
+Figura 3 - Gráfico de dispersão observado para IDHM e Mortalidade, através da função Scatter Plot
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
@@ -288,9 +288,10 @@ O banco de dados fornece com riqueza de detalhes informações sobre todos os re
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
-Após realizar o download do arquivo referente ao ano de 2010, foram configurados os tipos apenas das colunas de interesse, para evitar erros de conversão durante a importação na ferramenta Orange. De um total de 1.136.947 registros de óbitos, foram obtidos 487.137 ao filtrar o sexo feminino. Obteve-se 12.705 registros após filtrar os óbitos causados por Neoplasias Malignas da Mama (CID-10 = C50). A figura a seguir mostra as distribuições das variáveis e indica a falta do valor do campo ocupação para 2.041 (16%) registros.
+Após realizar o download do arquivo referente ao ano de 2010, foram configurados os tipos apenas das colunas de interesse, para evitar erros de conversão durante a importação na ferramenta Orange. De um total de 1.136.947 registros de óbitos, foram obtidos 487.137 ao filtrar o sexo feminino. Obteve-se 12.705 registros após filtrar os óbitos causados por Neoplasias Malignas da Mama (CID-10 = C50). A figura 4 a seguir mostra as distribuições das variáveis e indica a falta do valor do campo ocupação para 2.041 (16%) registros.
 
 ![Feature Statistics](references/Feature_Statistics.png)
+Figura 4 - Distribuição dos dados, através da função Feature Statistics
 
 Após realizar os filtros, os registros foram agrupados de acordo com objetivo da análise, ou seja, por ocupação, escolaridade e faixa etária.
 
@@ -302,6 +303,7 @@ Com a disponibilidade da tabela “1.1.11 - Pessoas de 10 anos ou mais de idade,
 Para a análise de escolaridade, verificou-se que as colunas ESC2010 e ESCFALAGR1 estavam sem valores, portanto, somente def_escol foi utilizada. Os 3.175 registros (25%) com valor 'Ignorado' no campo def_escol foram desconsiderados nessa análise. A distribuição dos valores aparece detalhada na figura abaixo.
 
 ![Distributions def_escol](references/Distributions_def_escol.png)
+Figura 5 - Distribuição dos valores
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
@@ -352,6 +354,7 @@ Após as transformações e tratamentos, a Tabela 3592 resultou em 434 registros
 O total da população feminina na tabela 1.1.11 é igual a 83.223.618, destas, somente 514.562 (0,62%) aparecem com nível de instrução não determinado. O gráfico a seguir procurar mostrar como estão distribuídas de acordo com os grupos de escolaridade.
 
 ![Mosaic Display](references/Mosaic_Display_18.png)
+Figura 6 - Distribuição dos valores em mosaico
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
@@ -455,11 +458,11 @@ Com base nas informações apresentadas pelo artigo “As profissões e o Cânce
 
 ![Figura 8](references/Agentes-Cancer-Mama.png)
 
-Figura 8 - Agentes que podem desencadear a doença e profissões com maior predisposição para desenvolvimento do câncer de mama, de acordo com INCA 2012
+Figura 7 - Agentes que podem desencadear a doença e profissões com maior predisposição para desenvolvimento do câncer de mama, de acordo com INCA 2012
 
 ![Figura 9](references/WF_ETLSIM.DORES_2010-v4.png)
 
-Figura 9 - Workflow para análise do banco de dados de 2010
+Figura 8 - Workflow para análise do banco de dados de 2010
 
 # Análises Realizadas
 
@@ -614,9 +617,11 @@ intercept  |	-19,3062
 IDADE      |	0,942053
 cod grupo  |	-2,21324
 
-O gráfico a seguir mostra a evolução da taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
+A figura 9 a seguir mostra a evolução da taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
 
 ![Idade Taxa](references/IDADE_TAXA.png)
+
+Figura 9 - Scatterplot a taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
 
 # Discussão
 
