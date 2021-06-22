@@ -624,7 +624,7 @@ A figura 9 a seguir mostra a evolução da taxa de mortalidade em função da id
 
 ![Idade Taxa](references/IDADE_TAXA.png)
 
-Figura 9 - Scatterplot a taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
+Figura 9 - *Scatterplot* da taxa de mortalidade em função da idade, agrupados pelo grau de escolaridade.
 
 # Discussão
 
