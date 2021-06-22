@@ -101,7 +101,7 @@ Por fim, a divulgação está sendo feita aqui, incluindo todos os scripts e arq
 
 ## Bases de Dados e Evolução
 
-Listamos aqui bases de dados iniciais, candidatas à nossa pesquisa. 
+Estão listadas a seguir as bases de dados utilizadas no levantamento inicial desta pesquisa. 
 
 ### Brasil
 
