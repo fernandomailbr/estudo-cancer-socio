@@ -690,6 +690,7 @@ Project Organization
 │   └── processed      <- dados finais usados para a modelagem
 
 ├── src                <- fonte em linguagem de programação ou sistema (e.g., Orange)
+|   └── README.md      <- instruções básicas de instalação/execução
 │
 └── references         <- mídias usadas no projeto
 ~~~
