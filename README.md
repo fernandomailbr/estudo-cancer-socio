@@ -30,7 +30,6 @@ https://youtu.be/DoauGouCxCo
 # Slides do Projeto
 
 ## Slides da Proposta
-> Link para slides de apresentação da proposta do projeto.
 
 [Slides da Proposta](references/Slides_da_Proposta.pdf)
 
@@ -83,13 +82,10 @@ O segundo resultado vem do modelo de regressão linear, considerando as variáve
 * Existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões?
 
 # Objetivos do Projeto
-> Como seu projeto propôs abordar o problema apresentado.
 
 O objetivo deste projeto foi investigar associações entre idade, nível socioeconômico (anos de estudo), profissões (ocupação) e mortalidade por câncer de mama, através das análises de dados disponibilizados em bancos de acesso público.
 
 # Metodologia
-> Abordagem adotada pelo projeto na busca pela resposta às perguntas de pesquisa.
-> Justificar teoricamente, sempre que possível, a metodologia adotada. 
 
 Procurou-se usar nesse projeto a metodologia *CRISP-DM (CRoss-Industry Standard Process for Data Mining)*, que de forma breve possui os seguintes passos: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e divulgação. Entretanto, relatórios não foram produzidos da maneira detalhada em cada etapa dessa metodologia.
 
@@ -219,8 +215,6 @@ Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 Atlas do Desenvolvimento Humano no Brasil | http://www.atlasbrasil.org.br/ | Retrato do desenvolvimento humano e as desigualdades no Brasil, combinando dados como IDHM, IDHM Renda, IDHM Longevidade, IDHM Educação e taxa de mortalidade de mulheres por câncer de mama. Permite a visualização/download dos dados por estados e municípios entre outras.
 
-> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
-
 > * O que descobriu sobre esse banco?
 
 O site retrata o desenvolvimento humano e as desigualdades no Brasil, combinando dados de qualidade com formas amigáveis de visualização. A utilização da plataforma é muito simples: após seleção da territorialidade e do indicador, é possível realizar o download dos dados no formato de uma planilha excel, que posteriormente foi convertida para .CSV para utilização no Orange.
@@ -251,8 +245,6 @@ Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 Classificação Brasileira de Ocupações - CBO 2002  (MTE) | http://www.mtecbo.gov.br/cbosite/pages/downloads.jsf | Documento que retrata a realidade das profissões do mercado de trabalho brasileiro. Seus dados alimentam as bases estatísticas de trabalho e servem de subsídio para a formulação de políticas públicas de emprego.
 
-> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
-
 > * O que descobriu sobre esse banco?
 
 Através deste banco de dados foi possível identificar o código e descrição de todas as ocupações existentes no país reconhecidas pelo MTE.
@@ -272,13 +264,10 @@ Trata-se de uma tabela com o código e a descrição das ocupações, assim não
 
 ### Bases Estudadas e Adotadas
 
-> Para cada base, coloque uma mini-tabela no modelo a seguir e depois detalhamento sobre como ela foi analisada/usada, conforme exemplo a seguir.
-
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 Sistema de Informações de Mortalidade - SIM 1996-2016 (Fiocruz) | https://bigdata-metadados.icict.fiocruz.br/dataset/sistema-de-informacoes-de-mortalidade-sim | Reunidos pela Plataforma de Ciência de Dados aplicada à Saúde (PCDaS), os dados foram obtidos junto ao DATASUS (Ministério da Saúde), resultando em um dataset anual com todos os registros das declarações de óbito a partir de 1996.
 
-> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
 > * Qual o esquema/dicionário desse banco (o formato é livre)?
 
 A base SIM (Sistema de Informações de Mortalidade) possui 165 colunas (https://bigdata-metadados.icict.fiocruz.br/dataset/sistema-de-informacoes-de-mortalidade-sim/resource/d6285f2a-576b-4666-aa63-0b00f7dfeff6). As que aparecem com nomes em MAIÚSCULO representam dados originais advindos do DATASUS e colunas com nomes iniciando em minúsculo representam dados resultantes de transformação ou enriquecimento. Nas análises foram utilizadas as seguintes colunas:
@@ -318,7 +307,6 @@ Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 Censo 2010 (IBGE) | https://censo2010.ibge.gov.br/ | Conjunto das operações que consistem em recolher, agrupar e publicar dados demográficos, econômicos e sociais relativos a um momento determinado ou em certos períodos, a todos os habitantes de um país ou território para o levantamento de informações sobre a população do país e sua condição de vida.
 
-> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
 > * Qual o esquema/dicionário desse banco (o formato é livre)?
 
 A Tabela 3592 - Pessoas de 10 anos ou mais de idade, ocupadas na semana de referência, por sexo, segundo os grandes grupos, subgrupos principais, subgrupos e grupos de base da ocupação no trabalho principal, apresenta o seguinte esquema/dicionário.
@@ -419,8 +407,6 @@ Apenas uma das 674 observações estava sem os valores para os campos Código CI
 
 ### Integração entre Bases e Análise Exploratória
 
-> Descreva etapas de integração de fontes de dados e apresente a seguir uma análise exploratória que envolva ambas.
-
 No *script* Python, do componente merge do *workflow*, foi feita a integração entre a base dos óbitos agrupados por ocupação, RelatorioTabuaCBO2002_CBO94_CIUO88, corrtab88-08 e a tabela 3592. O objetivo foi obter a população referente a cada código de ocupação, fazendo a junção dessas tabelas seguindo a sequência dos campos OCUP, CBO2002, CIUO88, Código CIUO-88, Código CIUO-08 e Código do grupo (Tabela 3592). Um problema surgido nessa etapa foi que o relacionamento entre essas tabelas é do tipo muitos para muitos, gerando situações como no exemplo mostrado abaixo.
 
 | CBO2002	| Título CBO2002	                              | Código CIUO-88 |	Código CIUO-08 |	Descrição do grupo de ocupação |
@@ -476,7 +462,6 @@ Figura 8 - Agentes que podem desencadear a doença e profissões com maior predi
 Figura 9 - Workflow para análise do banco de dados de 2010
 
 # Análises Realizadas
-> Descrição detalhada das análises realizadas.
 
 Foram realizadas duas etapas de análise.
 
@@ -498,8 +483,6 @@ O modelo de regressão linear que considerou somente o grupo de escolaridade apr
 
 Utilizando apenas a variável IDADE, o R2 fica ligeiramente abaixo do modelo da regressão múltipla. Os valores de probabilidade (*p-value*) não foram encontrados na ferramenta Orange.
 
->Relate aqui também a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
-
 
 ## Ferramentas
 1. Orange
@@ -507,9 +490,6 @@ Utilizando apenas a variável IDADE, o R2 fica ligeiramente abaixo do modelo da 
 3. Python
 
 # Resultados
-> Descrição dos resultados mais importantes obtidos.
->
-> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de Análises Realizadas (o que for mais pertinente).
 
 1) Resultados da análise para ocupações com maior mortalidade
 
@@ -639,9 +619,6 @@ O gráfico a seguir mostra a evolução da taxa de mortalidade em função da id
 ![Idade Taxa](references/IDADE_TAXA.png)
 
 # Discussão
-> Discussão dos resultados. Relacionar os resultados com as perguntas de pesquisa ou hipóteses avaliadas.
-Através da análise dos dados foi possível observar 
-> A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
 
 * A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
 
@@ -672,8 +649,6 @@ Considerar somente as ocupações com pelo menos 100 mil mulheres nas comparaç�
 Os modelos de regressão linear poderiam ser revalidados diretamente no python, para obter os valores de probabilidade (*p-value*).
 
 # Referências Bibliográficas
-> Lista de artigos, links e referências bibliográficas.
-> Fiquem à vontade para escolher o padrão de referenciamento preferido pelo grupo.
 
 BARBOSA, et al. Desigualdades socioeconômicas e mortalidade por câncer: um estudo ecológico no Brasil. Rev. bras. promoç. saúde (Impr.) ; 29(3): 350-356, jul.-set.2016. Disponível em: <https://periodicos.unifor.br/RBPS/article/view/4291> Acesso em 18/06/2021.
 
