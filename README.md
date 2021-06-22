@@ -401,7 +401,7 @@ corrtab88-08 | https://www.ilo.org/public/spanish/bureau/stat/isco/docs/corrtab0
  
 > * O que descobriu sobre esse banco?
 
-A CIOU vem sendo revisada para acompanhar a evolução no mundo do trabalho e em 2007 a OIT divulgou uma atualização, denominadas CIUO-08.
+A CIOU vem sendo revisada para acompanhar a evolução no mundo do trabalho e em 2007 a OIT divulgou uma atualização, denominada CIUO-08.
 
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
