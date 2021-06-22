@@ -1,5 +1,5 @@
-# Projeto: Ocupações, condições socioeconômicas e câncer de mama: estudo de correlação. 
-# Project: Occupations, socioeconomic conditions and breast cancer: correlation study
+# Projeto: Condições socioeconômicas, ocupações e câncer de mama: estudo de correlação. 
+# Project: Socioeconomic conditions, occupations and breast cancer: correlation study
 
 # Apresentação
 
