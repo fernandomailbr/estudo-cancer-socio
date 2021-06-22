@@ -353,7 +353,7 @@ Após as transformações e tratamentos, a Tabela 3592 resultou em 434 registros
 | 2.084.668	|         5223 | Balconistas e vendedores de lojas               |
 | 4.671.204	|         9111 | Trabalhadores dos serviços domésticos em geral |
 
-O total da população feminina na tabela 1.1.11 é igual a 83.223.618, destas, somente 514.562 (0,62%) aparecem com nível de instrução não determinado. O gráfico a seguir procurar mostrar como estão distribuídas de acordo com os grupos de escolaridade.
+O total da população feminina na tabela 1.1.11 é igual a 83.223.618, destas, somente 514.562 (0,62%) aparecem com nível de instrução não determinado. O gráfico a seguir procura mostrar como estão distribuídas de acordo com os grupos de escolaridade.
 
 ![Mosaic Display](references/Mosaic_Display_18.png)
 
