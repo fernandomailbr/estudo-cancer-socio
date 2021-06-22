@@ -639,7 +639,7 @@ Apenas baseado nos resultados da primeira análise desse projeto não foi possí
 
 # Conclusão
 
-Encontrar bases de dados completas, que permitissem relacionar as informações socioeconômicas de cada indivíduo que faleceu de câncer de mama foi primeiro desafio encontrado no início da elaboração da pesquisa. Essa dificuldade levou a equipe a modificar a pergunta inicial da pesquisa, uma vez que a normalização da mortalidade exige dados de óbitos e população em cada variável potencial. O código das ocupações sofreu alterações que dificultaram o processo de análise, sendo o maior desafio a falta de padronização da classificação de ocupações profissionais e níveis de escolaridade entre as bases de mortalidade e população. 
+Encontrar bases de dados completas, que permitissem relacionar as informações socioeconômicas de cada indivíduo que faleceu de câncer de mama foi o primeiro desafio encontrado no início da elaboração da pesquisa. Essa dificuldade levou a equipe a modificar a pergunta inicial da pesquisa, uma vez que a normalização da mortalidade exige dados de óbitos e população em cada variável potencial. O código das ocupações sofreu alterações que dificultaram o processo de análise, sendo o maior desafio a falta de padronização da classificação de ocupações profissionais e níveis de escolaridade entre as bases de mortalidade e população. 
 
 A ausência de dados coletados pelo IBGE em 2020, devido à pandemia e questões orçamentárias, impediu a possiblidade de replicar a análise para outros períodos de tempo, além disso acarreta grandes prejuízos para a população, uma vez que todo o planejamento e infraestrutura da saúde, políticas públicas e dados epidemiológicos são embasadas nestes dados populacionais.
 
