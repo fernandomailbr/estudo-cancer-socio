@@ -23,4 +23,4 @@ df_CIUO08_POPULACAO = table_to_frame(in_datas[2])
 df_CBO2002_OBITOS = table_to_frame(in_datas[3])
 ~~~
 
-* As variáveis consideradas na regressão linear devem ser escolhidas/alternadas diretamente no componente *Define Target*.
+* As variáveis consideradas na regressão linear podem ser escolhidas/alternadas diretamente no componente *Define Target*.
