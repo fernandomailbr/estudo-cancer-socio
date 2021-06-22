@@ -646,7 +646,7 @@ A ausência de dados coletados pelo IBGE em 2020, devido à pandemia e questões
 O trabalho remoto foi desenvolvido com todos os desafios em integração com equipe de maneira fluida.
 Para os alunos integrantes da área da saúde a primeira lição aprendida foi a utilização de novas ferramentas computacionais como Orange, bem como a utilização de bases de dados e a importação destes pelas ferramentas. 
 Para os alunos da computação, uma lição aprendida foi o entendimento de que, a utilização de artigos da área da saúde é essencial como base para a busca de dados que alimentem análises e respondam perguntas de pesquisa.
-Com este trabalho o grupo trocou experiências e chegou-se ao consenso que são necessários conhecimentos específicos e multidisciplinares para validação das análises e obtenção de resultados concisos. 
+Com este trabalho o grupo trocou experiências e chegou-se ao consenso que são necessários conhecimentos específicos e multidisciplinares para validação das análises e obtenção de resultados concisos e satisfatórios. 
 
 
 # Trabalhos Futuros
