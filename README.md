@@ -35,7 +35,7 @@ https://youtu.be/DoauGouCxCo
 
 ## Slides da Apresentação Final
 
-[Slides da Proposta](references/Slides_Apresentacao_Final.pdf)
+[Slides da Apresentação Final](references/Slides_Apresentacao_Final.pdf)
 
 # Introdução e Referenciais de Teóricos
 > Contextualização do projeto
