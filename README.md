@@ -471,7 +471,7 @@ Figura 8 - Workflow para análise do banco de dados de 2010
 
 Foram realizadas duas etapas de análise.
 
-1) Análise das ocupações com maior mortalidade
+# 1) Análise das ocupações com maior mortalidade
 
 Embasados pelo artigo do INCA que descreve as ocupações com maior incidência de câncer de mama, realizou-se análise da mortalidade para cada ocupação, através da base de dados SIM 2010 e da bases Classificação Brasileira de Ocupações de 2002 (CBO2002), gerida pelo Ministério do Trabalho e Emprego - MTE, que utilizou como referência a *Clasificación Internacional Uniforme de Ocupaciones* 88 (CIUO88), elaborada pela Organização Internacional do Trabalho - OIT. Essa tabela permite descobrir o código CIUO88 de uma ocupação, a partir do CBO2002 de informação sobre a ocupação, análise da mortalidade por câncer de mama em função da ocupação relatada no registro de óbito de cada indivíduo.
 
@@ -481,7 +481,7 @@ No outro extremo da tabela, o grupo de professores do ensino fundamental tem uma
 
 Apesar dessas limitações, a tabela indica taxas acima da média nacional para ocupações como cabelereiras e profissionais de enfermagem, alinhada com o levantamento que aponta essas profissões como sendo de alto risco para o desenvolvimento do câncer de mama. Não foi possível obter dados de renda para completar a análise econômica, contudo, o aparecimento de ocupações com rendimentos mais altas, na parte de cima e de baixo da tabela, indicam a dificuldade de mostrar a rende como fator determinante para a taxa.  
 
-2) Análise da influência da idade e/ou escolaridade na mortalidade
+# 2) Análise da influência da idade e/ou escolaridade na mortalidade
 
 Para análise de aspecto socioeconômico, em decorrência dos dados disponibilizados, escolheu-se a análise do grau de escolaridade. Foi montado um modelo de regressão linear usando num primeiro momento o grupo de escolaridade e a taxa de óbitos por 100 mil habitantes. Em seguida, os valores foram agrupados também pela faixa etária e por último a regressão foi testada apenas com a faixa etária. 
 
@@ -497,7 +497,7 @@ Utilizando apenas a variável IDADE, o R2 fica ligeiramente abaixo do modelo da 
 
 # Resultados
 
-1) Resultados da análise para ocupações com maior mortalidade
+# 1) Resultados da análise para ocupações com maior mortalidade
 
 A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
 
@@ -602,7 +602,7 @@ A tabela a seguir mostra a taxa de mortalidade para cada grupo de ocupações.
 | 385,60 | 3 | 778 | Arquivologistas e curadores de museus |
 | 20.833,33 | 5 | 24 | Trabalhadores subaquáticos |
 
-2) Resultados da análise da influência da idade e/ou escolaridade na mortalidade
+# 2) Resultados da análise da influência da idade e/ou escolaridade na mortalidade
 
 A tabela a seguir mostra os valores do R2 para grupo de escolaridade e faixa etária.
 
@@ -628,11 +628,11 @@ Figura 9 - Scatterplot a taxa de mortalidade em função da idade, agrupados pel
 
 # Discussão
 
-* A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
+# * A condição socioeconômica do paciente impacta no desfecho do tratamento de câncer de mama?
 
 Inicialmente a pergunta tratava de encontrar uma relação entre variáveis socioeconômicas e mortalidade por câncer de mama em mulheres. Deu-se a busca pelos índices de desenvolvimento humano dos munícipios de um estado e tentou-se correlacionar com as respectivas taxas de mortalidade. Essa primeira análise não evidenciou correlação significativa entre essas variáveis. Assim, buscou-se outros dados socioeconômicos para explicar as diferentes taxas de mortalidade e encontrou-se um artigo do INCA citando as profissões com maior risco de incidência de câncer, incluindo as neoplasias da mama. Em decorrência dos dados disponíveis optou-se pela utilização de nível de instrução/escolaridade como uma variável indicativa de condição socioeconômica, por ser uma que estava disponível em ambas as bases: mortalidade (SIM 2010) e população (CENSO). O modelo de regressão linear usando somente essa variável apresentou um coeficiente muito baixo de determinação (R2), sugerindo a ausência de relação entre escolaridade e a taxa de mortalidade. Dado que a incidência do câncer se dá principalmente com o envelhecimento, decidiu-se usar a IDADE como outra variável num modelo de regressão múltipla, que alcançou um valor de R2 consideravelmente maior. Considerando o gráfico da idade e escolaridade x mortalidade entende-se que é possível sugerir a existência de uma influência da escolaridade na taxa, observando a separação dos grupos. Uma hipótese para que o grupo com ensino fundamental completo ter apresentado taxas acima do grupo de menor escolaridade é que boa parte dos registros ignorados correspondam a falecidos com baixa escolaridade. Com isso incluiu-se uma nova pergunta de pesquisa, procurando responder se para mortalidade havia uma relação também com a profissão.  
 
-* Existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões?
+# * Existe uma correlação entre a mortalidade por câncer de mama com determinadas profissões?
 
 Apenas baseado nos resultados da primeira análise desse projeto não foi possível responder com segurança se existe alguma relação entre a mortalidade de câncer de mama e as ocupações profissionais. Entretanto, o trabalho possibilitou a compreensão dos dados necessários para responder a questão com maior nível de confiabilidade. Apesar disso, as taxas obtidas em algumas ocupações, como 34,7/100 mil nos trabalhadores da agricultura, bem acima da taxa bruta de 18,26/100 mil, sugerem que existe sim uma relação da mortalidade com fatores em que esses trabalhadores estão expostos, como agrotóxicos, resultado que pode ser relacionado com a incidência citada pelo INCA. A análise poderia ter indicado uma resposta mais precisa se não houvesse problema na notificação (dados faltantes de ocupação) e diferentes tabelas de nomenclatura das ocupações. 
 
