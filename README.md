@@ -22,10 +22,11 @@ O câncer é a principal causa de morte em países desenvolvidos e, segundo esti
 
 ## Vídeo da Proposta
 
-https://youtu.be/DoauGouCxCo
+[Link para vídeo de apresentação da proposta do projeto](https://youtu.be/DoauGouCxCo)
 
 ## Vídeo da Apresentação Final
-> Link para vídeo da apresentação final do projeto (máximo 8 minutos). *TODOS OS MEMBROS DO GRUPO DEVEM APARECER NO VÍDEO*.
+
+[Link para vídeo da apresentação final do projeto](https://youtu.be/9cT_7S2gxqg)
 
 # Slides do Projeto
 
