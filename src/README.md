@@ -6,6 +6,7 @@
   * RelatorioTabuaCBO2002_CBO94_CIUO88.csv
      
      Separador: ponto e vírgula
+     Tipos das colunas:
      
      | Coluna         | Tipo       |
      |----------------|------------|
@@ -17,6 +18,7 @@
   * corrtab88-08.csv
   
      Separador: ponto e vírgula
+     Tipos das colunas:
      
      | Coluna            | Tipo       |
      |-------------------|------------|
@@ -30,6 +32,7 @@
   * Tabela 3592.csv
 
      Separador: ponto e vírgula
+     Tipos das colunas:
       
      | Coluna                                                                                             | Tipo       |
      |----------------------------------------------------------------------------------------------------|------------|
@@ -39,6 +42,19 @@
      | Mulheres                                                                                           | Categórica | 
      
   * ETLSIM.DORES_2010-sub.csv
+
+     Separador: tabulação
+     Tipos das colunas:
+      
+     | Coluna             | Tipo       |
+     |--------------------|------------|
+     | causabas_categoria	| Categórica | 
+     | def_sexo	          | Categórica | 
+     | OCUP	              | Numérica   |
+     | idade_obito_anos	  | Numérica   |
+     | ESC2010	          | Categórica |
+     | ESCFALAGR1	        | Categórica | 
+     | def_escol          | Categórica |
   
   * tab1_1_11.csv
 
