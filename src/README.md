@@ -6,6 +6,7 @@
   * RelatorioTabuaCBO2002_CBO94_CIUO88.csv
      
      Separador: ponto e vírgula
+     
      Tipos das colunas:
      
      | Coluna         | Tipo       |
@@ -18,6 +19,7 @@
   * corrtab88-08.csv
   
      Separador: ponto e vírgula
+     
      Tipos das colunas:
      
      | Coluna            | Tipo       |
@@ -32,6 +34,7 @@
   * Tabela 3592.csv
 
      Separador: ponto e vírgula
+     
      Tipos das colunas:
       
      | Coluna                                                                                             | Tipo       |
@@ -44,6 +47,7 @@
   * ETLSIM.DORES_2010-sub.csv
 
      Separador: tabulação
+     
      Tipos das colunas:
       
      | Coluna             | Tipo       |
@@ -58,7 +62,8 @@
   
   * tab1_1_11.csv
 
-     Separador: tabulação
+     Separador: ponto e vírgula
+     
      Tipos das colunas:
       
      | Coluna                       | Tipo       |
